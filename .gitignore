@@ -203,6 +203,12 @@ cython_debug/
 # Temporary file for partial code execution
 tempCodeRunnerFile.py
 
+# MicroCTure: raw inputs and regenerable large artifacts
+/micro-c数据/
+/data/cache/
+/results/
+/checkpoints/
+
 # Ruff stuff:
 .ruff_cache/
 

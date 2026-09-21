@@ -1,0 +1,105 @@
+{
+  "python": "3.14.7",
+  "checks_passed": true,
+  "audit_scope": "Complete bins/indexes, file checksums, all structure annotations, local pixel smoke test; no full pixel QC",
+  "coordinates": {
+    "path": "micro-c数据/标注数据.xlsx",
+    "source_chrom": "MG1655",
+    "source_coordinate_system": "0-based-half-open",
+    "coordinate_status": "provisional",
+    "coordinate_note": "原表未声明起点与端点约定；暂保留数值并解释为0-based左闭右开。尚未获得原作者确认，不能视为已核实。",
+    "source_url": "https://doi.org/10.1038/s41586-025-09396-y",
+    "tables": {
+      "OPCID": 4,
+      "CHIN": 5,
+      "CHID": 6
+    },
+    "expected_counts": {
+      "OPCID": 68,
+      "CHIN": 250,
+      "CHID": 26
+    }
+  },
+  "annotation_sha256": "a1fa9c0d359509a9eb319442c19e300cb5da85546eeb567368a390d22205167a",
+  "config_sha256": "c09a94ea8ebaf12888f5afab3d548cfcbb651e7074637f485a044afabd8824c0",
+  "samples": [
+    {
+      "sample_id": "WT_37C_rep1",
+      "condition": "WT_37C",
+      "replicate": 1,
+      "path": "micro-c数据/GSE272159_37C_rep1.mapq_30.10.cool",
+      "assembly": "MG1655",
+      "chrom": "NC_000913.3",
+      "chrom_length": 4641652,
+      "bin_size": 10,
+      "nbins": 464166,
+      "nnz": 257522134,
+      "metadata_count_sum": 368695972,
+      "has_balance_weights": false,
+      "bin_coordinates_sha256": "1910e241f85e10204050da5f18b9edbe83a8862ba306bd3e8d2b16e5ffa9882d",
+      "size_bytes": 482254398,
+      "sha256": "0256e10da36abfe0238bf16952bc43bc78365f43c201e6e3ba0c49bd243549a8",
+      "source_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE272159",
+      "local_read_smoke_test": "passed"
+    },
+    {
+      "sample_id": "WT_37C_rep2",
+      "condition": "WT_37C",
+      "replicate": 2,
+      "path": "micro-c数据/GSE272159_37C_rep2.mapq_30.10.cool",
+      "assembly": "MG1655",
+      "chrom": "NC_000913.3",
+      "chrom_length": 4641652,
+      "bin_size": 10,
+      "nbins": 464166,
+      "nnz": 249673544,
+      "metadata_count_sum": 358452621,
+      "has_balance_weights": false,
+      "bin_coordinates_sha256": "1910e241f85e10204050da5f18b9edbe83a8862ba306bd3e8d2b16e5ffa9882d",
+      "size_bytes": 468345755,
+      "sha256": "ede9b4f7c0c6b40c8f098e43cdd0abbc0a8987f05e8b37051a5e3cbf143ad106",
+      "source_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE272159",
+      "local_read_smoke_test": "passed"
+    }
+  ],
+  "annotations": {
+    "counts": {
+      "OPCID": 68,
+      "CHIN": 250,
+      "CHID": 26
+    },
+    "tables": {
+      "OPCID": {
+        "empty_annotation_rows_skipped": 931,
+        "count": 68,
+        "min_length_bp": 1220,
+        "median_length_bp": 4595.0,
+        "max_length_bp": 16660
+      },
+      "CHIN": {
+        "empty_annotation_rows_skipped": 749,
+        "count": 250,
+        "min_length_bp": 1020,
+        "median_length_bp": 2080.0,
+        "max_length_bp": 11420
+      },
+      "CHID": {
+        "empty_annotation_rows_skipped": 973,
+        "count": 26,
+        "min_length_bp": 3520,
+        "median_length_bp": 8030.0,
+        "max_length_bp": 18280
+      }
+    },
+    "overlap_pairs": 262,
+    "identical_interval_pairs": 0,
+    "duplicate_ids": 0,
+    "invalid_intervals": 0
+  },
+  "warnings": [
+    "Source coordinate convention remains provisional.",
+    "No balance weights: read raw counts with balance=False.",
+    "Only one biological condition is currently available.",
+    "Overlapping/nested structures are preserved; group them before train/test splitting."
+  ]
+}
