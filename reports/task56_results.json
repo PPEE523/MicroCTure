@@ -1,0 +1,161 @@
+{
+  "task5": {
+    "bilinear": {
+      "rep1_psnr": {
+        "mean": 23.382335160501068,
+        "seed_std": 0.0
+      },
+      "rep1_ssim": {
+        "mean": 0.9245539183886546,
+        "seed_std": 0.0
+      },
+      "rep2_psnr": {
+        "mean": 23.93374298973237,
+        "seed_std": 0.0
+      },
+      "rep2_ssim": {
+        "mean": 0.925029308166144,
+        "seed_std": 0.0
+      },
+      "rep1_boundary_shift_bp": {
+        "mean": 196.22641509433961,
+        "seed_std": 0.0
+      }
+    },
+    "bicubic": {
+      "rep1_psnr": {
+        "mean": 24.237545284375432,
+        "seed_std": 0.0
+      },
+      "rep1_ssim": {
+        "mean": 0.9341038904100094,
+        "seed_std": 0.0
+      },
+      "rep2_psnr": {
+        "mean": 24.77949435253102,
+        "seed_std": 0.0
+      },
+      "rep2_ssim": {
+        "mean": 0.9336074343267476,
+        "seed_std": 0.0
+      },
+      "rep1_boundary_shift_bp": {
+        "mean": 177.35849056603774,
+        "seed_std": 0.0
+      }
+    },
+    "residual_cnn": {
+      "rep1_psnr": {
+        "mean": 34.33239217563926,
+        "seed_std": 0.17163723666651975
+      },
+      "rep1_ssim": {
+        "mean": 0.9543615744548773,
+        "seed_std": 0.00135150562131913
+      },
+      "rep2_psnr": {
+        "mean": 34.19276761456481,
+        "seed_std": 0.12900135390472078
+      },
+      "rep2_ssim": {
+        "mean": 0.9510157389460869,
+        "seed_std": 0.0013086417293013339
+      },
+      "rep1_boundary_shift_bp": {
+        "mean": 227.04402515723268,
+        "seed_std": 19.818806612061305
+      }
+    },
+    "plain_cnn": {
+      "rep1_psnr": {
+        "mean": 33.908367834743366,
+        "seed_std": 0.48296226236079987
+      },
+      "rep1_ssim": {
+        "mean": 0.9469375824028591,
+        "seed_std": 0.005752158913424667
+      },
+      "rep2_psnr": {
+        "mean": 33.74153400832483,
+        "seed_std": 0.4269275782127513
+      },
+      "rep2_ssim": {
+        "mean": 0.9436221670054791,
+        "seed_std": 0.005459604835319019
+      },
+      "rep1_boundary_shift_bp": {
+        "mean": 235.22012578616352,
+        "seed_std": 20.350553065865956
+      }
+    }
+  },
+  "task6": {
+    "mds": {
+      "rep1_rmse": {
+        "mean": 0.46142595387429125,
+        "seed_std": 0.0
+      },
+      "rep2_rmse": {
+        "mean": 0.4606847750951233,
+        "seed_std": 0.0
+      },
+      "rep1_pearson": {
+        "mean": 0.9194910446492538,
+        "seed_std": 0.0
+      },
+      "rep2_pearson": {
+        "mean": 0.9164184256507684,
+        "seed_std": 0.0
+      },
+      "rep1_within_distance_pearson": {
+        "mean": 0.8261624135784517,
+        "seed_std": 0.0
+      }
+    },
+    "geometry": {
+      "rep1_rmse": {
+        "mean": 0.30912541069231353,
+        "seed_std": 0.0005100055691893479
+      },
+      "rep2_rmse": {
+        "mean": 0.308194351531994,
+        "seed_std": 0.0004728044881344745
+      },
+      "rep1_pearson": {
+        "mean": 0.8523918734372208,
+        "seed_std": 0.0007614573581532834
+      },
+      "rep2_pearson": {
+        "mean": 0.8518269385506398,
+        "seed_std": 0.0008375511322108339
+      },
+      "rep1_within_distance_pearson": {
+        "mean": 0.6365711623564235,
+        "seed_std": 0.0011129413531408203
+      }
+    },
+    "graph": {
+      "rep1_rmse": {
+        "mean": 0.3072776658909024,
+        "seed_std": 0.0005434580561215403
+      },
+      "rep2_rmse": {
+        "mean": 0.30555614676615067,
+        "seed_std": 0.0003907947810724163
+      },
+      "rep1_pearson": {
+        "mean": 0.851026141130563,
+        "seed_std": 0.003064267992652017
+      },
+      "rep2_pearson": {
+        "mean": 0.8521550730890386,
+        "seed_std": 0.0035527089224421525
+      },
+      "rep1_within_distance_pearson": {
+        "mean": 0.6269143698030567,
+        "seed_std": 0.00991043567485527
+      }
+    }
+  },
+  "interpretation": "Engineering deliverables complete; task5 boundary improvement and task6 biological morphology validation remain unsupported."
+}

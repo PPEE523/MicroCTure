@@ -1,0 +1,6 @@
+{
+  "output_dir": "results/task2_centering_supplement",
+  "base_config": "configs/centering_sensitivity.json",
+  "calibration_roles": [1, 2],
+  "reason": "Primary fixed cohort has only eight independent calibration windows; minimum ten is unchanged. Supplement uses previously inspected validation and evaluation known windows. It is not independent evaluation."
+}

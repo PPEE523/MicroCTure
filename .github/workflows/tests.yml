@@ -1,0 +1,30 @@
+name: Tests and repository checks
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.14'
+          cache: pip
+          cache-dependency-path: requirements-training.txt
+      - name: Check public files and snapshot hashes
+        run: |
+          python scripts/export_showcase.py --check
+          python scripts/check_repository.py
+      - name: Install recorded experiment dependencies
+        run: python -m pip install -r requirements-training.txt --extra-index-url https://download.pytorch.org/whl/cpu
+      - name: Synthetic-data tests (no research downloads)
+        env:
+          MPLBACKEND: Agg
+          OMP_NUM_THREADS: '2'
+          OPENBLAS_NUM_THREADS: '2'
+        run: python -m unittest discover -s tests -v

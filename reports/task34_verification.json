@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "samples": 6,
+  "contiguous_track_pages": 465,
+  "structure_sample_values": 2064,
+  "independently_checked_comparisons": 688,
+  "pngs_verified": 486,
+  "source_hashes_match": true,
+  "summary_counts_match": true
+}

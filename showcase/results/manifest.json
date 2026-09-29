@@ -1,0 +1,144 @@
+{
+  "description": "Selected computed outputs; not a full runtime-results archive.",
+  "total_bytes": 5004985,
+  "files": [
+    {
+      "source": "results/task1/comparison.png",
+      "file": "task1/comparison.png",
+      "bytes": 48630,
+      "sha256": "3af73d9af8b5ba2bbfd1b621952dfb7950bfcc93de176115795c72d5d773ffd1"
+    },
+    {
+      "source": "results/task1/comparison.csv",
+      "file": "task1/comparison.csv",
+      "bytes": 788,
+      "sha256": "516cc76cc92db3348450c7bfa60b993809cd48cf0b78da5031d79ffba00f4632"
+    },
+    {
+      "source": "results/task2_v2/method_summary.csv",
+      "file": "task2_v2/method_summary.csv",
+      "bytes": 592,
+      "sha256": "79d94a50077425b94514a9f747e9ebb5dd35202560dc5add37158ca6bd44237e"
+    },
+    {
+      "source": "results/task2_v2/replication_comparison.png",
+      "file": "task2_v2/replication_comparison.png",
+      "bytes": 56015,
+      "sha256": "b28776c8f6b031f42b7e25df7d7ac92e74ac1f8eeb5bc54f5c2c009e0713b01c"
+    },
+    {
+      "source": "results/task2_v2/unannotated_supported_disjoint.csv",
+      "file": "task2_v2/unannotated_supported_disjoint.csv",
+      "bytes": 2156,
+      "sha256": "b92d11337486890934aa1077df5278f055ad349b973febbfc1873d45bd379a42"
+    },
+    {
+      "source": "results/task2_morphology_audit/comparisons/w64_c43040.png",
+      "file": "task2_morphology_audit/comparisons/w64_c43040.png",
+      "bytes": 292246,
+      "sha256": "65b1f705e3c1bee2f8592745d9047dde1bca1e930b70849520917271fe7dbab2"
+    },
+    {
+      "source": "results/task3/tracks/0050000_0060000.png",
+      "file": "task3/tracks/0050000_0060000.png",
+      "bytes": 159191,
+      "sha256": "98145f32c39dbf1e3fb99708cb4a2039f7d031897ddaed951a9dc5eaaf79a8f6"
+    },
+    {
+      "source": "results/task4/summary.csv",
+      "file": "task4/summary.csv",
+      "bytes": 369,
+      "sha256": "c45a404bbd6d22d48731dc1694a16518e4e471a6e817604f92fb7d925be63d7b"
+    },
+    {
+      "source": "results/task4/effects.png",
+      "file": "task4/effects.png",
+      "bytes": 72338,
+      "sha256": "80dd993f102dfdd60c6336eeca1782f705e501754de94b70d7a0483e7fbca415"
+    },
+    {
+      "source": "results/task5/summary.csv",
+      "file": "task5/summary.csv",
+      "bytes": 7195,
+      "sha256": "a59eb88c9971d78602f954a0ea4093cb9f98b0aeb68d1355ee425633c2ada5ff"
+    },
+    {
+      "source": "results/task5/metrics.csv",
+      "file": "task5/metrics.csv",
+      "bytes": 157288,
+      "sha256": "09c41b04d654d86d121f7766cb3bd14e8cf0b3ec7ba84d419da0fe1f12a9dc28"
+    },
+    {
+      "source": "results/task5/distance_diagnostics.csv",
+      "file": "task5/distance_diagnostics.csv",
+      "bytes": 3619,
+      "sha256": "ab7689b5ad114c8a45323dc450ff3673d6a0dbb3469fd9cf9a7cd76b65e61d8f"
+    },
+    {
+      "source": "results/task5/comparison.png",
+      "file": "task5/comparison.png",
+      "bytes": 66850,
+      "sha256": "77070a90e71d461e6c72a671a22db1cda868945b4535500db6a2be32f8fecb57"
+    },
+    {
+      "source": "results/task5/learning_curves.png",
+      "file": "task5/learning_curves.png",
+      "bytes": 96914,
+      "sha256": "0657c3232c6f4cd164c4ed4c1a7d3952d33bc0d4a97f63e4c5ba5576d857c9eb"
+    },
+    {
+      "source": "results/task5/examples.png",
+      "file": "task5/examples.png",
+      "bytes": 692595,
+      "sha256": "dfcb4eb9bb4098ae5062b6752ce15c97f260b140347cb02ee8b658171651ccf1"
+    },
+    {
+      "source": "results/task5/structure_profiles.png",
+      "file": "task5/structure_profiles.png",
+      "bytes": 1419686,
+      "sha256": "d1d00e2bd2e1238193e4a60355ed6eb04c4d6001e6bc545974b3c6524ea14ae2"
+    },
+    {
+      "source": "results/task5/index.html",
+      "file": "task5/index.html",
+      "bytes": 679,
+      "sha256": "e2486fcb746243558f6dc128c3854dacb690a2a04865bf8abb44bb444a0dc12e"
+    },
+    {
+      "source": "results/task6/metrics.csv",
+      "file": "task6/metrics.csv",
+      "bytes": 5238,
+      "sha256": "63e37d3a296889478efd9d18930a5908fb7739cd5542d18452b2030410e01900"
+    },
+    {
+      "source": "results/task6/domain_geometry.csv",
+      "file": "task6/domain_geometry.csv",
+      "bytes": 4167,
+      "sha256": "b058894afe39015df62de17a43f71e85d6558fc26b457b8d814c0fbcc42a0d1e"
+    },
+    {
+      "source": "results/task6/graph_42_coordinates.csv",
+      "file": "task6/graph_42_coordinates.csv",
+      "bytes": 85678,
+      "sha256": "953c283a7d520d028849e954301c6e757ca3c60fd4e33db6b106aeb16fe4453f"
+    },
+    {
+      "source": "results/task6/structures.png",
+      "file": "task6/structures.png",
+      "bytes": 445275,
+      "sha256": "33266cc4e6c032b03584d9d188a3c36dd0b75634b500f0d1bd26bdbca6ce616e"
+    },
+    {
+      "source": "results/task6/contact_maps.png",
+      "file": "task6/contact_maps.png",
+      "bytes": 936887,
+      "sha256": "ef68c066363c10834a0c8a791509e7e2bb2afcca6800c6561a6ef3b49cb3774a"
+    },
+    {
+      "source": "results/task6/index.html",
+      "file": "task6/index.html",
+      "bytes": 450589,
+      "sha256": "994eaf48d09702d6d0cf79368eb645d1df624a24e1fbfa1b4c427c94b68444d0"
+    }
+  ]
+}

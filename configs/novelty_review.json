@@ -1,0 +1,14 @@
+{
+  "output_dir": "results/task2_novelty_review",
+  "source_config": "configs/discovery_v2.json",
+  "candidate_source": "results/task2_v2/unannotated_supported_disjoint.csv",
+  "reference_role": 0,
+  "calibration_role": 1,
+  "min_calibration_references": 10,
+  "distance_quantile": 0.95,
+  "min_valid_fraction": 0.8,
+  "max_zero_fraction": 0.8,
+  "boundary_flank_bins": 8,
+  "boundary_min_pairs": 20,
+  "interpretation": "Exploratory morphology review of 21 previously selected windows, not independent confirmation or discovery of new biological types. Known centered windows include local context."
+}

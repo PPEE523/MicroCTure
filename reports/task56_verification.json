@@ -1,0 +1,23 @@
+{
+  "task5": {
+    "status": "passed",
+    "model_variants": 8,
+    "trained_checkpoints": 6,
+    "test_window_evaluations": 848,
+    "spatial_guard_bp": 1000,
+    "source_hashes_match": true,
+    "independent_psnr_ssim_recomputed": true,
+    "checkpoint_predictions_reproduced": true
+  },
+  "task6": {
+    "status": "passed",
+    "models": 7,
+    "trained_checkpoints": 6,
+    "bins_per_model": 929,
+    "metric_rows": 42,
+    "count_conservation": true,
+    "source_hashes_match": true,
+    "independent_distance_and_contact_metrics_recomputed": true,
+    "checkpoint_coordinates_reproduced": true
+  }
+}

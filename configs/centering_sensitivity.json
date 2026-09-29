@@ -1,0 +1,19 @@
+{
+  "output_dir": "results/task2_centering",
+  "source_config": "configs/discovery_v2.json",
+  "candidate_source": "results/task2_v2/unannotated_supported_disjoint.csv",
+  "anchor_search_bins": 64,
+  "boundary_flank_bins": 8,
+  "boundary_min_pairs": 20,
+  "boundary_max_shift_bins": 5,
+  "width_bins": [64, 128, 256],
+  "shift_bins": [-8, 0, 8],
+  "anchors": ["original", "boundary"],
+  "occlusions": [{"name": "none", "fraction": 0.0, "seed": 17}, {"name": "drop10_s17", "fraction": 0.1, "seed": 17}, {"name": "drop10_s29", "fraction": 0.1, "seed": 29}],
+  "min_valid_fraction": 0.8,
+  "max_zero_fraction": 0.8,
+  "min_calibration_windows": 10,
+  "distance_quantile": 0.95,
+  "robust_fraction": 0.8,
+  "interpretation": "Exploratory matched perturbation experiment on previously inspected repeats; all variants reported, no maximum-anomaly selection. Robust anomaly is not a new biological cluster."
+}

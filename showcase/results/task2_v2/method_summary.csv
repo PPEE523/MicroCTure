@@ -1,0 +1,15 @@
+method,candidates,covered_bins,unannotated,replicate_supported,unannotated_supported,passing_cluster_configurations,stable_cluster_configurations
+shape,189,21504,61,82,21,0,0
+density,189,21504,78,30,5,0,0
+ae_42,189,21504,92,0,0,0,0
+ae_fusion_42,189,21504,79,5,0,0,0
+ae_43,189,21504,91,0,0,0,0
+ae_fusion_43,189,21504,79,5,0,0,0
+ae_44,189,21504,93,0,0,0,0
+ae_fusion_44,189,21504,81,5,0,0,0
+dae_42,189,21504,92,0,0,0,0
+dae_fusion_42,189,21504,78,6,0,0,0
+dae_43,189,21504,91,0,0,0,0
+dae_fusion_43,189,21504,81,6,0,0,0
+dae_44,189,21504,91,0,0,0,0
+dae_fusion_44,189,21504,81,7,0,0,0

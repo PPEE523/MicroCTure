@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="MicroCTure：从稀疏接触矩阵到深度学习、超分辨重建和交互式三维基因组探索。">
+  <title>MicroCTure — Machine Learning for Genome Contact Maps</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="portfolio.js" defer></script>
+</head>
+<body>
+  <nav class="nav"><a class="brand" href="#">M<span>↗</span> MicroCTure</a><div><a href="#work">项目能力</a><a href="#reconstruction">交互演示</a><a href="#evidence">实验结果</a><a class="nav-github" href="https://github.com/PPEE523/MicroCTure">GitHub ↗</a></div></nav>
+  <main>
+    <header class="hero">
+      <p class="eyebrow">SCIENTIFIC MACHINE LEARNING / DATA ENGINEERING</p>
+      <h1>从接触矩阵，<br>到机器学习与<span>三维空间。</span></h1>
+      <p class="intro">MicroCTure 把大规模稀疏基因组数据变成可训练的模型输入、可检验的实验结果和可交互的三维视图。一个覆盖数据处理、建模、评估与展示的完整项目。</p>
+      <div class="actions"><a class="button primary" href="#reconstruction">探索可视化 <span>↓</span></a><a class="button" href="../docs/PROJECT.md">阅读技术设计 ↗</a></div>
+      <div class="stats"><div><strong>507M</strong><span>两份 WT 输入的稀疏记录</span></div><div><strong>36</strong><span>模型训练 / 几何拟合运行</span></div><div><strong>4×</strong><span>合成超分辨倍率</span></div><div><strong>929</strong><span>全基因组三维节点</span></div></div>
+    </header>
+    <section id="work">
+      <div class="section-title"><p class="eyebrow">01 / ENGINEERING</p><h2>不止训练一个模型。</h2><p>让数据、实验和结果连接起来。</p></div>
+      <div class="cards">
+        <article><span class="number">01</span><h3>大规模矩阵处理</h3><p>流式读取 HDF5 / Cooler，局部聚合与环形坐标处理。避免构建约 862 GB 的全基因组高分辨率稠密数组。</p><div class="tags"><span>NumPy</span><span>HDF5</span><span>Cooler</span></div></article>
+        <article><span class="number">02</span><h3>可检验的模型实验</h3><p>空间隔离划分、训练集拟合归一化、验证选模。覆盖 CNN、AE / DAE、残差超分辨和神经图解码器。</p><div class="tags"><span>PyTorch</span><span>Ablation</span><span>Baselines</span></div></article>
+        <article><span class="number">03</span><h3>从指标到解释</h3><p>跨重复核查、距离分层评价、扰动分析与坐标反算。用同一套证据比较模型收益和失效场景。</p><div class="tags"><span>Evaluation</span><span>46 tests</span><span>3D visualization</span></div></article>
+      </div>
+    </section>
+    <section id="reconstruction" class="demo-section">
+      <div class="section-title"><p class="eyebrow">02 / SUPER-RESOLUTION</p><h2>在同一窗口里，直接比较重建。</h2><p>800 → 200 bp。左侧双三次插值，右侧残差 CNN；拖动分隔线查看差异。</p></div>
+      <div class="demo-layout">
+        <div class="matrix-demo">
+          <div class="matrix-frame" id="matrix-frame"><canvas id="base" width="512" height="512" aria-label="双三次插值接触矩阵"></canvas><div id="overlay"><canvas id="prediction" width="512" height="512" aria-label="残差 CNN 接触矩阵"></canvas></div><div class="divider" id="divider"></div><span class="image-label left">BICUBIC</span><span class="image-label right">RESIDUAL CNN</span></div>
+          <label class="range-label" for="comparison">移动对比线 <input id="comparison" type="range" min="0" max="100" value="50"></label>
+          <p class="caption" id="matrix-caption">加载固定的测试示例…</p>
+        </div>
+        <div class="demo-copy"><span class="large-metric">+10.09 <small>dB</small></span><h3>测试集平均 PSNR 提升</h3><p>残差 CNN：34.33 ± 0.17 dB<br>双三次插值：24.24 dB</p><div class="mini-chart"><span>Bicubic</span><div><i style="width:69%"></i></div><b>24.24</b><span>Residual CNN</span><div><i class="accent" style="width:98%"></i></div><b>34.33</b></div><p class="note">rep1 空间留出集，3 个 CNN 种子；固定归一化范围的合成退化实验。图像指标提高，但边界定位未同步改善。</p><a class="text-link" href="../showcase/results/task5/summary.csv">查看逐类指标 →</a></div>
+      </div>
+    </section>
+    <section id="spatial">
+      <div class="section-title"><p class="eyebrow">03 / SPATIAL RECONSTRUCTION</p><h2>把全基因组接触图放进三维空间。</h2><p>5 kb 分辨率 · MDS / 距离几何 / 图解码器 · 7 组坐标</p></div>
+      <div class="viewer-shell"><iframe title="可旋转、缩放和切换模型的三维染色体接触嵌入" src="../showcase/results/task6/index.html" loading="lazy"></iframe></div>
+      <div class="viewer-foot"><span>拖动旋转 · 滚轮缩放 · 切换模型</span><a class="text-link" href="../showcase/results/task6/index.html" target="_blank" rel="noopener">独立窗口 ↗</a></div>
+      <p class="note">群体接触数据的相对空间嵌入；宏观域颜色为示意注释。图模型降低留出距离误差，但接触相关低于 MDS，尚未验证真实单细胞构象。</p>
+    </section>
+    <section id="evidence">
+      <div class="section-title"><p class="eyebrow">04 / EXPERIMENTS</p><h2>每个结果，都有可追溯的对照。</h2></div>
+      <div class="result-grid">
+        <a class="result-card" href="../showcase/results/task1/comparison.png"><img src="../showcase/results/task1/comparison.png" loading="lazy" alt="分类模型与消融实验对照"><div><h3>结构分类与消融</h3><p>3 个基线 · 18 次 CNN 训练<br>主模型 macro-F1：0.501 ± 0.099</p></div></a>
+        <a class="result-card" href="../showcase/results/task2_v2/replication_comparison.png"><img src="../showcase/results/task2_v2/replication_comparison.png" loading="lazy" alt="多种候选发现方法的跨重复对照"><div><h3>候选发现与重复验证</h3><p>14 种评分配置 · 168 次聚类<br>21 个独立未注释复现窗口，未确认新类型</p></div></a>
+        <a class="result-card" href="../showcase/results/task3/tracks/0050000_0060000.png"><img src="../showcase/results/task3/tracks/0050000_0060000.png" loading="lazy" alt="基因、结构与三条件信号轨道"><div><h3>多条件信号与差异定位</h3><p>6 个样本 · 465 页全基因组轨道<br>688 次结构比较，使用描述性变化规则</p></div></a>
+      </div>
+    </section>
+    <section class="closing"><p class="eyebrow">BUILT TO BE INSPECTED</p><h2>能展示，也能复现。</h2><p>模型、配置、测试与数值结果一起交付。无需下载原始数据即可运行合成测试、浏览精选结果。</p><div class="actions"><a class="button primary" href="https://github.com/PPEE523/MicroCTure">查看源代码 ↗</a><a class="button" href="../docs/REPRODUCIBILITY.md">复现指南 →</a></div></section>
+  </main>
+  <footer><span>MicroCTure / Python · PyTorch · Scientific ML</span><span>Data: <a href="https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE272159">GSE272159</a> · Independent reanalysis · MIT code</span></footer>
+</body></html>

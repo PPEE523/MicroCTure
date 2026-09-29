@@ -1,0 +1,17 @@
+{
+  "interpretation": "Approximate literature-inspired map in genetic minutes, converted linearly to this genome length for display and exploratory summaries only; not sequence-verified boundaries or inferred domains.",
+  "reference": "https://doi.org/10.1038/sj.emboj.7600434",
+  "domains": [
+    {"name": "Ori", "start_min": 81, "end_min": 1, "color": "#2ca02c"},
+    {"name": "NS-right", "start_min": 1, "end_min": 13, "color": "#999999"},
+    {"name": "Right", "start_min": 13, "end_min": 26, "color": "#d62728"},
+    {"name": "Ter", "start_min": 26, "end_min": 47, "color": "#17becf"},
+    {"name": "Left", "start_min": 47, "end_min": 62, "color": "#1f77b4"},
+    {"name": "NS-left", "start_min": 62, "end_min": 81, "color": "#bbbbbb"}
+  ],
+  "markers": [
+    {"name": "oriC vicinity (mioC)", "gene": "mioC"},
+    {"name": "dnaA", "gene": "dnaA"},
+    {"name": "Ter schematic midpoint", "fraction": 0.365}
+  ]
+}

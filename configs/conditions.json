@@ -1,0 +1,66 @@
+{
+  "resolution_bp": 100,
+  "track_window_bp": 10000,
+  "min_distance_bins": 2,
+  "max_distance_bins": 100,
+  "structure_min_pairs": 20,
+  "structure_min_valid_fraction": 0.8,
+  "pseudocount_per_million": 0.01,
+  "fold_change_threshold": 1.5,
+  "top_heatmaps_per_condition": 10,
+  "conditions": [
+    "WT_37C",
+    "delta_stpA",
+    "delta_hns_stpA"
+  ],
+  "samples": [
+    {
+      "sample_id": "WT_37C_rep1",
+      "condition": "WT_37C",
+      "replicate": 1,
+      "path": "micro-c\u6570\u636e/GSE272159_37C_rep1.mapq_30.10.cool"
+    },
+    {
+      "sample_id": "WT_37C_rep2",
+      "condition": "WT_37C",
+      "replicate": 2,
+      "path": "micro-c\u6570\u636e/GSE272159_37C_rep2.mapq_30.10.cool"
+    },
+    {
+      "sample_id": "deltaStpA_MicroC_biol_rep1",
+      "condition": "delta_stpA",
+      "replicate": 1,
+      "path": "micro-c\u6570\u636e/GSM8950761_DstpA_rep1.MG1655.mapq_30.10.cool",
+      "geo_accession": "GSM8950761",
+      "download_url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8950nnn/GSM8950761/suppl/GSM8950761_DstpA_rep1.MG1655.mapq_30.10.cool.gz"
+    },
+    {
+      "sample_id": "deltaStpA_MicroC_biol_rep2",
+      "condition": "delta_stpA",
+      "replicate": 2,
+      "path": "micro-c\u6570\u636e/GSM8950762_DstpA_rep2.MG1655.mapq_30.10.cool",
+      "geo_accession": "GSM8950762",
+      "download_url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8950nnn/GSM8950762/suppl/GSM8950762_DstpA_rep2.MG1655.mapq_30.10.cool.gz"
+    },
+    {
+      "sample_id": "deltaHNSdeltaStpA_MicroC_biol_rep1",
+      "condition": "delta_hns_stpA",
+      "replicate": 1,
+      "path": "micro-c\u6570\u636e/GSM8950763_DhnsDstpA_rep1.MG1655.mapq_30.10.cool",
+      "geo_accession": "GSM8950763",
+      "download_url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8950nnn/GSM8950763/suppl/GSM8950763_DhnsDstpA_rep1.MG1655.mapq_30.10.cool.gz"
+    },
+    {
+      "sample_id": "deltaHNSdeltaStpA_MicroC_biol_rep2",
+      "condition": "delta_hns_stpA",
+      "replicate": 2,
+      "path": "micro-c\u6570\u636e/GSM8950764_DhnsDstpA_rep2.MG1655.mapq_30.10.cool",
+      "geo_accession": "GSM8950764",
+      "download_url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8950nnn/GSM8950764/suppl/GSM8950764_DhnsDstpA_rep2.MG1655.mapq_30.10.cool.gz"
+    }
+  ],
+  "chrom": "NC_000913.3",
+  "chrom_length": 4641652,
+  "annotation_path": "micro-c\u6570\u636e/\u6807\u6ce8\u6570\u636e.xlsx",
+  "coordinate_status": "provisional"
+}

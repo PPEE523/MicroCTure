@@ -1,0 +1,40 @@
+{
+  "status": "planned_not_trained",
+  "dataset": "data/cache/classification_v1",
+  "primary_metric": "structure_level_macro_f1",
+  "selection_split": "validation",
+  "test_policy": "freeze all choices before final test; average replicate probabilities per structure",
+  "training_seeds": [42, 43, 44],
+  "cnn_defaults": {
+    "channels": [16, 32, 64],
+    "kernel_size": 3,
+    "normalization": "GroupNorm",
+    "activation": "ReLU",
+    "pooling": "MaxPool2d then adaptive global average pool",
+    "head": "64 -> 32 -> 3 (single); 128 -> 32 -> 3 (dual)",
+    "dropout": 0.2,
+    "optimizer": "AdamW",
+    "learning_rate": 0.001,
+    "weight_decay": 0.0001,
+    "batch_size": 32,
+    "max_epochs": 100,
+    "early_stopping_patience": 15,
+    "early_stopping_metric": "validation structure-level macro-F1",
+    "class_weights": "reports/classification_dataset.json train_class_weights",
+    "augmentation": "optional simultaneous reversal of both genomic axes, signal and mask together; train only"
+  },
+  "comparisons": [
+    {"id": "B0", "model": "training majority class", "purpose": "class imbalance baseline"},
+    {"id": "B1", "model": "standardized length and local density + logistic regression", "purpose": "annotation-informed shortcut diagnostic; length is privileged information"},
+    {"id": "B2", "model": "flattened large-scale O/E + train-fitted PCA(16) + logistic regression", "purpose": "linear image baseline"},
+    {"id": "M1", "model": "small single-scale CNN", "input": "large O/E signal and valid fraction", "purpose": "primary simple neural baseline"},
+    {"id": "M2", "model": "shared-encoder dual-scale CNN", "input": "small + large O/E signal and valid fraction", "purpose": "proposed main model; local shape plus context"}
+  ],
+  "ablations": [
+    {"id": "A1", "parent": "M2", "change": "small scale only", "question": "is broad context useful?"},
+    {"id": "A2", "parent": "M2", "change": "large scale only; reuse M1", "question": "is fine local information useful?"},
+    {"id": "A3", "parent": "M2", "change": "depth input instead of O/E", "question": "does distance normalization help?"},
+    {"id": "A4", "parent": "M2", "change": "uniform instead of training-derived class weights", "question": "does weighting improve CHID recall?"},
+    {"id": "A5", "parent": "M2", "change": "remove explicit mask channel, keep invalid signal pixels zero", "question": "how much does the model depend on missingness?"}
+  ]
+}

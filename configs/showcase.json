@@ -1,0 +1,29 @@
+{
+  "output_dir": "showcase/results",
+  "max_total_bytes": 12582912,
+  "files": [
+    "results/task1/comparison.png",
+    "results/task1/comparison.csv",
+    "results/task2_v2/method_summary.csv",
+    "results/task2_v2/replication_comparison.png",
+    "results/task2_v2/unannotated_supported_disjoint.csv",
+    "results/task2_morphology_audit/comparisons/w64_c43040.png",
+    "results/task3/tracks/0050000_0060000.png",
+    "results/task4/summary.csv",
+    "results/task4/effects.png",
+    "results/task5/summary.csv",
+    "results/task5/metrics.csv",
+    "results/task5/distance_diagnostics.csv",
+    "results/task5/comparison.png",
+    "results/task5/learning_curves.png",
+    "results/task5/examples.png",
+    "results/task5/structure_profiles.png",
+    "results/task5/index.html",
+    "results/task6/metrics.csv",
+    "results/task6/domain_geometry.csv",
+    "results/task6/graph_42_coordinates.csv",
+    "results/task6/structures.png",
+    "results/task6/contact_maps.png",
+    "results/task6/index.html"
+  ]
+}

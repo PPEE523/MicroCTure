@@ -1,0 +1,38 @@
+{
+  "task5": {
+    "output_dir": "results/task5",
+    "source_resolution_bp": 100,
+    "target_resolution_bp": 200,
+    "window_source_bins": 256,
+    "scale_factor": 4,
+    "seeds": [42, 43, 44],
+    "models": ["residual_cnn", "plain_cnn"],
+    "channels": 16,
+    "epochs": 30,
+    "patience": 6,
+    "batch_size": 16,
+    "learning_rate": 0.001,
+    "threads": 4,
+    "normalization_quantile": 0.995,
+    "ssim_window": 7,
+    "boundary_radius_bins": 5,
+    "profile_flank_bins": 8
+  },
+  "task6": {
+    "output_dir": "results/task6",
+    "resolution_bp": 5000,
+    "pair_split_seed": 2026,
+    "train_fraction": 0.7,
+    "validation_fraction": 0.15,
+    "contact_exponent": 0.3333333333333333,
+    "pseudocount": 0.5,
+    "seeds": [42, 43, 44],
+    "epochs": 500,
+    "patience": 50,
+    "learning_rate": 0.01,
+    "bond_weight": 0.02,
+    "hidden_size": 32,
+    "threads": 4,
+    "interpretation": "Transductive ensemble-contact embedding; held-out edges are not independent biological samples. No physical spatial units or unique single-cell conformation."
+  }
+}

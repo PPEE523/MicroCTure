@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite this repository and also cite the original data study."
+title: "MicroCTure: Reproducible Micro-C Analysis and Morphology Auditing"
+type: software
+authors:
+  - family-names: "ppee"
+repository-code: "https://github.com/PPEE523/MicroCTure"
+url: "https://github.com/PPEE523/MicroCTure"
+license: MIT
+abstract: "An educational research pipeline for spatially separated classification, replicate-aware discovery, condition comparisons, and auditing of unannotated Micro-C contact patterns. No new biological structure type is confirmed."
+keywords:
+  - Micro-C
+  - chromatin
+  - reproducibility
+  - deep learning
+  - Escherichia coli

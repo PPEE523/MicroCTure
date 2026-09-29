@@ -1,0 +1,12 @@
+{
+  "seed": 42,
+  "resolution_bp": 100,
+  "window_bins": [64, 256],
+  "output_size": 64,
+  "guard_bins": 10,
+  "split_fractions": [0.7, 0.15, 0.15],
+  "label_order": ["OPCID", "CHIN", "CHID"],
+  "split_search_trials": 20000,
+  "explored_regions": "results/local_matrices/100bp/regions.csv",
+  "output_dir": "data/cache/classification_v1"
+}

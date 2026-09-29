@@ -1,0 +1,15 @@
+{
+  "output_dir": "results/task2_v2_diagnostic",
+  "candidate_source": "results/task2/candidates.csv",
+  "representations": ["ae_pca8", "shape_pca8", "quality_only"],
+  "clusters": [4, 6, 8, 12],
+  "seeds": [42, 43, 44],
+  "kmeans_initializations": 10,
+  "replicate_min_correlation": 0.5,
+  "control_quantile": 0.95,
+  "controls_per_candidate": 20,
+  "min_controls": 10,
+  "min_new_cluster_members": 5,
+  "control_methods": ["v1_exclude_all_candidates", "exclude_focal_candidate"],
+  "interpretation": "Exploratory reanalysis of previously inspected WT repeats. No independent confirmation, no p-values, no threshold tuning based on discovery count."
+}

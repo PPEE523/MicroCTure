@@ -1,0 +1,9 @@
+{
+  "output_dir": "results/task2_morphology_audit",
+  "candidate_source": "results/task2_v2/unannotated_supported_disjoint.csv",
+  "references_source": "results/task2_novelty_review/known_references.csv",
+  "top_references": 3,
+  "row_effect_iterations": 10,
+  "focus_windows": ["w64_c33056", "w64_c28240", "w64_c10288"],
+  "interpretation": "Exploratory evidence audit. Marginal-effect removal is a sensitivity diagnostic, not proof that stripes are technical artifacts or confirmation of a biological class."
+}
