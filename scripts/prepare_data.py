@@ -1,6 +1,6 @@
 """Read-only audit of raw inputs and reproducible annotation export.
 
-Run from any directory: .venv/bin/python scripts/prepare_data.py
+Run from the project: conda run -n microcture python scripts/prepare_data.py
 Only bins/indexes and a small contact window are loaded, never all pixels.
 """
 import argparse

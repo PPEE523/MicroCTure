@@ -1,0 +1,113 @@
+{
+  "status": "passed",
+  "report": "/home/pppe/MicroCTure/coursework/实验报告/MicroCTure_实验报告_刘小凡_3024244243.docx",
+  "backup": "/home/pppe/MicroCTure/coursework/实验报告/备份/MicroCTure_实验报告_补充参考文献前_20261010_141245.docx",
+  "reference_count": 16,
+  "citation_paragraphs": 16,
+  "references": [
+    {
+      "number": 1,
+      "key": "course",
+      "entry": "天津大学课程资料. 基于深度学习的接触矩阵处理实践方案[R]. 课程提供版本, 15页.",
+      "verification_source": "docs/基于深度学习的接触矩阵处理实践方案.pdf"
+    },
+    {
+      "number": 2,
+      "key": "cooler",
+      "entry": "ABDENNUR N, MIRNY L A. Cooler: scalable storage for Hi-C data and other genomically labeled arrays[J]. Bioinformatics, 2020, 36(1): 311-316. DOI: 10.1093/bioinformatics/btz540.",
+      "verification_source": "https://academic.oup.com/bioinformatics/article/36/1/311/5530598"
+    },
+    {
+      "number": 3,
+      "key": "biology",
+      "entry": "GAVRILOV A A, SHAMOVSKY I, ZHEGALOVA I, et al. Elementary 3D organization of active and silenced E. coli genome[J]. Nature, 2025, 645(8082): 1060-1070. DOI: 10.1038/s41586-025-09396-y.",
+      "verification_source": "https://www.nature.com/articles/s41586-025-09396-y"
+    },
+    {
+      "number": 4,
+      "key": "pca",
+      "entry": "JOLLIFFE I T, CADIMA J. Principal component analysis: a review and recent developments[J]. Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences, 2016, 374(2065): 20150202. DOI: 10.1098/rsta.2015.0202.",
+      "verification_source": "https://doi.org/10.1098/rsta.2015.0202"
+    },
+    {
+      "number": 5,
+      "key": "dae",
+      "entry": "VINCENT P, LAROCHELLE H, BENGIO Y, et al. Extracting and composing robust features with denoising autoencoders[C]//Proceedings of the 25th International Conference on Machine Learning. New York: ACM, 2008: 1096-1103. DOI: 10.1145/1390156.1390294.",
+      "verification_source": "https://dl.acm.org/doi/10.1145/1390156.1390294"
+    },
+    {
+      "number": 6,
+      "key": "mds",
+      "entry": "TORGERSON W S. Multidimensional scaling: I. Theory and method[J]. Psychometrika, 1952, 17(4): 401-419. DOI: 10.1007/BF02288916.",
+      "verification_source": "https://www.cambridge.org/core/journals/psychometrika/article/abs/multidimensional-scaling-i-theory-and-method/5A026426380B7639E7EA6D92D5DF19AB"
+    },
+    {
+      "number": 7,
+      "key": "ssim",
+      "entry": "WANG Z, BOVIK A C, SHEIKH H R, et al. Image quality assessment: from error visibility to structural similarity[J]. IEEE Transactions on Image Processing, 2004, 13(4): 600-612. DOI: 10.1109/TIP.2003.819861.",
+      "verification_source": "https://www.cns.nyu.edu/pub/lcv/wang03-reprint.pdf"
+    },
+    {
+      "number": 8,
+      "key": "geo",
+      "entry": "SHAMOVSKY I, GAVRILOV A. GSE272159: Elementary 3D organization of active and silenced E. coli genome (MicroC)[DS/OL]. NCBI Gene Expression Omnibus, 2025[2026-10-10]. https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE272159.",
+      "verification_source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE272159"
+    },
+    {
+      "number": 9,
+      "key": "pytorch",
+      "entry": "PYTORCH CONTRIBUTORS. PyTorch documentation[EB/OL]. PyTorch 2.14 documentation[2026-10-10]. https://docs.pytorch.org/docs/2.14/index.html.",
+      "verification_source": "https://docs.pytorch.org/docs/2.14/index.html"
+    },
+    {
+      "number": 10,
+      "key": "cooler_docs",
+      "entry": "COOLER DEVELOPERS. Concepts: data selection[EB/OL]. Cooler 0.10.4 documentation[2026-10-10]. https://cooler.readthedocs.io/en/latest/concepts.html.",
+      "verification_source": "https://cooler.readthedocs.io/en/latest/concepts.html"
+    },
+    {
+      "number": 11,
+      "key": "adamw",
+      "entry": "LOSHCHILOV I, HUTTER F. Decoupled weight decay regularization[C/OL]//International Conference on Learning Representations. 2019[2026-10-10]. https://arxiv.org/abs/1711.05101.",
+      "verification_source": "https://arxiv.org/abs/1711.05101"
+    },
+    {
+      "number": 12,
+      "key": "groupnorm",
+      "entry": "WU Y, HE K. Group normalization[C]//Computer Vision – ECCV 2018. Cham: Springer, 2018: 3-19. DOI: 10.1007/978-3-030-01261-8_1.",
+      "verification_source": "https://www.ecva.net/papers/eccv_2018/papers_ECCV/html/Yuxin_Wu_Group_Normalization_ECCV_2018_paper.php"
+    },
+    {
+      "number": 13,
+      "key": "saliency",
+      "entry": "SIMONYAN K, VEDALDI A, ZISSERMAN A. Deep inside convolutional networks: visualising image classification models and saliency maps[EB/OL]. (2013-12-20)[2026-10-10]. https://arxiv.org/abs/1312.6034.",
+      "verification_source": "https://arxiv.org/abs/1312.6034"
+    },
+    {
+      "number": 14,
+      "key": "adam",
+      "entry": "KINGMA D P, BA J. Adam: a method for stochastic optimization[EB/OL]. (2014-12-22)[2026-10-10]. https://arxiv.org/abs/1412.6980.",
+      "verification_source": "https://arxiv.org/abs/1412.6980"
+    },
+    {
+      "number": 15,
+      "key": "lloyd",
+      "entry": "LLOYD S P. Least squares quantization in PCM[J]. IEEE Transactions on Information Theory, 1982, 28(2): 129-137. DOI: 10.1109/TIT.1982.1056489.",
+      "verification_source": "https://web.stanford.edu/class/ee398a/handouts/papers/Lloyd%20-%20Least%20Squares%20Q%20in%20PCM.pdf"
+    },
+    {
+      "number": 16,
+      "key": "valens",
+      "entry": "VALENS M, PENAUD S, ROSSIGNOL M, et al. Macrodomain organization of the Escherichia coli chromosome[J]. The EMBO Journal, 2004, 23(21): 4330-4341. DOI: 10.1038/sj.emboj.7600434.",
+      "verification_source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC524398/"
+    }
+  ],
+  "checks": [
+    "Original numerical tables and section settings unchanged",
+    "Original embedded image hashes unchanged",
+    "All 16 references have matching body citations",
+    "Reference numbers follow first appearance",
+    "DOCX readback and XML/ZIP integrity passed"
+  ],
+  "toc": "Reference heading and cached TOC entry added; update entire TOC in Word for page numbers."
+}

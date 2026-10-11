@@ -1,0 +1,239 @@
+{
+  "status": "passed",
+  "report": "/home/pppe/MicroCTure/coursework/实验报告/MicroCTure_实验报告_刘小凡_3024244243.docx",
+  "backup": "/home/pppe/MicroCTure/coursework/备份/MicroCTure_实验报告_进一步完善前_20261010_143108.docx",
+  "report_sha256": "97f18bf150148364483e2f09d3a9991109a78f09817a4fcac5d3c4d5918942a0",
+  "paragraph_revisions": 21,
+  "body_figures": 41,
+  "embedded_images": 43,
+  "tables": 29,
+  "references": 16,
+  "preserved": [
+    "All 42 original embedded image hashes",
+    "Numerical and textual content of all 25 original non-contribution tables; short-table pagination improved",
+    "All original heading texts and bookmark targets",
+    "Original sections and page settings",
+    "User-supplied member names, student numbers and 85%/15% proportions"
+  ],
+  "additional_analyses": {
+    "paired_task1_deltas": {
+      "A1": [
+        -0.19626577126577133,
+        -0.23556776556776554,
+        0.03941853941853951
+      ],
+      "M1": [
+        -0.25304232804232807,
+        -0.18815993712545437,
+        -0.04202633701925146
+      ],
+      "A3": [
+        -0.23102240896358545,
+        -0.1022103822103822,
+        0.129310028217132
+      ],
+      "A4": [
+        0.02443977591036417,
+        -0.24733143399810065,
+        -0.00990541118080085
+      ],
+      "A5": [
+        -0.2284494657433188,
+        -0.28497641791759437,
+        0.004298104298104344
+      ]
+    },
+    "task1_seed_agreement": [
+      24,
+      53
+    ],
+    "task1_sd_ddof": 0,
+    "task5_paired_structure_results": [
+      {
+        "replicate": 1,
+        "structures": 53,
+        "psnr_gain_db": 10.094846891263824,
+        "mse_reduction": 0.8986268746088988,
+        "boundary_increase_bp": 49.68553459119497,
+        "boundary_better": 15,
+        "boundary_equal": 16,
+        "boundary_worse": 22,
+        "psnr_better": 53,
+        "ssim_better": 53
+      },
+      {
+        "replicate": 2,
+        "structures": 53,
+        "psnr_gain_db": 9.413273262033787,
+        "mse_reduction": 0.8830097695488828,
+        "boundary_increase_bp": 57.23270440251572,
+        "boundary_better": 9,
+        "boundary_equal": 22,
+        "boundary_worse": 22,
+        "psnr_better": 53,
+        "ssim_better": 53
+      }
+    ],
+    "task6_test_means": {
+      "1": {
+        "mds": {
+          "log_distance_rmse": 0.46142595387429125,
+          "contact_log_pearson": 0.9194910446492538,
+          "contact_spearman": 0.940466388032442,
+          "distance_adjusted_contact_pearson": 0.4099169520354273,
+          "within_distance_pearson": 0.8261624135784517
+        },
+        "geometry": {
+          "log_distance_rmse": 0.3091254106923136,
+          "contact_log_pearson": 0.8523918734372208,
+          "contact_spearman": 0.8631635300341809,
+          "distance_adjusted_contact_pearson": 0.5068453838678892,
+          "within_distance_pearson": 0.6365711623564234
+        },
+        "graph": {
+          "log_distance_rmse": 0.30727766589090233,
+          "contact_log_pearson": 0.8510261411305631,
+          "contact_spearman": 0.8434446456270044,
+          "distance_adjusted_contact_pearson": 0.5050798737720102,
+          "within_distance_pearson": 0.6269143698030567
+        }
+      },
+      "2": {
+        "mds": {
+          "log_distance_rmse": 0.4606847750951233,
+          "contact_log_pearson": 0.9164184256507684,
+          "contact_spearman": 0.9340105296080385,
+          "distance_adjusted_contact_pearson": 0.409693452704495,
+          "within_distance_pearson": 0.8305643846674585
+        },
+        "geometry": {
+          "log_distance_rmse": 0.3081943515319939,
+          "contact_log_pearson": 0.85182693855064,
+          "contact_spearman": 0.8620557835713241,
+          "distance_adjusted_contact_pearson": 0.5089476312495196,
+          "within_distance_pearson": 0.6438550395239636
+        },
+        "graph": {
+          "log_distance_rmse": 0.30555614676615067,
+          "contact_log_pearson": 0.8521550730890387,
+          "contact_spearman": 0.8457413734163689,
+          "distance_adjusted_contact_pearson": 0.5116008161944576,
+          "within_distance_pearson": 0.6357511329191591
+        }
+      }
+    }
+  },
+  "source_sha256": {
+    "results/task1/evaluation.json": "e557224f61e1ccd0e1d7276e99aceeb2ea8aa292497a0f7310da63a56ffad81d",
+    "results/task1/explanations.json": "6b4ab9f1217ea199b46d4385426f01aa349836e8090c1b21de40a1be0ba0cd23",
+    "results/task1/M2_42_predictions.csv": "afda552afd87f7782be5acc637fad4a6692655a711d8264aa953c9866e33d648",
+    "results/task1/M2_43_predictions.csv": "e1e9390f20ef31d229fba4533bd79371e593a418359784331907370da7a467c0",
+    "results/task1/M2_44_predictions.csv": "c66831c65c1187112e645f09f41d20adc74ac41328e2311b51fa5d56206a1ac2",
+    "results/task5/metrics.csv": "09c41b04d654d86d121f7766cb3bd14e8cf0b3ec7ba84d419da0fe1f12a9dc28",
+    "results/task6/metrics.csv": "63e37d3a296889478efd9d18930a5908fb7739cd5542d18452b2030410e01900"
+  },
+  "edits": [
+    {
+      "before": "本项目的主要工作是可运行流水线、系统对照与完整证据链的构建。当前未确认满足预设规则的新结构簇，少数类识别、超分辨下游恢复和真实三维形态验证仍有限。报告据此区分“工程产物齐全”“数值检查通过”与“科学效果得到支持”，保留负结果和失败诊断，而不通过调整规则保证新发现。我们还做了一个github库来进行版本管理翻译，代码见https://github.com/PPEE523/MicroCTure.git",
+      "after": "本项目的主要工作是可运行流水线、系统对照与可追溯证据链的构建。当前未确认满足预设规则的新结构簇，少数类识别、超分辨下游恢复和真实三维形态验证仍有限。报告分别核查工程产物、数值一致性与科学效果，保留负结果及失败诊断，并依据已有证据明确后续验证方向。代码与配置通过 GitHub 仓库进行版本管理，项目地址为 https://github.com/PPEE523/MicroCTure。"
+    },
+    {
+      "before": "This study implemented an end-to-end pipeline for *E. coli* Micro-C contact matrices, from raw sparse data and annotation auditing to supervised classification, candidate discovery, multi-condition visualization, differential localization, super-resolution, and 3D contact embedding. It covered Tasks 1–3 and optional directions 4–6, emphasizing fair comparison, spatial isolation, replicate consistency, morphological evidence, and reproducibility.",
+      "after": "This study implemented an end-to-end pipeline for E. coli Micro-C contact matrices, from raw sparse data and annotation auditing to supervised classification, candidate discovery, multi-condition visualization, differential localization, super-resolution, and 3D contact embedding. It covered Tasks 1–3 and optional directions 4–6, emphasizing fair comparison, spatial isolation, replicate consistency, morphological evidence, and reproducibility."
+    },
+    {
+      "before": "The main contribution is a runnable pipeline, systematic controls, and a complete evidence chain. No new structural clusters met predefined rules; minority-class recognition, downstream super-resolution recovery, and true 3D morphology validation remain limited. The report distinguishes complete engineering artifacts, passed numerical checks, and supported scientific effects, retaining negative results and failure diagnostics without rule adjustment to force discoveries. We also created a GitHub repository for version control. Code is provided in https://github.com/PPEE523/MicroCTure.git",
+      "after": "The main contribution is a runnable pipeline, systematic controls, and a traceable evidence chain. No new structural clusters met the predefined rules; minority-class recognition, downstream super-resolution recovery, and true 3D morphology validation remain limited. Engineering artifacts, numerical consistency, and scientific effects are assessed separately. Negative results and failure diagnostics inform subsequent validation. Code and configurations are versioned at https://github.com/PPEE523/MicroCTure."
+    },
+    {
+      "before": "任何必需检查失败都会抛出错误；输出在全部检查成功之后生成。这不是完整像素质量控制：没有遍历所有接触计数，也没有完成覆盖度、距离衰减、重复相关性分析。这部分属于下一阶段。原文件没有 weight 列，局部读取必须使用 balance=False。",
+      "after": "任何必需检查失败都会抛出错误，输出在全部必需数值检查成功后生成。本节初始审计未遍历全部接触计数，也未完成覆盖度、距离衰减及重复相关性分析；这些检查随后在第五章和候选发现模块中实施。原文件没有 weight 列，局部读取使用 balance=False，未将后续 O/E 处理写成已实施 ICE 平衡。"
+    },
+    {
+      "before": "分类缓存中两个重复分别作为训练视图，训练结构数 240 不应误写为 480 个独立结构。分类评价先平均同一结构两个重复的预测概率，再计算固定三类的准确率、precision、recall 和 macro-F1。CHID 只有四个测试结构，单个预测就能改变其召回率 25 个百分点，因此必须结合混淆矩阵和波动理解结果。",
+      "after": "表6-1中的两个重复分别作为训练视图，240 个训练结构不应计为 480 个独立结构。评价先平均同一结构两个重复的预测概率，再计算固定三类指标；公式和不确定性见第6.3节。CHID 只有四个测试结构，单个预测可改变召回率 25 个百分点，因此应结合表7-2、图7-3及种子波动理解结果。"
+    },
+    {
+      "before": "标准差反映三次训练初始化的波动，不是独立生物学样本的置信区间。测试 CHID 只有 4 个，少错或多错一个就改变 25 个百分点的召回率。空间组 bootstrap 结果见 group_bootstrap.json；不含某类的重采样也用固定三类宏平均，因此区间只作探索性参考。",
+      "after": "表7-1及摘要中任务一的 ± 为三个训练种子的总体标准差，即方差分母为 3（ddof=0），描述本轮初始化和优化波动。任务五、六分别沿用对应汇总脚本的样本标准差（ddof=1），不将这些数值解释为生物学置信区间。测试 CHID 只有四个结构；空间组 bootstrap 的缺类重采样仍固定三类宏平均，因此区间仅作探索性参考。"
+    },
+    {
+      "before": " 案例按每类 ID 排序选择首个正确与错误预测（如存在），不是按视觉效果筛选。显著性为预测 logit 对输入信号的绝对梯度，图中结合等量结构/背景遮挡；局部梯度与遮挡变化只能描述模型敏感性，不能证明生物学因果机制。",
+      "after": "OPCID_20 被正确预测为 OPCID。6.4 kb 下等量背景遮挡使预测概率下降 0.363，结构遮挡反而使其增加约 0.028；25.6 kb 下两者下降分别为 0.001 和 0.007。两个尺度敏感性不同，正确分类仍可能利用背景。 案例选择及遮挡方法见第7.1节，变化均针对预测类别，属于模型敏感性诊断。"
+    },
+    {
+      "before": " 案例按每类 ID 排序选择首个正确与错误预测（如存在），不是按视觉效果筛选。显著性为预测 logit 对输入信号的绝对梯度，图中结合等量结构/背景遮挡；局部梯度与遮挡变化只能描述模型敏感性，不能证明生物学因果机制。",
+      "after": "OPCID_21 被误判为 CHIN。6.4 kb 下结构和背景遮挡均提高预测 CHIN 的概率；25.6 kb 下结构遮挡使概率下降 0.035，背景遮挡变化接近零。敏感性方向依赖尺度，不能由单幅显著性图认定模型已抓住目标类型。 案例选择及遮挡方法见第7.1节，变化均针对预测类别，属于模型敏感性诊断。"
+    },
+    {
+      "before": " 案例按每类 ID 排序选择首个正确与错误预测（如存在），不是按视觉效果筛选。显著性为预测 logit 对输入信号的绝对梯度，图中结合等量结构/背景遮挡；局部梯度与遮挡变化只能描述模型敏感性，不能证明生物学因果机制。",
+      "after": "CHIN_10 被正确预测为 CHIN。6.4 kb 下结构遮挡的概率下降为 0.025，大于背景遮挡的 0.003；25.6 kb 下两者变化均接近零。该例支持小尺度局部信号参与预测，不能外推到全部测试结构。 案例选择及遮挡方法见第7.1节，变化均针对预测类别，属于模型敏感性诊断。"
+    },
+    {
+      "before": " 案例按每类 ID 排序选择首个正确与错误预测（如存在），不是按视觉效果筛选。显著性为预测 logit 对输入信号的绝对梯度，图中结合等量结构/背景遮挡；局部梯度与遮挡变化只能描述模型敏感性，不能证明生物学因果机制。",
+      "after": "CHIN_101 被误判为 CHID。6.4 kb 下结构遮挡使预测 CHID 的概率下降 0.433，背景遮挡仅下降 0.039；大尺度下变化方向反转。即使模型对结构区域敏感，也可能无法区分 CHIN 与 CHID 的局部形态。 案例选择及遮挡方法见第7.1节，变化均针对预测类别，属于模型敏感性诊断。"
+    },
+    {
+      "before": " 案例按每类 ID 排序选择首个正确与错误预测（如存在），不是按视觉效果筛选。显著性为预测 logit 对输入信号的绝对梯度，图中结合等量结构/背景遮挡；局部梯度与遮挡变化只能描述模型敏感性，不能证明生物学因果机制。",
+      "after": "CHID_10 被误判为 CHIN。25.6 kb 下结构和背景遮挡分别使预测概率下降 0.104 和 0.110，未显示更强的结构特异性。6.4 kb 的可用等量遮挡像素数为零，该尺度不能用于判断结构与背景的相对作用。 案例选择及遮挡方法见第7.1节，变化均针对预测类别，属于模型敏感性诊断。"
+    },
+    {
+      "before": " 案例按每类 ID 排序选择首个正确与错误预测（如存在），不是按视觉效果筛选。显著性为预测 logit 对输入信号的绝对梯度，图中结合等量结构/背景遮挡；局部梯度与遮挡变化只能描述模型敏感性，不能证明生物学因果机制。",
+      "after": "CHID_22 被正确预测为 CHID。25.6 kb 下结构遮挡使预测概率下降 0.133，大于背景遮挡的 0.051。6.4 kb 的可用等量遮挡像素数为零，仅以大尺度的有效比较解释本例，不将近零变化写成模型不关注结构。 案例选择及遮挡方法见第7.1节，变化均针对预测类别，属于模型敏感性诊断。"
+    },
+    {
+      "before": "如继续以发现新类型为目标，下一轮应单独检验窗口中心与尺度是否掩盖局部模式：围绕可复现局部隔离位置做预先固定的重新居中和多尺度比较，并给已知参考同样的处理。需要同时校准平移、尺寸和遮挡敏感性；不能只调整未知窗口直至它远离已知参考。随后才考虑对稳定的局部模式建立类别假设。",
+      "after": "本轮结束后，针对窗口中心与尺度可能掩盖局部模式的假设，进一步开展第十一章的固定重新居中、多尺度及平移/遮挡敏感性比较。已知参考与校准窗口接受相同处理，保留原中心结果，并检查跨尺度支持；随后在第十二章完成多参考、边界及行列效应核查。这些已实施分析未提供稳定不同形态的支持，外部独立数据验证仍属于后续工作。"
+    },
+    {
+      "before": "任务三和任务四已完成。三条件共六个样本，生成全基因组 465 张轨道图；针对 344 个已知结构完成 688 次处理与 WT 比较。ΔstpA 有 4 个增强、6 个减弱，ΔhnsΔstpA 有 88 个增强、6 个减弱，均指满足本文预设规则的描述性变化。",
+      "after": "任务三的轨道绘制和任务四的差异定位流程均已完成。三条件共六个样本，生成 465 页全基因组轨道；针对 344 条已知结构注释完成 688 次处理与 WT 比较。ΔstpA 有 4 条增强、6 条减弱，ΔhnsΔstpA 有 88 条增强、6 条减弱，均指满足预设规则的描述性变化。轨道布局见图13-1至图13-3，差异汇总与局部核查见表13-1、图13-4至图13-6。"
+    },
+    {
+      "before": "正文展示从输入到最终诊断的主要图形类型。全部 465 页轨道、候选逐例图与交互页面仍保留在本地 results 目录；它们的数量不应被误认为独立生物学样本数。HTML 报告嵌入图片，可离线打开；Word 报告可继续编辑封面及成员分工；Markdown 与 assets 保留可复查源稿。",
+      "after": "正文展示从输入到最终诊断的主要图形类型，表16-2提供完整产物入口。全部 465 页轨道、候选逐例图与交互页面保留在本地 results/；这些数量不是独立生物学样本量。本 Word 内嵌正文图像，可脱离仓库阅读，表格、权重及配置通过对应结果目录追溯。项目成果页面适合浏览与展示，数值核查仍以原始表和验证记录为准。"
+    },
+    {
+      "before": "主模型 M2 的 macro-F1 高于本轮其他设置，但总体准确率并非最高。多数类基线准确率约 0.736，正是标签不平衡的结果，不代表它更理解结构。固定 M2/42 中 CHID 的 precision 很低，说明大量 CHIN 被判为 CHID。双尺度上下文有帮助的趋势与标签嵌套、不完整注释和少数类样本不足可以同时成立，不能把消融均值差当成显著性证明。",
+      "after": "表7-1中主模型 M2 的平均 macro-F1 高于本轮其他设置，多数类基线却有更高准确率；这反映类别比例对总体指标的影响。图7-3显示误差集中于 CHIN 与 CHID，第7.3节的种子一致性复算进一步揭示初始化波动。表7-4只有 M1 的三个差值方向一致，其他消融仅支持均值趋势。图7-4至图7-9表明关注结构区域与正确区分类别是两个要求，需分别检验。下一轮应先处理层级标签、独立少数类样本及评价协议，再讨论模型容量或超参数。"
+    },
+    {
+      "before": "表19-1　成员分工与贡献比例（提交前填写）",
+      "after": "表19-1　成员分工与贡献比例"
+    },
+    {
+      "before": "按实际参与情况填写数据、模型、评价、可视化或报告工作",
+      "after": "主要负责数据整理与坐标审计、局部矩阵处理、空间分组与实验协议、模型训练和对照消融、候选扫描与形态核查、多条件分析、超分辨及三维重建、指标复算、可视化、仓库整理和实验报告撰写。"
+    },
+    {
+      "before": "因生病未参与全部工作，参与前期环境配置与实验方案设计",
+      "after": "参与前期环境配置与实验方案设计。"
+    },
+    {
+      "before": "本实验形成了从数据审计、局部矩阵读取、空间隔离训练，到候选发现、稳健性诊断、多条件分析、超分辨与三维重建的完整实现。完成全部六项任务的工程与评价工作，使不同模型和任务能够共享数据定义、质量控制和复现约束。相比单次训练后展示一个精度值，本项目更重视方法选择是否合理、对照是否公平、结果是否可重复以及负结果是否被充分解释。",
+      "after": "本实验以 Micro-C 数值矩阵为共同输入，覆盖全部六项任务的工程实现与评价，并分别核查各任务的质量要求。主要工作包括：建立稀疏数据与坐标审计流程，构建空间分组的公平分类和消融协议，对未知候选依次实施重复、参考形态及固定扰动核查，将多条件信号落实为可追溯的描述性变化，并为超分辨和三维嵌入配置图像、结构及几何层面的独立评价。由此形成能够从数据追溯到模型、指标、图表及判定依据的分析流程。"
+    },
+    {
+      "before": "[1]课程资料《基于深度学习的接触矩阵处理实践方案》",
+      "after": "[1] 天津大学课程资料. 基于深度学习的接触矩阵处理实践方案[R]. 课程提供版本, 15页."
+    }
+  ],
+  "pagination": {
+    "renderer": "LibreOffice 26.2.6.3",
+    "pages": 94,
+    "toc_cache_entries_updated": 109,
+    "reference_start_page": "85",
+    "visual_review": "Selected pages including method flow, new tables, long-gallery layout, contributions and references",
+    "font_note": "Temporary Noto CJK/Liberation substitutes; Microsoft Word may repaginate with local fonts.",
+    "rendered_pdf": "/tmp/microcture-final-render-v6/MicroCTure_实验报告_刘小凡_3024244243.pdf"
+  },
+  "checks": [
+    "DOCX ZIP/XML integrity and readback",
+    "Original image bytes preserved",
+    "Original numerical tables and heading texts preserved",
+    "Sequential figure/table numbering",
+    "All 16 bibliography entries cited",
+    "All 109 native TOC caches updated from actual rendering",
+    "No unresolved submission placeholders"
+  ]
+}

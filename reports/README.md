@@ -1,11 +1,12 @@
-# 机器可读验证记录
+# 数据与历史实验审计记录
 
-公开版本保留少量结果与验证摘要，供核对首页数字：
+本目录保留旧记录作为报告出处。数据审计与数值复算通过，仅说明对应范围内的检查完成，不说明三类识别性能达标。
 
-- [分类结果](task1_results.json)
-- [超分辨与三维结果](task56_results.json)
-- [权重恢复与指标复算](task56_verification.json)
-- [多条件结果核验](task34_verification.json)
-- [输入审计](data_audit.json)
+- [新四模型代码检查](task1_comparison_code_check.json)：23 项合成/前向/模拟流程检查通过；没有进行真实数据准备或模型训练。运行方式见 [本地对比说明](../docs/TASK1_COMPARISON.md)。
 
-这些是本地实验生成的记录，不表示远程 CI 已运行。完整实验日志和阶段报告保持本地，公开说明集中在 [项目文档](../docs/README.md)。
+- [原始数据审计](data_audit.json)、[条件样本审计](conditions_audit.json)：原始文件、样本对应与来源信息。
+- [旧分类数据集](classification_dataset.json)：旧划分、类别数、归一化和坐标尚未核实的状态。
+- [旧任务一结果](task1_results.json)：M2 未达标的历史结果；见 [失败复盘](../report_materials/task1_failure_review.md)。
+- 其他 JSON：局部矩阵、候选发现、条件分析、超分辨和三维实验的历史数值与检查范围。
+
+原始数据、历史数值文件和写作材料的位置见 [项目说明](../README.md)。旧权重和执行流水线已清理，本目录的核验记录保留其当时的出处。

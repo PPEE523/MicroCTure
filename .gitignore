@@ -53,6 +53,7 @@ htmlcov/
 
 # Non-destructive backups and separate release output
 /local_archive/
+/coursework/
 
 # Coursework and full experiment history stay available locally
 /docs/*.md
@@ -60,6 +61,8 @@ htmlcov/
 !/docs/PROJECT.md
 !/docs/RESULTS.md
 !/docs/REPRODUCIBILITY.md
+!/docs/ENVIRONMENT.md
+!/docs/TASK1_COMPARISON.md
 /examples/
 /reports/*
 !/reports/README.md
@@ -68,3 +71,7 @@ htmlcov/
 !/reports/task34_verification.json
 !/reports/task56_results.json
 !/reports/task56_verification.json
+
+# Retained local data and historical report draft after the task-one reset
+/data/legacy_experiments/
+/report_materials/历史报告/*.docx
