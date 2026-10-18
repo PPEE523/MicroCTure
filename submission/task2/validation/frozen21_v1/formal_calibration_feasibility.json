@@ -1,0 +1,29 @@
+{
+  "pool_known_windows": 21,
+  "original_calibration_windows": 8,
+  "maximum_nonoverlapping_windows": 8,
+  "minimum_required": 10,
+  "feasible": false,
+  "maximum_ids": [
+    "CHIN_71",
+    "CHIN_77",
+    "OPCID_25",
+    "CHIN_87",
+    "CHIN_90",
+    "CHIN_179",
+    "CHIN_185",
+    "OPCID_57"
+  ],
+  "original_ids": [
+    "OPCID_25",
+    "OPCID_57",
+    "CHIN_71",
+    "CHIN_77",
+    "CHIN_87",
+    "CHIN_90",
+    "CHIN_179",
+    "CHIN_185"
+  ],
+  "selection": "Exact earliest-finish interval scheduling after all original full-grid eligibility filters",
+  "conclusion": "insufficient_capacity_under_unchanged_primary_rules"
+}

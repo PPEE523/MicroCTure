@@ -1,0 +1,206 @@
+{
+  "task3": {
+    "status": "numeric_tracks_and_compact_visualization_verified",
+    "samples": 6,
+    "conditions": 3,
+    "resolution_bp": 100,
+    "total_bins": 46417,
+    "common_valid_bins": 45499,
+    "common_valid_percent": 98.02227632117543,
+    "contiguous_page_index": 465,
+    "genome_length_bp": 4641652,
+    "last_page": [
+      4640000,
+      4641652
+    ],
+    "gene_records": 4516,
+    "author_intervals": 344,
+    "repeat_pearson": {
+      "WT_37C": 0.9924920616478622,
+      "delta_stpA": 0.9657370050323619,
+      "delta_hns_stpA": 0.9927268601664493
+    },
+    "complete_legacy_figure_set_present": false,
+    "complete_figure_set_regenerated_this_run": false,
+    "display": {
+      "fixed_locus_bp": [
+        1050000,
+        1100000
+      ],
+      "selection_rule": "Fixed round-number locus, not selected by differential effect or classification success",
+      "overlapping_author_intervals": [
+        "CHIN_54",
+        "CHIN_55",
+        "CHIN_56",
+        "CHIN_57",
+        "CHIN_58",
+        "CHIN_59",
+        "CHIN_60",
+        "CHIN_61",
+        "CHID_6"
+      ],
+      "genome_display_bin_bp": 10000,
+      "local_display_bin_bp": 100
+    }
+  },
+  "task4": {
+    "status": "descriptive_comparisons_independently_recomputed",
+    "structure_sample_values": 2064,
+    "condition_comparisons": 688,
+    "eligible_intervals": 327,
+    "excluded_intervals": 17,
+    "eligible_comparison_rows": 654,
+    "max_main_effect_recomputation_error": 0.0,
+    "summary": [
+      {
+        "condition": "delta_stpA",
+        "type": "OPCID",
+        "total": 68,
+        "quality_pass": 68,
+        "increased": 3,
+        "decreased": 6,
+        "median_log2_fc": 0.04163703721637184
+      },
+      {
+        "condition": "delta_stpA",
+        "type": "CHIN",
+        "total": 250,
+        "quality_pass": 237,
+        "increased": 1,
+        "decreased": 0,
+        "median_log2_fc": 0.234356373210829
+      },
+      {
+        "condition": "delta_stpA",
+        "type": "CHID",
+        "total": 26,
+        "quality_pass": 22,
+        "increased": 0,
+        "decreased": 0,
+        "median_log2_fc": 0.23353363266980876
+      },
+      {
+        "condition": "delta_hns_stpA",
+        "type": "OPCID",
+        "total": 68,
+        "quality_pass": 68,
+        "increased": 0,
+        "decreased": 6,
+        "median_log2_fc": -0.12708091843699515
+      },
+      {
+        "condition": "delta_hns_stpA",
+        "type": "CHIN",
+        "total": 250,
+        "quality_pass": 237,
+        "increased": 77,
+        "decreased": 0,
+        "median_log2_fc": 0.4408946278063489
+      },
+      {
+        "condition": "delta_hns_stpA",
+        "type": "CHID",
+        "total": 26,
+        "quality_pass": 22,
+        "increased": 11,
+        "decreased": 0,
+        "median_log2_fc": 0.6440990553041992
+      }
+    ],
+    "descriptive_changes_total": 104,
+    "oe_same_effect_sign": 104,
+    "oe_same_four_ratio_direction": 103,
+    "oe_threshold_exceptions": [
+      {
+        "structure_id": "OPCID_55",
+        "condition": "delta_stpA",
+        "start": "3439610",
+        "end": "3448700",
+        "log2_fold_change": "0.8497070673194989",
+        "oe_log2_fold_change": "0.5332975538517931",
+        "oe_direction": "inconsistent_or_small"
+      }
+    ]
+  },
+  "rule": {
+    "fold_change": 1.5,
+    "four_cross_repeat_contrasts_required": true,
+    "biological_replicates_per_condition": 2,
+    "minimum_valid_fraction": 0.8,
+    "minimum_valid_pairs": 20
+  },
+  "limitations": [
+    "No raw contact scan, preprocessing or model training was performed.",
+    "The 465-page index is not 465 currently shipped images; this run creates one compact task-3 overview.",
+    "Only two biological replicates per condition; four cross-repeat ratios are not four independent replicates.",
+    "Effects are relative, descriptive contact changes; no p-values, FDR, causal or morphology certification.",
+    "Gene coordinates remain provisional; shared masks may omit condition-specific loss.",
+    "Track repeat correlation is reproducibility of a contact summary, not classification accuracy."
+  ],
+  "status": "passed",
+  "execution": {
+    "raw_pixels_scanned": false,
+    "models_fitted": 0,
+    "figures_created": 2,
+    "recomputed_from_saved_tables_only": true
+  },
+  "inputs": {
+    "config": {
+      "path": "configs/shared/conditions/conditions.json",
+      "bytes": 2426,
+      "sha256": "8e02f4cd6998a7fdb9127e7bf7d24dc591655d700f6b2d4d054ec7d48a6d48d9"
+    },
+    "tracks": {
+      "path": "results/task3/condition_tracks/v1/signals.npz",
+      "bytes": 2337248,
+      "sha256": "cd8b9530fcc1a97448df2a7521018638d15c91622e55394d76047bf6aec32372"
+    },
+    "pages": {
+      "path": "results/task3/condition_tracks/v1/pages.csv",
+      "bytes": 20254,
+      "sha256": "d586a0ddde8553e95958cca3787d37e236641376bacf942f680382e57bf8931d"
+    },
+    "values": {
+      "path": "results/task4/condition_comparison/v1/structure_signals.csv",
+      "bytes": 206302,
+      "sha256": "2fc81f9085fe761e103caf0b41adee273f7d16383763b8dd896d3cd7fbc7f21e"
+    },
+    "effects": {
+      "path": "results/task4/condition_comparison/v1/differential_structures.csv",
+      "bytes": 217720,
+      "sha256": "71923899249324d2ce0d2c14eb2772e451c4c622dcc5dfb2258e9d01731882f6"
+    },
+    "summary": {
+      "path": "results/task4/condition_comparison/v1/summary.csv",
+      "bytes": 369,
+      "sha256": "c45a404bbd6d22d48731dc1694a16518e4e471a6e817604f92fb7d925be63d7b"
+    },
+    "structures": {
+      "path": "data/shared/annotations/structures.csv",
+      "bytes": 59167,
+      "sha256": "025b211de37c7babf5eba5a522917eede64785699c3ea576651d1d876e5c919a"
+    },
+    "genes": {
+      "path": "data/shared/annotations/genes.csv",
+      "bytes": 214505,
+      "sha256": "89ea6176872962d76b0817e29e649fee1eadc636ceb7fa92d525e04ee5ef0058"
+    }
+  },
+  "source": {
+    "path": "scripts/task3/build_task34_delivery.py",
+    "bytes": 20041,
+    "sha256": "7b7e0d87df73f455ea944a79395498ab16575c37b242999206e03b413ff7e576"
+  },
+  "outputs": [
+    {
+      "path": "submission/figures/task34_delivery_tracks.png",
+      "bytes": 490424,
+      "sha256": "b0ce195cee959825a1181b606ccfe6c341526f6fd689f581f5306d5ce96fff8a"
+    },
+    {
+      "path": "submission/figures/task34_delivery_effects.png",
+      "bytes": 297489,
+      "sha256": "03821ee517797aff6a79dac0b1322e0d2a07ca58bd8011206420bc4f53bb65d7"
+    }
+  ]
+}

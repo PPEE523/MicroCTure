@@ -1,0 +1,93 @@
+{
+  "cache_dir": "data/cache/task1_comparison_v1",
+  "frozen_run_dir": "results/task1_comparison_v1",
+  "folds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "models": {
+    "channels": [
+      16,
+      32,
+      64
+    ],
+    "dropout": 0.2,
+    "spatial_grid": 4,
+    "token_dim": 64,
+    "transformer_layers": 1,
+    "attention_heads": 4,
+    "ffn_dim": 128,
+    "head_dim": 32
+  },
+  "training": {
+    "head": "H3",
+    "batch_size": 32,
+    "epochs": 40,
+    "learning_rate": 0.0001,
+    "weight_decay": 0.0001,
+    "cpu_threads": 4,
+    "deterministic_algorithms": true,
+    "augmentation": "reverse",
+    "optimizer": "AdamW",
+    "loss": "class_weighted_cross_entropy",
+    "dropout": 0.2,
+    "early_stopping": false,
+    "scheduler": false,
+    "gradient_clipping": false,
+    "checkpoint_selection": "final_epoch",
+    "refit": false
+  },
+  "acceptance": {
+    "window": 10,
+    "min_relative_loss_drop": 0.01,
+    "logit_variance_threshold": 1e-06,
+    "constant_epsilon": 1e-06,
+    "gradient_norm_epsilon": 1e-10,
+    "activation_epsilon": 1e-06,
+    "majority_warning_fraction": 0.95,
+    "max_terminal_loss_regression": 0.05,
+    "CHID_F1_threshold": null
+  },
+  "protocol": "task1_matched_native_roi_detail_control_v1",
+  "formal_run_dir": "results/task1_formal_v1",
+  "run_dir": "results/task1_native_roi_v1",
+  "conditions": [
+    "I3",
+    "G0",
+    "V0",
+    "P0"
+  ],
+  "readout_run_dir": "results/task1_readout_v1",
+  "reevaluation_run_dir": "results/task1_reevaluation_v1",
+  "alignments": [
+    "C0",
+    "C1"
+  ],
+  "development_gates": {
+    "macro_f1": 0.9,
+    "per_class_precision": 0.85,
+    "per_class_recall": 0.85,
+    "every_seed": true,
+    "require_full_learning": true
+  },
+  "roi_run_dir": "results/task1_roi_v1",
+  "native_protocol": {
+    "resolution_bp": 10,
+    "coarse_projection_bp": 100,
+    "minimum_physical_distance_bp": 200,
+    "canvas_size": 64,
+    "expected_fit_scope": "frozen inner-training footprint union only",
+    "signal_formula": "valid/exposure weighted mean(log1p(count/E10))",
+    "shared_G0_V0_alignment": "C0",
+    "refit_length": false,
+    "refit_context": false
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "candidate_source": "results/task2/discovery/v2/unannotated_supported_disjoint.csv",
+  "candidate_count": 21,
+  "candidate_source_sha256": "b92d11337486890934aa1077df5278f055ad349b973febbfc1873d45bd379a42",
+  "source_discovery_config": "configs/task2/discovery/discovery_v2.json",
+  "source_centering_config": "configs/task2/centering/centering_sensitivity.json",
+  "source_scan": "results/task2/discovery/v2/scan_rep1.csv",
+  "primary_centering": "results/task2/centering/primary",
+  "supplement_centering": "results/task2/centering/supplement",
+  "band_cache_dir": "data/shared/cache/contact_bands_100bp",
+  "replicate_min_correlation": 0.5,
+  "control_quantile": 0.95,
+  "min_controls": 10,
+  "controls_per_candidate": 20,
+  "control_match": "Original abs(log1p(mean_oe) difference) + abs(valid_fraction difference), rep1 only; deterministic window-index tie break",
+  "control_spatial_rules": "Same source width; no author annotation in source crop; exclude the full 54-variant envelopes of all 21 candidates; one partition per envelope; controls mutually envelope-disjoint within each candidate set",
+  "control_qc": "Original min_valid_fraction=0.8/max_zero_fraction=0.8 on natural pixels; rep1 full-grid QC before selection; finite and quality-qualified rep1/rep2 control correlations count toward the unchanged minimum ten",
+  "control_freeze": "Freeze up to twenty control IDs per candidate before loading rep2; do not replace controls based on correlation or candidate outcome",
+  "replication_candidate_endpoint": "Original-width, original-anchor, zero-shift, no-occlusion support; all 54 variants and all six anchor/scale cells reported as sensitivity, without a new support pass threshold",
+  "morphology_candidate_endpoint": "Unchanged primary/supplement two-metric, two-replicate distances and per-scale >=0.8 robust rule; missing calibration remains NA",
+  "known_retrieval": {
+    "query_cohorts": ["primary_calibration", "supplement_calibration"],
+    "metrics": ["pca", "shape"],
+    "top_k": [1, 5],
+    "class_retrieval": "Held-out known query vs fixed role-0 references, same variant, exclude same ID and any overlapping full envelope; report both WT, class prior and hypergeometric top5 chance",
+    "identity_retrieval": "Known rep2 query vs rep1 gallery of fixed references plus known calibration queries; own ID is the positive, overlapping different IDs are excluded; diagnostic only",
+    "coverage": "Report every fixed query, every one of 54 variants, failures and absent classes; no query or variant selection by retrieval result"
+  },
+  "interpretation": "User-requested development validation of frozen candidates on previously viewed WT. No training, no raw genome scan, no independent external confirmation; background support controls do not replace known-shape calibration."
+}

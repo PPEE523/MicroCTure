@@ -1,0 +1,64 @@
+{
+  "files": [
+    {
+      "path": "configs/task3/atlas/atlas_v1.json",
+      "bytes": 1866,
+      "sha256": "3a286aeb6ea979f820b4cfa6f5524598a34afe9a82eabdb12edcedd48864a1cc"
+    },
+    {
+      "path": "data/shared/annotations/reference/ASM584v2/GCF_000005845.2_ASM584v2_genomic.gff.gz",
+      "bytes": 387627,
+      "sha256": "afdf03dc1d06e423d874ee29d9e0df14f5d32baf893f4da9f93aa721eb5f495e"
+    },
+    {
+      "path": "data/shared/annotations/reference/ASM584v2/GCF_000005845.2_ASM584v2_assembly_report.txt",
+      "bytes": 1112,
+      "sha256": "ca161bcfe8d1842b2160ca3fa20b480956d8242895115c53f5f819a11e895362"
+    },
+    {
+      "path": "data/raw/micro_c/标注数据.xlsx",
+      "bytes": 2698974,
+      "sha256": "a1fa9c0d359509a9eb319442c19e300cb5da85546eeb567368a390d22205167a"
+    },
+    {
+      "path": "data/shared/annotations/structures.csv",
+      "bytes": 59167,
+      "sha256": "025b211de37c7babf5eba5a522917eede64785699c3ea576651d1d876e5c919a"
+    },
+    {
+      "path": "data/shared/annotations/genes.csv",
+      "bytes": 214505,
+      "sha256": "89ea6176872962d76b0817e29e649fee1eadc636ceb7fa92d525e04ee5ef0058"
+    },
+    {
+      "path": "results/task3/condition_tracks/next_v1/manifest.json",
+      "bytes": 126074,
+      "sha256": "24969f9f7127f53228c210d6d520002846cb727c57839630f2c2143a75a7f827"
+    },
+    {
+      "path": "results/task3/condition_tracks/next_v1/task3/signals.npz",
+      "bytes": 2337248,
+      "sha256": "cd8b9530fcc1a97448df2a7521018638d15c91622e55394d76047bf6aec32372"
+    },
+    {
+      "path": "results/task3/condition_tracks/next_v1/task3/pages.csv",
+      "bytes": 20254,
+      "sha256": "d586a0ddde8553e95958cca3787d37e236641376bacf942f680382e57bf8931d"
+    },
+    {
+      "path": "microcture/tasks/task3/atlas.py",
+      "bytes": 29320,
+      "sha256": "97eb03240ddaeeaa070679b182f56ff93d1fccbf468f8b6ec0638370bf528546"
+    },
+    {
+      "path": "microcture/tasks/task3/assets/atlas.js",
+      "bytes": 8975,
+      "sha256": "480ae0c0f062791ecea11d943653baaea839bd23e73ad518548b9290f73f4ba0"
+    },
+    {
+      "path": "microcture/tasks/task3/assets/atlas.css",
+      "bytes": 2256,
+      "sha256": "8e30d27e587b2b0b0d541280f843fb9677706f559c29eff2c5fcb7887c02788e"
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "purpose": "Portable mechanics demonstration, not a performance estimate or reliability certificate",
+  "selection_rule": "For each class in OPCID,CHIN,CHID order, choose lexicographically first structure_id in frozen outer fold0; no correctness filtering; extraction uses canonical dataset order",
+  "selection_ids_class_order": [
+    "OPCID_31",
+    "CHIN_114",
+    "CHID_11"
+  ],
+  "replicate_structure_ids": [
+    "OPCID_31",
+    "CHIN_114",
+    "CHID_11",
+    "OPCID_31",
+    "CHIN_114",
+    "CHID_11"
+  ],
+  "class_order": [
+    "OPCID",
+    "CHIN",
+    "CHID"
+  ],
+  "replicate_probabilities": [
+    [
+      0.9719253778457642,
+      0.010423662140965462,
+      0.01765100471675396
+    ],
+    [
+      0.0005259033059701324,
+      0.9955940842628479,
+      0.0038800740148872137
+    ],
+    [
+      0.11751405894756317,
+      0.754157304763794,
+      0.12832863628864288
+    ],
+    [
+      0.9777963757514954,
+      0.008223386481404305,
+      0.013980296440422535
+    ],
+    [
+      0.00029293002444319427,
+      0.9964799284934998,
+      0.0032271479722112417
+    ],
+    [
+      0.0866009071469307,
+      0.7342812418937683,
+      0.1791178435087204
+    ]
+  ],
+  "structure_predictions": [
+    {
+      "structure_id": "OPCID_31",
+      "predicted": "OPCID",
+      "replicate_count": 2,
+      "p_OPCID": 0.9748608767986298,
+      "p_CHIN": 0.009323524311184883,
+      "p_CHID": 0.015815650578588247
+    },
+    {
+      "structure_id": "CHIN_114",
+      "predicted": "CHIN",
+      "replicate_count": 2,
+      "p_OPCID": 0.0004094166652066633,
+      "p_CHIN": 0.9960370063781738,
+      "p_CHID": 0.0035536109935492277
+    },
+    {
+      "structure_id": "CHID_11",
+      "predicted": "CHIN",
+      "replicate_count": 2,
+      "p_OPCID": 0.10205748304724693,
+      "p_CHIN": 0.7442192733287811,
+      "p_CHID": 0.15372323989868164
+    }
+  ],
+  "reference_device": "cpu",
+  "input_npz_sha256": "ad55d356ad5296c8d257e32511ba57e151a21ee43be5e6b68d5484d81d74d1f2",
+  "checkpoint_sha256": "9cb53223f7df13f8304a2b1ebc311fcf89cf3a2731f9eadc5d1166453e1119ab",
+  "checkpoint_relative_path": "submission/artifacts/task1/m2plus/seed_42/fold_0/final.pt",
+  "fold_protocol_relative_path": "submission/task1/formal/folds/fold_0.json",
+  "fold_protocol_sha256": "adbd149eccd9f253625c65ad26aabd41f5edeee7f5d32ddfeabc3771e0f73f16",
+  "preprocessing_signature": "09b3f07775a85bba03a991c470be13657386aedcdcd9bc7b6ec2ce09d2e94311",
+  "dataset_signature": "d8b73b2bbab3863a8102f3fab4a2701c902219e65ec59c81ada472d7c31f5cd6",
+  "checkpoint_original_job": {
+    "stage": "formal",
+    "kind": "neural",
+    "model": "m2plus",
+    "backbone": "m2plus",
+    "condition": "I3",
+    "input_variant": "I3",
+    "fold": 0,
+    "seed": 42,
+    "head": "H3",
+    "name": "H3",
+    "learning_rate": 0.0001
+  },
+  "training_performed_for_demo": false,
+  "count_band_source": "Read-only original data/cache/task1_comparison_v1; only six replicate tensors extracted",
+  "historical_oof_source": "submission/task1/formal/oof/I3/m2plus/seed_42/predictions.csv",
+  "historical_oof_cpu_max_absolute_probability_difference": 0.00019824504852294922,
+  "historical_oof_cross_device_tolerance": {
+    "rtol": 0.001,
+    "atol": 0.0003
+  },
+  "historical_oof_argmax_match": true,
+  "numerics_note": "Original saved GPU inference and this CPU reference differ slightly; the CPU demo expected values are measured here, not copied from original GPU probabilities",
+  "input_layout": "[6 observations,2 scales,3 channels(signal,validity,target mask),64,64]; length[6,1]",
+  "checkpoint_selection": "Historical fixed epoch40/H3/I3/seed42/fold0; not chosen for example correctness"
+}

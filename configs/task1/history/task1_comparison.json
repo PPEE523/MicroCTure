@@ -1,0 +1,51 @@
+{
+  "protocol": "task1_spatial_grouped_nested_holdout_v1",
+  "cache_dir": "data/cache/task1_comparison_v1",
+  "run_dir": "results/task1_comparison_v1",
+  "data": {
+    "data_config": "configs/data.json",
+    "annotations": "data/processed/structures.csv",
+    "resolution_bp": 100,
+    "window_bins": [64, 256],
+    "output_size": 64,
+    "guard_bins": 10,
+    "folds": 5,
+    "split_seed": 20261010,
+    "split_search_trials": 2000,
+    "min_class_per_fold": 2,
+    "inner_validation_fraction": 0.2,
+    "chunk_size": 2000000,
+    "normalization": "oe",
+    "train_augmentation": "reverse",
+    "allow_provisional_coordinates": true
+  },
+  "models": {
+    "channels": [16, 32, 64],
+    "dropout": 0.2,
+    "spatial_grid": 4,
+    "token_dim": 64,
+    "transformer_layers": 1,
+    "attention_heads": 4,
+    "ffn_dim": 128,
+    "head_dim": 32
+  },
+  "training": {
+    "seeds": [42, 43, 44],
+    "inner_split_seed": 20261010,
+    "batch_size": 32,
+    "max_epochs": 100,
+    "patience": 15,
+    "min_delta": 0.0001,
+    "learning_rate": 0.001,
+    "weight_decay": 0.0001,
+    "cpu_threads": 4,
+    "deterministic_algorithms": true
+  },
+  "baseline": {
+    "seed": 42,
+    "pca_components": [8, 16, 32],
+    "C": [0.1, 1.0, 10.0],
+    "max_iter": 3000,
+    "tol": 0.00001
+  }
+}

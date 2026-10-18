@@ -1,0 +1,11 @@
+{
+  "status": "candidate",
+  "recipe": {
+    "head_architecture": "H2",
+    "head_version": "H3",
+    "learning_rate": 0.0001
+  },
+  "reason": "H3 passes all six cases; H1 and H2 at the original learning rate do not.",
+  "untested_comparison": "H1 plus the lower learning rate was not tested; this result does not establish that it would be worse.",
+  "manual_trace_review_required": true
+}

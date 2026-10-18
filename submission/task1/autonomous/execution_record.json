@@ -1,0 +1,47 @@
+{
+  "date": "2026-10-14",
+  "executor": "assistant in user-authorized local WSL Conda microcture",
+  "actual_new_fits": 265,
+  "neural_fits": 225,
+  "classical_fits": 40,
+  "complete_model_OOF": 53,
+  "studies": [
+    {
+      "run_dir": "results/task1_roi_v1",
+      "actual_fits": 75,
+      "source_signature": "a1ed97051ee9d24ba0198bed07fc2884ed56d3ca629f3ed40744f8d2eede6c94",
+      "experiment_signature": "46ff1c0565255fc8ef31070ae9649a3b594460e40ac7054b6d5b3ccf62c21f4e",
+      "sum_per_fit_runtime_seconds": 850.2056900940051,
+      "median_per_fit_runtime_seconds": 11.250735329000236
+    },
+    {
+      "run_dir": "results/task1_native_roi_v2",
+      "actual_fits": 90,
+      "source_signature": "83f9cfe4b83557966e94695e5ed07fd03135a0877c532da934625ded2dfab42c",
+      "experiment_signature": "e8d0746101f7b5d1cc6530aebe8e5fd302ed8cc48cd33a024f93f4acb72b5888",
+      "sum_per_fit_runtime_seconds": 1182.4260896819985,
+      "median_per_fit_runtime_seconds": 13.123632926499965
+    },
+    {
+      "run_dir": "results/task1_shape_baseline_v2",
+      "actual_fits": 40,
+      "source_signature": "105c6713fcdc95926cc08d587be21b583e8c6ba574cc8a932a728027a81c434a",
+      "experiment_signature": "5017c41807a2955da4c2d4bf4bb6956855392eac9a1b627cb13e70ffcab53939",
+      "sum_per_fit_runtime_seconds": 58.58747786900034,
+      "median_per_fit_runtime_seconds": 1.468646266999997
+    },
+    {
+      "run_dir": "results/task1_dropout_v1",
+      "actual_fits": 60,
+      "source_signature": "e0bc3106a4c8b119451dffcb00a833162fe160680cf6dea9cc7eaf271d5a1ee4",
+      "experiment_signature": "01650d7770548e7955f8192e02184f27a7589bcf23295cf126de2719cfa5018a",
+      "sum_per_fit_runtime_seconds": 680.8474679600002,
+      "median_per_fit_runtime_seconds": 11.333088465499998
+    }
+  ],
+  "runtime_interpretation": "Sum of individual fit runtime fields, includes fit evaluation; not total wall time or GPU-only time; preprocessing/audits/plots extra",
+  "dropout_command": "conda run --no-capture-output -n microcture python -B -u scripts/run_task1_dropout.py --device cuda all",
+  "dropout_process_exit_code": 0,
+  "temporary_log_cleanup": "After full scientific completion and independent audit, remove only /tmp/microcture-dropout-v1-training.log; histories retained in indexed scientific runs",
+  "independence": "Seeds, WT views, exact-replay controls and repeated protocols do not add independent annotated structures"
+}

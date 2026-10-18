@@ -1,0 +1,94 @@
+{
+  "files": [
+    {
+      "path": "results/task5/super_resolution/v1/manifest.json",
+      "bytes": 1935,
+      "sha256": "aa6c6f2815dafab1be3e34922fddd58408776f4b75f69362c7ccb24a6ff489e1"
+    },
+    {
+      "path": "results/task5/super_resolution/v1/windows.csv",
+      "bytes": 40904,
+      "sha256": "17d9c08933b364c5b4f35f84f3c40ab116b81b634450129a72dba1f49908e9dc"
+    },
+    {
+      "path": "results/task5/super_resolution/v1/metrics.csv",
+      "bytes": 157288,
+      "sha256": "09c41b04d654d86d121f7766cb3bd14e8cf0b3ec7ba84d419da0fe1f12a9dc28"
+    },
+    {
+      "path": "results/task5/super_resolution/v1/summary.csv",
+      "bytes": 7195,
+      "sha256": "a59eb88c9971d78602f954a0ea4093cb9f98b0aeb68d1355ee425633c2ada5ff"
+    },
+    {
+      "path": "results/task5/super_resolution/v1/bilinear_reconstruction.npz",
+      "bytes": 12878112,
+      "sha256": "2bc09893c5589b1ecee96e612cee0c081b71312ae71fcbc91494475d326d33d1"
+    },
+    {
+      "path": "results/task5/super_resolution/v1/bicubic_reconstruction.npz",
+      "bytes": 13430646,
+      "sha256": "052c0c58f348f783835203479a2aecd5c5005c8cfcf55e025ade2a94694446bc"
+    },
+    {
+      "path": "results/task5/super_resolution/v1/plain_cnn_42_reconstruction.npz",
+      "bytes": 12274624,
+      "sha256": "46a05336570b6d5903927f3474d526bba3e1480b79c820246293dfcc8464e409"
+    },
+    {
+      "path": "results/task5/super_resolution/v1/plain_cnn_43_reconstruction.npz",
+      "bytes": 12259043,
+      "sha256": "2264eb3590d3103610ad2443f4539c666b5de41c690b5dbaf356c97a556c4b5d"
+    },
+    {
+      "path": "results/task5/super_resolution/v1/plain_cnn_44_reconstruction.npz",
+      "bytes": 12291611,
+      "sha256": "ec40dce6b91314b90430f6022c00761f16da51f3f895f09acd1e6daa619098d4"
+    },
+    {
+      "path": "results/task5/super_resolution/v1/residual_cnn_42_reconstruction.npz",
+      "bytes": 12309137,
+      "sha256": "84d89097e7fcce72734e45b5c203720ca1a69089bdb9f169da493055f7b250c2"
+    },
+    {
+      "path": "results/task5/super_resolution/v1/residual_cnn_43_reconstruction.npz",
+      "bytes": 12165658,
+      "sha256": "461983e771f79162ebf2068233aebb1d29655e7da7b33bc21f835e8f71f797aa"
+    },
+    {
+      "path": "results/task5/super_resolution/v1/residual_cnn_44_reconstruction.npz",
+      "bytes": 12239425,
+      "sha256": "ec510172be4526d2caf0cb1be0d025c50e00314f158adfb6b2fd5adff3c820bf"
+    },
+    {
+      "path": "data/shared/cache/contact_bands_100bp/WT_37C_rep1.npz",
+      "bytes": 8093000,
+      "sha256": "197477cbadf57ca98bddb6f430aaadabaa8f75763043fafdf8c9c839c71ea551"
+    },
+    {
+      "path": "results/task5/super_resolution/v1/distance_diagnostics.csv",
+      "bytes": 3619,
+      "sha256": "ab7689b5ad114c8a45323dc450ff3673d6a0dbb3469fd9cf9a7cd76b65e61d8f"
+    },
+    {
+      "path": "results/task5/super_resolution/v1/diagnostic_protocol.json",
+      "bytes": 266,
+      "sha256": "48e7775f3683355507dbe3cd9576bc248bebc5733f91b3d555c2414bddda33b3"
+    },
+    {
+      "path": "configs/task5/paired_analysis/paired_v1.json",
+      "bytes": 1023,
+      "sha256": "376831977e864bda2cdd9b80519878db988bbb3a833035d50cb9cc97fe04b683"
+    },
+    {
+      "path": "microcture/tasks/task5/analysis.py",
+      "bytes": 30677,
+      "sha256": "7e8ad03bc612787490897075c9354b381c8450cfe68a10546ec78fc1a3f5a3bb"
+    },
+    {
+      "path": "scripts/task5/analyze_saved.py",
+      "bytes": 254,
+      "sha256": "0dcf7cc4d93a1081516a2e5a97932de84fd9808114fbe776e0cbbdc42ee29293"
+    }
+  ]
+}

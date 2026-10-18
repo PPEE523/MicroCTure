@@ -1,0 +1,21 @@
+name: microcture
+channels:
+  - defaults
+dependencies:
+  - python=3.12.14
+  - pip=26.2.1
+  - pip:
+      - --extra-index-url https://download.pytorch.org/whl/cu130
+      - torch==2.13.0+cu130
+      - cooler==0.10.4
+      - numpy==2.5.3
+      - scipy==1.18.1
+      - pandas==3.0.6
+      - h5py==3.16.0
+      - openpyxl==3.1.5
+      - matplotlib==3.11.2
+      - scikit-learn==1.9.1
+      - joblib==1.6.0
+      - threadpoolctl==3.7.0
+      - PyYAML==6.0.3
+      - tqdm==4.70.1

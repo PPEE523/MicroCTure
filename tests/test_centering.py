@@ -4,14 +4,15 @@ from pathlib import Path
 import json
 import numpy as np
 
-sys.path.insert(0, str(Path(__file__).resolve().parents[1]/'scripts'))
+from microcture.layout import bootstrap, resolve
+bootstrap()
 from centering_sensitivity import occlusion_mask, variants
 
 
 class CenteringTest(unittest.TestCase):
     def test_full_grid_has_equal_interventions_for_both_anchors(self):
         root=Path(__file__).resolve().parents[1]
-        cfg=json.loads((root/'configs/centering_sensitivity.json').read_text())
+        cfg=json.loads(resolve(root/'configs/centering_sensitivity.json').read_text())
         grid=variants(cfg)
         self.assertEqual(len(grid),54)
         self.assertEqual(len({r['variant_id'] for r in grid}),54)

@@ -1,0 +1,59 @@
+{
+  "files": [
+    {
+      "path": "distance_stratification.png",
+      "bytes": 94236,
+      "sha256": "6093f2cbafb4824e5131ede95ea93e890b92574c1662d5a0cc3459e66abbd70b"
+    },
+    {
+      "path": "distance_summary.csv",
+      "bytes": 3079,
+      "sha256": "a948d32edecef30244eebcc6a7a66c79ec0bfea9d025dbf870bf8059cf4bf5f6"
+    },
+    {
+      "path": "final_summary.png",
+      "bytes": 244818,
+      "sha256": "9b8208532a703d5fe04e3b92061123335bdb09e9086f6e9ca5cfb0f7560f2b67"
+    },
+    {
+      "path": "index.html",
+      "bytes": 1173,
+      "sha256": "1a0e10b1525fe0450f2562f6180e1a706dc0a8513c7092bcabfbc85505679c42"
+    },
+    {
+      "path": "method_summary.csv",
+      "bytes": 1165,
+      "sha256": "daadcb20ee62bcbca2938f74eb6d5c4768b4d275554310a6e3e3954b2c249713"
+    },
+    {
+      "path": "pair_summary.csv",
+      "bytes": 22958,
+      "sha256": "9bb2f3473c0fd2e08c5761c8a50b20743337d1309160e803844cd17bd43a0f58"
+    },
+    {
+      "path": "paired_improvement.png",
+      "bytes": 301641,
+      "sha256": "b4203ecd9cd5ed0308313ad689aea88753c2ba51ef9eb481483ac9b5ef5ac48c"
+    },
+    {
+      "path": "paired_positions.csv",
+      "bytes": 20507,
+      "sha256": "6389daca0cea70d99ae8665e767e7a5bdc917b6db9e6d71f57f7ae2c487e5a89"
+    },
+    {
+      "path": "paired_windows.csv",
+      "bytes": 40690,
+      "sha256": "0c43e08dcf8f0fac36518399dc70e03f90277fe12024764738cb0183cf447284"
+    },
+    {
+      "path": "sources.json",
+      "bytes": 3465,
+      "sha256": "a44bc25c3da143815166d4e06176b5a65779412569341447a554ad0ab04cd826"
+    },
+    {
+      "path": "summary.json",
+      "bytes": 92045,
+      "sha256": "8c5e5e6ba32efc35258e98d2ef90e153500f9bcf7eb92da4dcf9278f884364ea"
+    }
+  ]
+}

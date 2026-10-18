@@ -1,0 +1,1559 @@
+{
+  "status": "frozen_failed_experiment",
+  "freeze_date": "2026-10-12",
+  "run_dir": "results/task1_comparison_v1",
+  "cache_dir": "data/cache/task1_comparison_v1",
+  "source_signature": "b02e98468d39c31f692502e99f4afe0af22060975d87ed5aa94bfae41262252e",
+  "dataset_signature": "d8b73b2bbab3863a8102f3fab4a2701c902219e65ec59c81ada472d7c31f5cd6",
+  "run_signature": "37e13a47879acd7f740bbb2569c5d72f6243507134ca062dd52e92e99110f7b3",
+  "files": [
+    {
+      "path": "results/task1_comparison_v1/comparison.csv",
+      "size_bytes": 1771,
+      "sha256": "8ff28109a7af28ed26b3757638b1600c519d3bd3d06807399903c54c32190440"
+    },
+    {
+      "path": "results/task1_comparison_v1/comparison.png",
+      "size_bytes": 51828,
+      "sha256": "4a7c5ca76229b4b08c593f61046958d0ebb985530f450718efb48cb3b3c6567b"
+    },
+    {
+      "path": "results/task1_comparison_v1/folds/fold_0.json",
+      "size_bytes": 45163,
+      "sha256": "0185f22c71b8c613556397a3616772607e75464692598253a1ea45af3a5c1ab3"
+    },
+    {
+      "path": "results/task1_comparison_v1/folds/fold_1.json",
+      "size_bytes": 45192,
+      "sha256": "61b611af02d4fffe3cdc92e9fa0e2c5b4a6c46b9e870d65692e466a8d66b265f"
+    },
+    {
+      "path": "results/task1_comparison_v1/folds/fold_2.json",
+      "size_bytes": 45157,
+      "sha256": "63c6495833940c85f4c2d5045c5ae8b8b6d61124ce773869e596fa81fa1b4f9f"
+    },
+    {
+      "path": "results/task1_comparison_v1/folds/fold_3.json",
+      "size_bytes": 45188,
+      "sha256": "794f878d4d357c94a8aeb819e10f5c1cafa97bc7ed204b847bb16c4dca03ee81"
+    },
+    {
+      "path": "results/task1_comparison_v1/folds/fold_4.json",
+      "size_bytes": 45150,
+      "sha256": "764383e27b17ce3793c400a3f0d86a37bf55aa7145125b4434a430d453b8b4fb"
+    },
+    {
+      "path": "results/task1_comparison_v1/manifest.json",
+      "size_bytes": 2876,
+      "sha256": "357559af692076a1187d8dc1e76a8ed6447563f9924abe1b2abd6d6172868a1a"
+    },
+    {
+      "path": "results/task1_comparison_v1/oof/cnn_transformer/seed_42/confusion_matrix.png",
+      "size_bytes": 51465,
+      "sha256": "a99d6cc1674ae891faa97dd701811adcb1fe7000111607d53ed73f6dbd715a46"
+    },
+    {
+      "path": "results/task1_comparison_v1/oof/cnn_transformer/seed_42/metrics.json",
+      "size_bytes": 894,
+      "sha256": "1e89151663e40a9673b69d7f6e1090efd2ffd665ad9f714ea3f7f8cff48d81b3"
+    },
+    {
+      "path": "results/task1_comparison_v1/oof/cnn_transformer/seed_42/predictions.csv",
+      "size_bytes": 115192,
+      "sha256": "702d291627c9a8dff334ce5975ef36043a087024278a8dae4d49f9512a4c65c1"
+    },
+    {
+      "path": "results/task1_comparison_v1/oof/cnn_transformer/seed_43/confusion_matrix.png",
+      "size_bytes": 51315,
+      "sha256": "860fad63893deb6949b6f3c9f14226f69b3bdffa816d3e3341458c79865da6bd"
+    },
+    {
+      "path": "results/task1_comparison_v1/oof/cnn_transformer/seed_43/metrics.json",
+      "size_bytes": 891,
+      "sha256": "8a5c7e28e89a654af32d8c46c6ec1ca607c48fc756b8c65975f54af1961f3bfe"
+    },
+    {
+      "path": "results/task1_comparison_v1/oof/cnn_transformer/seed_43/predictions.csv",
+      "size_bytes": 115330,
+      "sha256": "0b5a1e8a87f84a1879712d38f638ee07090966d8c09516f7ec71da94e4e67b7e"
+    },
+    {
+      "path": "results/task1_comparison_v1/oof/cnn_transformer/seed_44/confusion_matrix.png",
+      "size_bytes": 50116,
+      "sha256": "de6e71387e498add34abb576fe7d23db3adeaa39d2b4d1d8f51bdda2908f0143"
+    },
+    {
+      "path": "results/task1_comparison_v1/oof/cnn_transformer/seed_44/metrics.json",
+      "size_bytes": 879,
+      "sha256": "ad7241a6293f23d0effcb24b3d2a594a17824c9668d98e764264119c598ab3f0"
+    },
+    {
+      "path": "results/task1_comparison_v1/oof/cnn_transformer/seed_44/predictions.csv",
+      "size_bytes": 114898,
+      "sha256": "a3f04544ab34d380153baf237eebb53e56b5aeeb5937f57c271d371318c798cd"
+    },
+    {
+      "path": "results/task1_comparison_v1/oof/m2/seed_42/confusion_matrix.png",
+      "size_bytes": 48522,
+      "sha256": "969bb574ad3ecc3dc136672e58d0ed730dce3447a5bc42816a5de1a4533beefb"
+    },
+    {
+      "path": "results/task1_comparison_v1/oof/m2/seed_42/metrics.json",
+      "size_bytes": 906,
+      "sha256": "cf2e9c276b4fa493f4b7f8e8ce8de05ad91f5f34324b55230a6c739a5938e52a"
+    },
+    {
+      "path": "results/task1_comparison_v1/oof/m2/seed_42/predictions.csv",
+      "size_bytes": 116333,
+      "sha256": "54c720e8f5c8121b1c3ba47f633f7fd51fa1167d4c8b5b353404b6a076592b04"
+    },
+    {
+      "path": "results/task1_comparison_v1/oof/m2/seed_43/confusion_matrix.png",
+      "size_bytes": 47460,
+      "sha256": "6464a68de3aad9e80241eb1496ffa74c8e8e1a84865063196b4b31f86a66a0e9"
+    },
+    {
+      "path": "results/task1_comparison_v1/oof/m2/seed_43/metrics.json",
+      "size_bytes": 908,
+      "sha256": "6d4061ff9baa21ef513da8fe5b4ec91ca2dfb94d2874c1a2c29543665a0f0160"
+    },
+    {
+      "path": "results/task1_comparison_v1/oof/m2/seed_43/predictions.csv",
+      "size_bytes": 115178,
+      "sha256": "b873c35963d24d3b6de4e93ef264e2d3a95026ef3c2f977e72ae244c5b667fee"
+    },
+    {
+      "path": "results/task1_comparison_v1/oof/m2/seed_44/confusion_matrix.png",
+      "size_bytes": 48909,
+      "sha256": "6d6ff5f090c7a7d0887f464610ef2feaf81b27f969440727bf9edd744af898c7"
+    },
+    {
+      "path": "results/task1_comparison_v1/oof/m2/seed_44/metrics.json",
+      "size_bytes": 908,
+      "sha256": "b7280900efb97491759c4f79396fc15eca05bc347f66e477df76f1a56d03cfa9"
+    },
+    {
+      "path": "results/task1_comparison_v1/oof/m2/seed_44/predictions.csv",
+      "size_bytes": 116399,
+      "sha256": "79e5ff6680c9758f92e99708816a5e487cfa9d6c43fe0ed9f940f10f4b1d14be"
+    },
+    {
+      "path": "results/task1_comparison_v1/oof/m2plus/seed_42/confusion_matrix.png",
+      "size_bytes": 49034,
+      "sha256": "77b7df07c07daa54bf581d11b7a274926e4a62c117d459f877919f58d7999312"
+    },
+    {
+      "path": "results/task1_comparison_v1/oof/m2plus/seed_42/metrics.json",
+      "size_bytes": 908,
+      "sha256": "d0423d2fd939b59907860c5b1bdbb64afb020a0dafce22d2fd19fc3b66c3b8f9"
+    },
+    {
+      "path": "results/task1_comparison_v1/oof/m2plus/seed_42/predictions.csv",
+      "size_bytes": 114782,
+      "sha256": "0aa4d1872e2601bc5f20803599ee8a98ceaec45293452a0c05e560f642a419e6"
+    },
+    {
+      "path": "results/task1_comparison_v1/oof/m2plus/seed_43/confusion_matrix.png",
+      "size_bytes": 47944,
+      "sha256": "6bd09eae631ded8dfc450a45b1bc4aa0a4440bae7e448eb31f3c3d00a18da265"
+    },
+    {
+      "path": "results/task1_comparison_v1/oof/m2plus/seed_43/metrics.json",
+      "size_bytes": 907,
+      "sha256": "fe7c3dd15706bdcc48ed80a8b21ba383bb3dbbc43a37eadb6f82756cb52d5074"
+    },
+    {
+      "path": "results/task1_comparison_v1/oof/m2plus/seed_43/predictions.csv",
+      "size_bytes": 116190,
+      "sha256": "1d79b6e977b6811459abbc249886dc9ec01cf5037984574152b6af96b5e8c01b"
+    },
+    {
+      "path": "results/task1_comparison_v1/oof/m2plus/seed_44/confusion_matrix.png",
+      "size_bytes": 49784,
+      "sha256": "dd3b6497717cd0dae9b8ada2a3bbf8f6b2446170bef9e2fc41b03eb9e2cc7acb"
+    },
+    {
+      "path": "results/task1_comparison_v1/oof/m2plus/seed_44/metrics.json",
+      "size_bytes": 908,
+      "sha256": "4179e8f8587b469b8fe9806b4d582c147139ecbca982430942ec2bcf866243f7"
+    },
+    {
+      "path": "results/task1_comparison_v1/oof/m2plus/seed_44/predictions.csv",
+      "size_bytes": 115182,
+      "sha256": "ac3f4fca9d4dc3545e07eee8d99e82143617545a5b317b4f991a3a799646115d"
+    },
+    {
+      "path": "results/task1_comparison_v1/oof/pca_lr/seed_42/confusion_matrix.png",
+      "size_bytes": 50795,
+      "sha256": "1fa929d91d5ce7e305bf05a7477f81961fa58d85fa9b137173946d7b7664c854"
+    },
+    {
+      "path": "results/task1_comparison_v1/oof/pca_lr/seed_42/metrics.json",
+      "size_bytes": 908,
+      "sha256": "aa462876c06a8a616e4e13ebe2e66f2aa28c64a645fe4729d5a277b498500e67"
+    },
+    {
+      "path": "results/task1_comparison_v1/oof/pca_lr/seed_42/predictions.csv",
+      "size_bytes": 115662,
+      "sha256": "13321e83abb017f149e05d8b3d0198211da463282cb6159dba9ac721bb6b515b"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/cnn_transformer/seed_42/fold_0/best.pt",
+      "size_bytes": 505181,
+      "sha256": "ba897ec476a7b70e47f1af85a495e17494b25d5daf71d915f2d4b4c7be7ab881"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/cnn_transformer/seed_42/fold_0/history.csv",
+      "size_bytes": 2671,
+      "sha256": "839bd5d1ca9b7018e01ffde0c045efec7bd16edab9591a0cf83f37f30f4e152d"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/cnn_transformer/seed_42/fold_0/metrics.json",
+      "size_bytes": 4518,
+      "sha256": "3471de5397bbce54d97b90431ea3556db69c040e03267da3671536ce48793540"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/cnn_transformer/seed_42/fold_0/predictions.csv",
+      "size_bytes": 23068,
+      "sha256": "c7279df94c4df39d797abe4393e28ff2cba1c321b1075d4ac324172adfb24859"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/cnn_transformer/seed_42/fold_0/selection.json",
+      "size_bytes": 323,
+      "sha256": "7dcd25b0b92c2d7501c48e478fbe34d99396a11cf3fdfbe4ea020cf390fee969"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/cnn_transformer/seed_42/fold_1/best.pt",
+      "size_bytes": 505181,
+      "sha256": "5a4ef6b127511842b9bbcd9e4aa11f2fc723f0f90d4ccd9a1e82145c6e0290a1"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/cnn_transformer/seed_42/fold_1/history.csv",
+      "size_bytes": 2578,
+      "sha256": "0860019bf18ed363aef45442701742ceae98fd8c4d2b107182bc6102ddf842a0"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/cnn_transformer/seed_42/fold_1/metrics.json",
+      "size_bytes": 4515,
+      "sha256": "d7ab621a361a2a713409b8f578e404182779a6f9b7adcd8741971eac2278a6a2"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/cnn_transformer/seed_42/fold_1/predictions.csv",
+      "size_bytes": 23049,
+      "sha256": "52febb55d8314d7344424294296a037b567f2d2c39b0c57d9e30ab1f4c89a0d1"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/cnn_transformer/seed_42/fold_1/selection.json",
+      "size_bytes": 322,
+      "sha256": "fb1ea1899939e6c7612286079916f3a4545770914b0d77332308e5459d7944be"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/cnn_transformer/seed_42/fold_2/best.pt",
+      "size_bytes": 505181,
+      "sha256": "86eb36b7bdab3948f8223ae60650f07ac373579daa20917e2f93599ac3504896"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/cnn_transformer/seed_42/fold_2/history.csv",
+      "size_bytes": 2107,
+      "sha256": "faed730babc3731b2356ccd83bc2f84f97d01490bab7412cc3528ffbc48c8056"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/cnn_transformer/seed_42/fold_2/metrics.json",
+      "size_bytes": 4684,
+      "sha256": "b2caa181000e698139568a37bcefa22d845b55db3822190cc4875e9621c85364"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/cnn_transformer/seed_42/fold_2/predictions.csv",
+      "size_bytes": 23119,
+      "sha256": "a50d600ae41d6b58023e71a4edfad515653173926f157da65d4909980f315e17"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/cnn_transformer/seed_42/fold_2/selection.json",
+      "size_bytes": 323,
+      "sha256": "edf1bd70a08aae76744868ac726afd6bdd91744a1e592dc62dae8069e1f98b51"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/cnn_transformer/seed_42/fold_3/best.pt",
+      "size_bytes": 505181,
+      "sha256": "e227aab8ade0eee695b69897df47d9c51b6ff2a7c60a596480729ccc5c911bb7"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/cnn_transformer/seed_42/fold_3/history.csv",
+      "size_bytes": 2694,
+      "sha256": "03aa021ff32b2bdcba987ee8d5c084bf80022993b6aa2b46253d3375bba54b4a"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/cnn_transformer/seed_42/fold_3/metrics.json",
+      "size_bytes": 4685,
+      "sha256": "d49ab3ff5bc201a12723683bf9658ec5c38125b278b27e60238c5e015d26da54"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/cnn_transformer/seed_42/fold_3/predictions.csv",
+      "size_bytes": 23399,
+      "sha256": "53245deb3228950be9542aa4d373468a8aaef240ccdcda78e70a6d52cd618814"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/cnn_transformer/seed_42/fold_3/selection.json",
+      "size_bytes": 323,
+      "sha256": "cabb25a028cfd980818d28c4f190e2725430c2faa9f7de79884a22ac0645c693"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/cnn_transformer/seed_42/fold_4/best.pt",
+      "size_bytes": 505181,
+      "sha256": "226de2652638004c20ee6c03d5afd67ca37649dcf0afe80b283e2eac0d0241c6"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/cnn_transformer/seed_42/fold_4/history.csv",
+      "size_bytes": 1422,
+      "sha256": "6bb27fde028e0898ba74596b0854d0fa599e4db029f779828e3dd02a16a168a9"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/cnn_transformer/seed_42/fold_4/metrics.json",
+      "size_bytes": 4524,
+      "sha256": "53672e620b623201090fc0247417c3f79b1bff78749a03937879ba874fc1f3fe"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/cnn_transformer/seed_42/fold_4/predictions.csv",
+      "size_bytes": 23049,
+      "sha256": "2a125ed980b69cc32e37aa9e780afa77ace5d63a279d17c9406495152687a4c7"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/cnn_transformer/seed_42/fold_4/selection.json",
+      "size_bytes": 322,
+      "sha256": "b515ee2b54325febbfddebc493463f55a5cc3b901c5d4dc51351d194ff3493a0"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/cnn_transformer/seed_43/fold_0/best.pt",
+      "size_bytes": 505181,
+      "sha256": "83fa345b6883a25ed782c1099b8b0635f301302594b2416bd301ce919417745d"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/cnn_transformer/seed_43/fold_0/history.csv",
+      "size_bytes": 2670,
+      "sha256": "5f7f358c72a97f38a9a58eee791e2213af247fa25c4d23507790d58dd398aa42"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/cnn_transformer/seed_43/fold_0/metrics.json",
+      "size_bytes": 4630,
+      "sha256": "dca8c6e2d3a630e743e097ddfc78b8c6f1b9b5cae726f6a9d3b341404742b964"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/cnn_transformer/seed_43/fold_0/predictions.csv",
+      "size_bytes": 23206,
+      "sha256": "610b6e86346f8c0e0bcc57a6a7d2f000317909cf3f209182736cfd32aaab70a0"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/cnn_transformer/seed_43/fold_0/selection.json",
+      "size_bytes": 322,
+      "sha256": "c28f02f569c891e4f911388d35c2470a1645f6e608360a592a2fd8d8817509d5"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/cnn_transformer/seed_43/fold_1/best.pt",
+      "size_bytes": 505181,
+      "sha256": "727d1a7f2e74c07d7de60f33194cc9d119703158f43162fd49bb0194720ec9f2"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/cnn_transformer/seed_43/fold_1/history.csv",
+      "size_bytes": 3729,
+      "sha256": "0c1ec075ea61e1e1b166203aeb02ffb87dca2593fce0698afaf060b72303422c"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/cnn_transformer/seed_43/fold_1/metrics.json",
+      "size_bytes": 4620,
+      "sha256": "cea3d2b4dcad456e1042fedf3a5dd2cea050921259d64c2eda1e5fa428703455"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/cnn_transformer/seed_43/fold_1/predictions.csv",
+      "size_bytes": 23624,
+      "sha256": "139c47c128744a8cdc4a04162cfa881f490104b36b361b9a7cbe8a67f25a6542"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/cnn_transformer/seed_43/fold_1/selection.json",
+      "size_bytes": 321,
+      "sha256": "ccc276852ce2e74fabc10206a223e3df4ca88398f68e2474920920f095b4ea67"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/cnn_transformer/seed_43/fold_2/best.pt",
+      "size_bytes": 505181,
+      "sha256": "83c6ffcb156ff06f619f3ce0e524660d0ca6b5136bea145d479935dbd70f212c"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/cnn_transformer/seed_43/fold_2/history.csv",
+      "size_bytes": 1656,
+      "sha256": "b64822d9a91e604fc223ed8fe247a3eae6fd420e39b991534d22d93c60b4cd2d"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/cnn_transformer/seed_43/fold_2/metrics.json",
+      "size_bytes": 4516,
+      "sha256": "d60201e4edbe9a51f704b40bd3ac8116d4e733a770724c397260d29fd79539f1"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/cnn_transformer/seed_43/fold_2/predictions.csv",
+      "size_bytes": 22320,
+      "sha256": "53220b592f54173d550eb5a8be26d8a04cd5350333034b0c1983efe62fdce8d3"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/cnn_transformer/seed_43/fold_2/selection.json",
+      "size_bytes": 322,
+      "sha256": "893c7b5123e51bd6621ac3473db6913b1e16efe403f678c1a027db57ad6f6011"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/cnn_transformer/seed_43/fold_3/best.pt",
+      "size_bytes": 505181,
+      "sha256": "cd964e913b934c4df8fdb6f5bb2a8162620dcfedf21b8ffbfd60d0a4b6674227"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/cnn_transformer/seed_43/fold_3/history.csv",
+      "size_bytes": 3681,
+      "sha256": "4056c3c6ce4f18d0789c432187aa67bdcd8c22f71339cbdd4f8d62d76152e733"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/cnn_transformer/seed_43/fold_3/metrics.json",
+      "size_bytes": 4617,
+      "sha256": "3ab4d0669f68ac7bbe1fa5a6f076f95978d9cae33e11f2a638cb5a93dc8d1e4d"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/cnn_transformer/seed_43/fold_3/predictions.csv",
+      "size_bytes": 23218,
+      "sha256": "e39189865d776c796cca91ca441232759b4f49ce81cc72aaf92a37f4f93accab"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/cnn_transformer/seed_43/fold_3/selection.json",
+      "size_bytes": 323,
+      "sha256": "232f2271083bda17e80d677c8dd01aa4dbfb9dde49da332f5fba07664e7fc7a2"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/cnn_transformer/seed_43/fold_4/best.pt",
+      "size_bytes": 505181,
+      "sha256": "baf88a452fb5c013882c55501a402076eaa974348250b67a119a14f15458141b"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/cnn_transformer/seed_43/fold_4/history.csv",
+      "size_bytes": 3361,
+      "sha256": "992955be716aff84ccd097f50def540ae0c6c7fb43f7a2c71f7e58e7f943d5b4"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/cnn_transformer/seed_43/fold_4/metrics.json",
+      "size_bytes": 4645,
+      "sha256": "10fbab7fc2dee65f941b211f78a41ec37b8d21e452ed8fe384bfb1c724b4603a"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/cnn_transformer/seed_43/fold_4/predictions.csv",
+      "size_bytes": 23454,
+      "sha256": "0b4f184b9d14854c66845450be5c464e515edbafe576699533922dd7bbf89dd9"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/cnn_transformer/seed_43/fold_4/selection.json",
+      "size_bytes": 323,
+      "sha256": "eb559fe5f0397a3eb7eed056ac7ee95e57e5055157fb3d2f9597e262dc1fe165"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/cnn_transformer/seed_44/fold_0/best.pt",
+      "size_bytes": 505181,
+      "sha256": "1c006a9f43a0f01638090b6cfbdf4c7d19f7de4977aa7a8d8fdb621c606da6a6"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/cnn_transformer/seed_44/fold_0/history.csv",
+      "size_bytes": 3387,
+      "sha256": "ac756ae09115870c8ffc87df51ba63d83d5987db0a7d218f397019ae36dc5a53"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/cnn_transformer/seed_44/fold_0/metrics.json",
+      "size_bytes": 4586,
+      "sha256": "aad4ba2a827ff24371ad87fa70c30b67f6515179101e0eb639eab6368e3a8f8d"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/cnn_transformer/seed_44/fold_0/predictions.csv",
+      "size_bytes": 22954,
+      "sha256": "169b5bc08c952b6a8f3ef92c4a96acb3c023ed5398effba646b314f311b98821"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/cnn_transformer/seed_44/fold_0/selection.json",
+      "size_bytes": 322,
+      "sha256": "973a57018b410ad5459490d2ce2f1d0a6bcc185cc9f50706445cbaf0f1b3f78d"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/cnn_transformer/seed_44/fold_1/best.pt",
+      "size_bytes": 505181,
+      "sha256": "7aef99e199fd812fe3e1369689454649d00b1f56c9231db646f4370c8d3ec8f9"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/cnn_transformer/seed_44/fold_1/history.csv",
+      "size_bytes": 2057,
+      "sha256": "bc07e598fd5a0f9b7d1f1421191aac2efe39fa2fe680f2174bd89460d164c024"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/cnn_transformer/seed_44/fold_1/metrics.json",
+      "size_bytes": 4659,
+      "sha256": "73158cc99c0cee3413a55799e34979392c0cc0fdf7081f0a8bcd2125eb2b78cd"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/cnn_transformer/seed_44/fold_1/predictions.csv",
+      "size_bytes": 23332,
+      "sha256": "05b0e744bebf1ad2927b15f08e824a3902176897effc5c15260fb1d5df1cb986"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/cnn_transformer/seed_44/fold_1/selection.json",
+      "size_bytes": 323,
+      "sha256": "045183af204652ea6214555194e98f91ad9200ff8ee7a89e75658fe353987d19"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/cnn_transformer/seed_44/fold_2/best.pt",
+      "size_bytes": 505181,
+      "sha256": "7b41e285f915a54ae7cc9b83fd4765a16b920c4b4425fbf4abaebe6509d083bc"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/cnn_transformer/seed_44/fold_2/history.csv",
+      "size_bytes": 3110,
+      "sha256": "5442e798d5c71c9668078912793ec91df2b8108c69e71934efe23a699061687f"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/cnn_transformer/seed_44/fold_2/metrics.json",
+      "size_bytes": 4640,
+      "sha256": "510d473092e84c82d3294451ee7643a0e13f21f9130486ce887a65b97111ce90"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/cnn_transformer/seed_44/fold_2/predictions.csv",
+      "size_bytes": 23019,
+      "sha256": "a2277e32dcd98fc04a8ed162c8f3e00039a9abf670d0e25111d654f435354296"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/cnn_transformer/seed_44/fold_2/selection.json",
+      "size_bytes": 322,
+      "sha256": "a6faffbf0732faa1b0ff5f483a4d31da1cdcb760b2bfd3c0c57433e3f43773f9"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/cnn_transformer/seed_44/fold_3/best.pt",
+      "size_bytes": 505181,
+      "sha256": "81a95bf1ae797336191dcd98fb4bad20bf7d6d55ae4ca8934279646910a27c5a"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/cnn_transformer/seed_44/fold_3/history.csv",
+      "size_bytes": 4221,
+      "sha256": "e114c6cd619113e4fbafe671ada9c4b851ab474e414f28adca32628833842a25"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/cnn_transformer/seed_44/fold_3/metrics.json",
+      "size_bytes": 4627,
+      "sha256": "ec4d55d9876a8997546772191e441a4a7f59fda9efa8da6888d8da8908c8cbba"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/cnn_transformer/seed_44/fold_3/predictions.csv",
+      "size_bytes": 23189,
+      "sha256": "bb7fd5c21c23c9089a04d117f66e5e76973d9aec55ab87e7cbfd21d5ddcccc27"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/cnn_transformer/seed_44/fold_3/selection.json",
+      "size_bytes": 323,
+      "sha256": "0cef6a8fa25c1a5fb8eff18b1e2731a82348f235d412eeaff52228eece0e18ca"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/cnn_transformer/seed_44/fold_4/best.pt",
+      "size_bytes": 505181,
+      "sha256": "551965b8d9c8f39296a22d62f3584a5f117b877580c8743d1df3d285d032d8d6"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/cnn_transformer/seed_44/fold_4/history.csv",
+      "size_bytes": 2951,
+      "sha256": "506559e773c72d4d67d017abfcb0c450c6e85d12b1cb7dd4ba9066f42e63ad07"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/cnn_transformer/seed_44/fold_4/metrics.json",
+      "size_bytes": 4643,
+      "sha256": "876d042b0f864631bad24560707bda1dd253db25b4f21e863d90acbdee14495c"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/cnn_transformer/seed_44/fold_4/predictions.csv",
+      "size_bytes": 22896,
+      "sha256": "123fa740ce9dd7ff4a87cc7b4625efe1754eb57d1b275e5a2b49a84a8fa93cf7"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/cnn_transformer/seed_44/fold_4/selection.json",
+      "size_bytes": 323,
+      "sha256": "aca615b5a070587be5ed511397a165137f46b74c956cb58c17b6631b33efac96"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/m2/seed_42/fold_0/best.pt",
+      "size_bytes": 116977,
+      "sha256": "317b8aa9a41ea6ab3ddcb325dbba1c13688bf3ae965673e80c7079d1546f68da"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/m2/seed_42/fold_0/history.csv",
+      "size_bytes": 3623,
+      "sha256": "2c55e2253ce0d59360ed3c7f854e3ee1d2fb8437ad64d038d41b2c7749af93bd"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/m2/seed_42/fold_0/metrics.json",
+      "size_bytes": 4483,
+      "sha256": "98aacac2910387826d8304f1d09bdf48f63ca1410db9a8dd311ca07688fe872e"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/m2/seed_42/fold_0/predictions.csv",
+      "size_bytes": 23406,
+      "sha256": "05b7e5ef8fbb6d4d4914325491c6abb423848d893920d1cb50f1801252b2c649"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/m2/seed_42/fold_0/selection.json",
+      "size_bytes": 322,
+      "sha256": "3dab747f0d6bd7410e55538735f27fdbd1e2dc1b6aeff1b11efb64d010a0bf20"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/m2/seed_42/fold_1/best.pt",
+      "size_bytes": 116977,
+      "sha256": "4fe1df045ef59b59fd491c6e79ca19aad77c3d35d806db58b4361ec02f18f24f"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/m2/seed_42/fold_1/history.csv",
+      "size_bytes": 5130,
+      "sha256": "229656c1956f6e71eafcb0b090f263d0be00892be0dd395e1b92809599fa274f"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/m2/seed_42/fold_1/metrics.json",
+      "size_bytes": 4498,
+      "sha256": "ea498ef61eee0758046f1488aef167bcc11e47bf1d73b68ad50f2d021cf0c09f"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/m2/seed_42/fold_1/predictions.csv",
+      "size_bytes": 23536,
+      "sha256": "ea1ebd89918f7a785792d55d24e247376bf57b606d120521dae14a44d86cb9ae"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/m2/seed_42/fold_1/selection.json",
+      "size_bytes": 323,
+      "sha256": "b641526d302ef77e83cfc16915cd2ce1bd879c4ae18149a73950d00db0cd7af2"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/m2/seed_42/fold_2/best.pt",
+      "size_bytes": 116977,
+      "sha256": "41a03d3a4e97992baabd252aab9862975e25bbca68301fdd094e8ac476e14243"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/m2/seed_42/fold_2/history.csv",
+      "size_bytes": 4405,
+      "sha256": "0a069aae35e55251882ca5e9dbd5364b993bf3f87fed1324d252097413304214"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/m2/seed_42/fold_2/metrics.json",
+      "size_bytes": 4447,
+      "sha256": "f4d52f00f738ae07b24c3f414f0da7f791fcedb4a0d469caecc195229a6220b5"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/m2/seed_42/fold_2/predictions.csv",
+      "size_bytes": 23192,
+      "sha256": "bd5e0a500151b291e472cf6d9883445b94a3f5db306903f98bab49d2ef350589"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/m2/seed_42/fold_2/selection.json",
+      "size_bytes": 322,
+      "sha256": "1fac71419ba1dfe7224389a0ab98dc5c31e6baf8af9caf0fa1b347b3d53ace2d"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/m2/seed_42/fold_3/best.pt",
+      "size_bytes": 116977,
+      "sha256": "3febd38aaff5265fa3419db96493fbdbe347ac1ba2904db376bdec1f77a08304"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/m2/seed_42/fold_3/history.csv",
+      "size_bytes": 4361,
+      "sha256": "8b328d022f5d61c1f2438989ee789d357a3e834baf724f91374a52c542f541cb"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/m2/seed_42/fold_3/metrics.json",
+      "size_bytes": 4452,
+      "sha256": "d9136fd9cc69fca5c3e7bdd6f9d01ff7b49622d28c8f13002540921eb1b40555"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/m2/seed_42/fold_3/predictions.csv",
+      "size_bytes": 23356,
+      "sha256": "bfe6b12f0b0689721f9532bb0d15b683c70939c2711e05aa465a3e733abf6fe3"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/m2/seed_42/fold_3/selection.json",
+      "size_bytes": 321,
+      "sha256": "60ddd4769374dcbbf5b3fd81a39caa4fec7ab9181ce52194bfd971c96dbba8f1"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/m2/seed_42/fold_4/best.pt",
+      "size_bytes": 116977,
+      "sha256": "67679b3408ef414b72604d40404ea0fa122bbcb531b130cb4d0f81fb070fb654"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/m2/seed_42/fold_4/history.csv",
+      "size_bytes": 3776,
+      "sha256": "865f24b81a88b0436b7ee7f3cd908c21ef0e4bd75fa4582c65b7dd24664fe424"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/m2/seed_42/fold_4/metrics.json",
+      "size_bytes": 4511,
+      "sha256": "5e5f4379dc47a516fc35530630596cbf644ef9bb5ef2210f8c790e83835fc2b2"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/m2/seed_42/fold_4/predictions.csv",
+      "size_bytes": 23335,
+      "sha256": "bec93f76ce48e8bc5fefb8c51bb281a45cfe1e2251890525918b5851cb6cfa7d"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/m2/seed_42/fold_4/selection.json",
+      "size_bytes": 324,
+      "sha256": "0da69410ee51488eb274251741e3b713fa75794ae0af44b0ab986203c4d418ad"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/m2/seed_43/fold_0/best.pt",
+      "size_bytes": 116977,
+      "sha256": "d19d32cbd1cbccb3d6272699de6be9d018256877ef9fa9ec8daf58d677894215"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/m2/seed_43/fold_0/history.csv",
+      "size_bytes": 3426,
+      "sha256": "7cfd977ee0bd78ab5411597d7a7ee5b446cab84059bf935b74990c562c8975e8"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/m2/seed_43/fold_0/metrics.json",
+      "size_bytes": 4484,
+      "sha256": "5feeeaf71ee7c7d5f5eb56a30f453286f62726e305be01639ee8c7256f362577"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/m2/seed_43/fold_0/predictions.csv",
+      "size_bytes": 23298,
+      "sha256": "8a3112b5984d8cd511dabb3e07a36d497bba207532b8d6bdea15f40cec9babd5"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/m2/seed_43/fold_0/selection.json",
+      "size_bytes": 323,
+      "sha256": "e262455cd9279bdc2b33f597dbbeaa04cbbbc85b8757feb1202e4f3e17cb5ee8"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/m2/seed_43/fold_1/best.pt",
+      "size_bytes": 116977,
+      "sha256": "dd99488295863e9f237b30c67e2342ee19fcccd740754478809494395fa3e752"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/m2/seed_43/fold_1/history.csv",
+      "size_bytes": 1806,
+      "sha256": "51c46f6ac05624caf36ce2c0128c89606c09428ad76c3f767b3ee0007d53d24b"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/m2/seed_43/fold_1/metrics.json",
+      "size_bytes": 4525,
+      "sha256": "fa3faa9fe09d46bf93c185198aba5c43db4f636bb89132a88c968242707fb9ac"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/m2/seed_43/fold_1/predictions.csv",
+      "size_bytes": 22957,
+      "sha256": "370ae45d2af95572710f4e7f7574dc826d820b593756f817e458b84069e87fdb"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/m2/seed_43/fold_1/selection.json",
+      "size_bytes": 321,
+      "sha256": "49ff1c56832630df7f4c29646aaa6a4345d82dd4132509847305c39ea7de9795"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/m2/seed_43/fold_2/best.pt",
+      "size_bytes": 116977,
+      "sha256": "5a17b609dbc2aed02283ebb70ceccb029daf22d461c25b8be7ec2cbe2665f0e2"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/m2/seed_43/fold_2/history.csv",
+      "size_bytes": 2665,
+      "sha256": "3534392e081fe06c11d605d3c014fcc5af2e03bcd561990a9a670d21d42602f9"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/m2/seed_43/fold_2/metrics.json",
+      "size_bytes": 4519,
+      "sha256": "6c1b768bc838144721e53921e28a333d2e33fc6e3dee4eb70819fa7abdaf6442"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/m2/seed_43/fold_2/predictions.csv",
+      "size_bytes": 22775,
+      "sha256": "dc51a6311366411b0acdf390ce016c25ea660b889c5b2103e93e16aadc71259b"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/m2/seed_43/fold_2/selection.json",
+      "size_bytes": 322,
+      "sha256": "957b50869b4a8f1cd9bdc8ec57019f4565ceb2318f3ca186a66db372aec091c1"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/m2/seed_43/fold_3/best.pt",
+      "size_bytes": 116977,
+      "sha256": "2900c31c1101206afca34a1526dc27da8a84326aea2488cc93f985f10bed9bd9"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/m2/seed_43/fold_3/history.csv",
+      "size_bytes": 3372,
+      "sha256": "be8f393ccb15b8feeecc21623c4a7278def00c8e988c60e9e2cfdcea0a0b2d83"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/m2/seed_43/fold_3/metrics.json",
+      "size_bytes": 4409,
+      "sha256": "f4d8f72ac66a1e52ac1acf1ef0bf030c6f2409836b0c34b2574dc52ae78cc98d"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/m2/seed_43/fold_3/predictions.csv",
+      "size_bytes": 23353,
+      "sha256": "a8fda6ea2ab163c30932ce833b5568547c58f3ab809165cd464d11edc0635e59"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/m2/seed_43/fold_3/selection.json",
+      "size_bytes": 323,
+      "sha256": "162646f28b157e8da29a3c58d4b86bc6d1ed944f91667d085fa6b00c8a2a28f6"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/m2/seed_43/fold_4/best.pt",
+      "size_bytes": 116977,
+      "sha256": "fd7cb1c8c2d584e2e2d2a3945e8ea34e153a881bd09ad4a0094ef98168f0d80e"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/m2/seed_43/fold_4/history.csv",
+      "size_bytes": 3822,
+      "sha256": "7d9ff6025df1c21f79cc5639ceb5b953db275b63b60d9203815d0d1102ad6983"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/m2/seed_43/fold_4/metrics.json",
+      "size_bytes": 4469,
+      "sha256": "6a55686e91303180578dd3bf22f81a9870263f643147d07ca1bc1c186736f169"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/m2/seed_43/fold_4/predictions.csv",
+      "size_bytes": 23287,
+      "sha256": "f11a58e640bfaf8511c7a18d8e46034d08cca86b7c2a7efbfba08d27c6a28c29"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/m2/seed_43/fold_4/selection.json",
+      "size_bytes": 324,
+      "sha256": "37c78eb355d57b76e8d1041ec8a9dce854fc8572c93379fcc4074e97611ec1df"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/m2/seed_44/fold_0/best.pt",
+      "size_bytes": 116977,
+      "sha256": "a1d7603403644ddb987ffa588f526e7a3d3b8a98cad24074919d7d4f5132e94b"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/m2/seed_44/fold_0/history.csv",
+      "size_bytes": 4156,
+      "sha256": "c60d881f399b367833c4e64b2f266247f95279b4a955a5c561d3a409f7d0d488"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/m2/seed_44/fold_0/metrics.json",
+      "size_bytes": 4477,
+      "sha256": "3a08a738d656b2edcff3eeadfb9e9f285d0bdca614643120007d4df41041c209"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/m2/seed_44/fold_0/predictions.csv",
+      "size_bytes": 23511,
+      "sha256": "614882484d986a1ed5d4e1d60da101be1a2141dcee7fdf623229101c4e43c00b"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/m2/seed_44/fold_0/selection.json",
+      "size_bytes": 323,
+      "sha256": "bb8ef7f19d33fb526e374101237bf07a9c8f38a93126954317adeca683d88d85"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/m2/seed_44/fold_1/best.pt",
+      "size_bytes": 116977,
+      "sha256": "593c405ef965c5ef6c116f2f92a58ff36e9d44e9f43e0ef080b5474c3b549faa"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/m2/seed_44/fold_1/history.csv",
+      "size_bytes": 5002,
+      "sha256": "9f49d44ffee3e937458b7998ee0be9014bfe4767c480af29b4fb436c9c0e6cd9"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/m2/seed_44/fold_1/metrics.json",
+      "size_bytes": 4463,
+      "sha256": "2977d0e789a0aff711dbc297bab2ce4d2b207d1409fb00132ebd27b2a86dc09e"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/m2/seed_44/fold_1/predictions.csv",
+      "size_bytes": 23514,
+      "sha256": "6c8949ddcc05b5baa73f19c2fc0411c6996296f6e7e3c218b7cfa75d07d6b9f1"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/m2/seed_44/fold_1/selection.json",
+      "size_bytes": 322,
+      "sha256": "5ecce54cc6e7fdb0896657b4b6b9578aeb1638d360b136dfd7e68715be088c5f"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/m2/seed_44/fold_2/best.pt",
+      "size_bytes": 116977,
+      "sha256": "004eca7903340102972d361ce7361ba582fe4c9f96147876e1cecb154430733b"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/m2/seed_44/fold_2/history.csv",
+      "size_bytes": 3933,
+      "sha256": "bba2514f52c22993f0bbd195fcbc5e02e4c316e1d802c5f27873f476c65a327f"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/m2/seed_44/fold_2/metrics.json",
+      "size_bytes": 4504,
+      "sha256": "fbae400aba06b05602549dcf1e84093216b411a2b95811cbf239190e10769a69"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/m2/seed_44/fold_2/predictions.csv",
+      "size_bytes": 23056,
+      "sha256": "e9be9a6edd021c8bd5086dae8505f461ffea0d997ea2935da5e40b81f41f2363"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/m2/seed_44/fold_2/selection.json",
+      "size_bytes": 323,
+      "sha256": "e31d6766e15901e36f844b56d4400bd7ae352b6910c691b2274bdc594a3c1238"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/m2/seed_44/fold_3/best.pt",
+      "size_bytes": 116977,
+      "sha256": "251da8bd4f291ff49adf479db2d28272a13b798fe653ef134f18fd584bb41d6b"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/m2/seed_44/fold_3/history.csv",
+      "size_bytes": 4821,
+      "sha256": "9c12cb5e88a9c5c9bb5600c5bc9bfb13deccfec1bc1221fd0d00bd5db755e834"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/m2/seed_44/fold_3/metrics.json",
+      "size_bytes": 4390,
+      "sha256": "0772b26fc1e47f4c8c2422580a3dd167abd451fe4b9aa3efa235fc8a531f9457"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/m2/seed_44/fold_3/predictions.csv",
+      "size_bytes": 23585,
+      "sha256": "227a046404664ebf34d7da8b967773360922e2526f31845646bfb0cac5b29ec2"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/m2/seed_44/fold_3/selection.json",
+      "size_bytes": 323,
+      "sha256": "4a7b2716a316c718b78d661a4651e29b3d7dc2308c74e42c0e81b9c00336f4c2"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/m2/seed_44/fold_4/best.pt",
+      "size_bytes": 116977,
+      "sha256": "f4fd2af33cd596bdcf5916e4b64c3ccd38263956d82d8642b159e194ae1c1dc7"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/m2/seed_44/fold_4/history.csv",
+      "size_bytes": 3419,
+      "sha256": "402a91cf493e17006d5fef85fb129803783175780c640cbf7015ccec35240c24"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/m2/seed_44/fold_4/metrics.json",
+      "size_bytes": 4492,
+      "sha256": "751e3cfe02ba41439ec2d39d6b3b95eada73cc0522811054e1d3940bf9249e7a"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/m2/seed_44/fold_4/predictions.csv",
+      "size_bytes": 23225,
+      "sha256": "24b9324b4e3132b5a88a8535703f2ed041b735bdc5c5f6c994897962dc21f2dd"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/m2/seed_44/fold_4/selection.json",
+      "size_bytes": 321,
+      "sha256": "2f4b94c79924d1820382f7f1d045c5ba703a729d4acb3b84019363259ff1ea8f"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/m2plus/seed_42/fold_0/best.pt",
+      "size_bytes": 436289,
+      "sha256": "a09245efbeca6b1d40e4e825dc45e40173250cc3996937aad7954257eed87a29"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/m2plus/seed_42/fold_0/history.csv",
+      "size_bytes": 5254,
+      "sha256": "bf33ce44ab5a2cfbeae47afd355232cd7444db458dfa88a5843c8c8afc0eb9b8"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/m2plus/seed_42/fold_0/metrics.json",
+      "size_bytes": 4587,
+      "sha256": "294795e382657ae117f20397529b2aab8b775fe6e49480949892b4b56313b286"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/m2plus/seed_42/fold_0/predictions.csv",
+      "size_bytes": 23001,
+      "sha256": "adeeeb9901099ef2308bcdabedfae23b8212a70b6507b58deaf40ea29f8a371d"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/m2plus/seed_42/fold_0/selection.json",
+      "size_bytes": 323,
+      "sha256": "899a54deff24fdab34fa6d3e03a64ba177c2b019e861a9440a222fb82ff6ec58"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/m2plus/seed_42/fold_1/best.pt",
+      "size_bytes": 436289,
+      "sha256": "87a7ea7b23ae9517122780f5b32dbd96faed9b650b95ea9435ce3469a94d9cb6"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/m2plus/seed_42/fold_1/history.csv",
+      "size_bytes": 3984,
+      "sha256": "8e77d14e46f80568faa127d3434d8936fd26ed69b38760e6af5e551fba77e8d9"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/m2plus/seed_42/fold_1/metrics.json",
+      "size_bytes": 4641,
+      "sha256": "8285f1e7a8388e3204377da9ae5f6552cb05b20b7cf56162c09fef555ba0a3d3"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/m2plus/seed_42/fold_1/predictions.csv",
+      "size_bytes": 23196,
+      "sha256": "33497787c0ef8fbcf666b21243fb421f3543435265f7f8cace0d830e909ef55e"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/m2plus/seed_42/fold_1/selection.json",
+      "size_bytes": 323,
+      "sha256": "91c86170efdae6a603df57397481730ddec2387542f5984216af8aa8e717e974"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/m2plus/seed_42/fold_2/best.pt",
+      "size_bytes": 436289,
+      "sha256": "b3b56218c5be531a2a65b2e79668a98b473676d55abdd18d82305b291d35184b"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/m2plus/seed_42/fold_2/history.csv",
+      "size_bytes": 2426,
+      "sha256": "ded36dd78b1db710f5b3da15b602c271f63fd44aca79df47a2fb5b6dd05f936c"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/m2plus/seed_42/fold_2/metrics.json",
+      "size_bytes": 4499,
+      "sha256": "0b39b5063907b1ada12a58b2cc880ac7c04fc57a824f81a9b6262ebaffe3114c"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/m2plus/seed_42/fold_2/predictions.csv",
+      "size_bytes": 22524,
+      "sha256": "4e30106fb223b6a5403912babdb6b04fa5d50c36dc821249958b15b4913946e5"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/m2plus/seed_42/fold_2/selection.json",
+      "size_bytes": 323,
+      "sha256": "a208c2a88302af1a7a71486d5130703f76a269d3a38f9c0e312809f716cad299"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/m2plus/seed_42/fold_3/best.pt",
+      "size_bytes": 436289,
+      "sha256": "a7aa5dc5d43cac0f802a35b391b9510594669d46288d4dc59eb1ca270194734c"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/m2plus/seed_42/fold_3/history.csv",
+      "size_bytes": 2924,
+      "sha256": "6c8f8fd4bef1968b63f7e353bb45bd3fd762778efc7dcbf46408abaaa1c5165c"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/m2plus/seed_42/fold_3/metrics.json",
+      "size_bytes": 4594,
+      "sha256": "1ee144d9d9e31a4d5fce0e390a0fc1b55ebac97c217e194e36c391004a3a1cd1"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/m2plus/seed_42/fold_3/predictions.csv",
+      "size_bytes": 23483,
+      "sha256": "2a7fa00d19812ce5d06a4bce02309a4966d668cb3fd8f22248118978bd032408"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/m2plus/seed_42/fold_3/selection.json",
+      "size_bytes": 322,
+      "sha256": "fb5237089926045e520ab9b4ead22dc861089a9d05318e5114eba57358afd3ff"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/m2plus/seed_42/fold_4/best.pt",
+      "size_bytes": 436289,
+      "sha256": "228533d5ab700e32a63e81650fb079ce802f0455868e7e3d3da800ee91ae1fce"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/m2plus/seed_42/fold_4/history.csv",
+      "size_bytes": 3300,
+      "sha256": "9a15f0269c2c04b9802ca2e21ef1cc671a3f121fe4d9618336d3243e9ae485e4"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/m2plus/seed_42/fold_4/metrics.json",
+      "size_bytes": 4657,
+      "sha256": "a85d2315f79f8d436595d3f3ea18200f52dcd2366761709264fd7c3c238492b4"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/m2plus/seed_42/fold_4/predictions.csv",
+      "size_bytes": 23070,
+      "sha256": "db9fb0584eab5a55fe51f1474ceba1b7be19662e7478bb7fe3b87a420b3d07ab"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/m2plus/seed_42/fold_4/selection.json",
+      "size_bytes": 324,
+      "sha256": "6a0c0e993d5210ef900877c9b54d11f8c0ad8582e2377bca8379c0709fe7cac1"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/m2plus/seed_43/fold_0/best.pt",
+      "size_bytes": 436289,
+      "sha256": "bb92e6b8e55d060939f56206e21ce0ffb4de97d3ed8b045a185b44afc100d92c"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/m2plus/seed_43/fold_0/history.csv",
+      "size_bytes": 2086,
+      "sha256": "1e210365ab60153305fd2006256296f1126fb2d0a63b98e8737586d09360f5cb"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/m2plus/seed_43/fold_0/metrics.json",
+      "size_bytes": 4625,
+      "sha256": "806c270170ba6171499e93c7c4cd6e71006971e28b709c3854c221b148014da6"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/m2plus/seed_43/fold_0/predictions.csv",
+      "size_bytes": 23500,
+      "sha256": "298ce42eab697b22883c3f2b24190a6acdd1e6bdc42dfd1b371cbe12a6850030"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/m2plus/seed_43/fold_0/selection.json",
+      "size_bytes": 321,
+      "sha256": "8e62f393903a1c647a9a1fb2ae0dc8b471cb6e2112fe5e2f0ae58c9f0df014a8"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/m2plus/seed_43/fold_1/best.pt",
+      "size_bytes": 436289,
+      "sha256": "e28893a33a4d47641dda7e0c7a87000cc8dc565133695c841859a784a043f449"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/m2plus/seed_43/fold_1/history.csv",
+      "size_bytes": 4894,
+      "sha256": "e9baf632a742354d477ca2a7170ca1a5e9b3fc7ceb226103381d65786f0398e3"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/m2plus/seed_43/fold_1/metrics.json",
+      "size_bytes": 4656,
+      "sha256": "7a169318479cd64180e771c62f53606ecf0f66688c8c8ed5092e84e47449fdd7"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/m2plus/seed_43/fold_1/predictions.csv",
+      "size_bytes": 23004,
+      "sha256": "c61306265a1f6b59b84cf811e02dd67590d2c41890e5202f7354f17e225f2070"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/m2plus/seed_43/fold_1/selection.json",
+      "size_bytes": 323,
+      "sha256": "148fbda8eeb6af33a663540457281ff017e4df49f98e934112c2f5faace3d4b3"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/m2plus/seed_43/fold_2/best.pt",
+      "size_bytes": 436289,
+      "sha256": "0939bd734f557674e998e5cb3a5db1aa41abc6d823a56945fee1f9be29d59db0"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/m2plus/seed_43/fold_2/history.csv",
+      "size_bytes": 2947,
+      "sha256": "fa46c705a24e34491678598327e4d92f350408da25d430d62b8502d3265f4c0f"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/m2plus/seed_43/fold_2/metrics.json",
+      "size_bytes": 4637,
+      "sha256": "92a725c3dd3330fda0d697f123cd08311df4b6a073f2ec48c7623386051f18bc"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/m2plus/seed_43/fold_2/predictions.csv",
+      "size_bytes": 23328,
+      "sha256": "0cdd83d6be5b1c9fb2400bfea00f6e4b96e1179e7e8de318bbcb25511b5b658f"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/m2plus/seed_43/fold_2/selection.json",
+      "size_bytes": 322,
+      "sha256": "f7f839daec4cd2c816f2006ac96be71820ff1abc0933515090d3561e661a5238"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/m2plus/seed_43/fold_3/best.pt",
+      "size_bytes": 436289,
+      "sha256": "cdaac16e4b9b24b64a689180aa936d0dc39e7f743cf6c7cd3fdbd0231ff8f5e6"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/m2plus/seed_43/fold_3/history.csv",
+      "size_bytes": 4009,
+      "sha256": "af0571a0ab89c845e75459a9dd39128b66a24c95059ab4aa90dfee44f475ec1b"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/m2plus/seed_43/fold_3/metrics.json",
+      "size_bytes": 4607,
+      "sha256": "5425788abc511cddbc150b859c0d0251b29c3ef82fbdbda8760d46a78b8070a6"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/m2plus/seed_43/fold_3/predictions.csv",
+      "size_bytes": 23296,
+      "sha256": "48e57e50d90b12f2ef97c8ce92b84e3f537036291427287281e25e33e907bdb7"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/m2plus/seed_43/fold_3/selection.json",
+      "size_bytes": 323,
+      "sha256": "4c02ec4b1c1eef66bfc54b87b659e64c37fbea7bf112fd21fcd005834aea3652"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/m2plus/seed_43/fold_4/best.pt",
+      "size_bytes": 436289,
+      "sha256": "e29e54855bbf35430f61beb8efa88c5978caca30eb4ec31aad43598844e581d9"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/m2plus/seed_43/fold_4/history.csv",
+      "size_bytes": 3143,
+      "sha256": "114fe02f1e1c7f91655f01a15943cdee35991976d1dbc369c9af542464560d8c"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/m2plus/seed_43/fold_4/metrics.json",
+      "size_bytes": 4625,
+      "sha256": "350b66492e39b9dd08b1ff50f3a5d4a3e298cfe38dc2cee1bd946b51d8f04934"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/m2plus/seed_43/fold_4/predictions.csv",
+      "size_bytes": 23554,
+      "sha256": "27205bdbac626133fbe2cb3864a7556af7107117b41cb92138cb1a9d22df204f"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/m2plus/seed_43/fold_4/selection.json",
+      "size_bytes": 323,
+      "sha256": "33f89d3d7e45061b3edd13d763dbc3dc8e5cc78942bb47acbabeb1a32f9c5cc1"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/m2plus/seed_44/fold_0/best.pt",
+      "size_bytes": 436289,
+      "sha256": "a56f4a9c5fcb2578b5ec272a214d925d64174a44d25569472c83ad5956c9fa52"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/m2plus/seed_44/fold_0/history.csv",
+      "size_bytes": 2658,
+      "sha256": "56c2e42d9b99c4c73ff0b1008c851572cc7917ca2ad892db16318bdea7a8c51a"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/m2plus/seed_44/fold_0/metrics.json",
+      "size_bytes": 4640,
+      "sha256": "667db654075095d54b73aa41e80dabea92942fa2c0c3185cb4d18ad680e11d5b"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/m2plus/seed_44/fold_0/predictions.csv",
+      "size_bytes": 23348,
+      "sha256": "56892aa2db8eb2888bce893effd15e708ced40e06ac1945bd659646e414b9976"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/m2plus/seed_44/fold_0/selection.json",
+      "size_bytes": 322,
+      "sha256": "8e7bb8e270e81590990110709a7a85a6787c9ab4ffe4d097be1d93c8adc3fe0c"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/m2plus/seed_44/fold_1/best.pt",
+      "size_bytes": 436289,
+      "sha256": "c7e40bd1a65b41d567bc7253f46a9edbdf595eacbe9b64d6f22670c7773f6dcd"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/m2plus/seed_44/fold_1/history.csv",
+      "size_bytes": 2622,
+      "sha256": "443c5c7633f173eb36c0514cb7b0e9ce02ca0b6224024a43eabe6ac2229baaab"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/m2plus/seed_44/fold_1/metrics.json",
+      "size_bytes": 4672,
+      "sha256": "a357a41a7320505cfa55aa4bf057471c6b3015ae05f519ee252268362d44048e"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/m2plus/seed_44/fold_1/predictions.csv",
+      "size_bytes": 23458,
+      "sha256": "f9d38e86f2eb023ed20e9bf26fb3b2e4bbbb228419bfca75a9828b5851d24fdc"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/m2plus/seed_44/fold_1/selection.json",
+      "size_bytes": 323,
+      "sha256": "adc68ba09853cb4133825b8a8746413cd00ac91bbec6db5ea831cf160e4a4845"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/m2plus/seed_44/fold_2/best.pt",
+      "size_bytes": 436289,
+      "sha256": "138ed323cc784aadf591fc879aca7522ac784cfe42c4fe0f76e0612a87545fcf"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/m2plus/seed_44/fold_2/history.csv",
+      "size_bytes": 2753,
+      "sha256": "fdd8c580fae4eae260a4e8c4e27a1b2a2d6f813ed76428a0e2ad095a9c4a7d15"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/m2plus/seed_44/fold_2/metrics.json",
+      "size_bytes": 4604,
+      "sha256": "9a85107a5132f12904d462539800ea9b40838da1d122bbcff7e2b9eb07296dce"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/m2plus/seed_44/fold_2/predictions.csv",
+      "size_bytes": 22791,
+      "sha256": "cca5b96cded9632d7efeaecaf3848b07384b8ce395f654e8c18a881079ff1944"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/m2plus/seed_44/fold_2/selection.json",
+      "size_bytes": 323,
+      "sha256": "31244b77612077d3e9e1e9dd4ab6eb373b3d02ff95a16e577fa57c9ccadd04a6"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/m2plus/seed_44/fold_3/best.pt",
+      "size_bytes": 436289,
+      "sha256": "f0c6380b402ed2d04db6644006eb4d540e3789db4d74c4d476fb58928a15da7b"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/m2plus/seed_44/fold_3/history.csv",
+      "size_bytes": 1426,
+      "sha256": "e3243fbc27c63eafef93efb931cd08649eef3a3752cdafbf2a9515a57ea3b15c"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/m2plus/seed_44/fold_3/metrics.json",
+      "size_bytes": 4571,
+      "sha256": "a0f915699ac9d6d15e4b00a32afc72cfe0fc91b078ce926c864ec2d3aceb3ec2"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/m2plus/seed_44/fold_3/predictions.csv",
+      "size_bytes": 22719,
+      "sha256": "54116d1d06d6ddbbec18e5831e8c758daec318857460173de770399b56b418d2"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/m2plus/seed_44/fold_3/selection.json",
+      "size_bytes": 322,
+      "sha256": "01e4985446a1d53422276a69752713f1983e2b806301318fa7e1d90b522db82d"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/m2plus/seed_44/fold_4/best.pt",
+      "size_bytes": 436289,
+      "sha256": "9cb479b701db44635127041ee16776bfcaaf14927070b47d7269633df3e32f18"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/m2plus/seed_44/fold_4/history.csv",
+      "size_bytes": 2222,
+      "sha256": "c72baad02b4a5c5b9f1191c4fc27f7b034a3e25a9ffaa25a486e035fc6af3a63"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/m2plus/seed_44/fold_4/metrics.json",
+      "size_bytes": 4654,
+      "sha256": "ab719b78fb0198415ca7787efe33f7c661543a2827c5829e8bd71483c91c4b2b"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/m2plus/seed_44/fold_4/predictions.csv",
+      "size_bytes": 23358,
+      "sha256": "868893d4c7b422cc7ed520580ecb39510d8739749966f53a3c560a52467c6aa2"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/m2plus/seed_44/fold_4/selection.json",
+      "size_bytes": 323,
+      "sha256": "d27973eef9e7c1e482733241d3a845c328bcfcd54ce80e55380396a2b82822a1"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/pca_lr/seed_42/fold_0/metrics.json",
+      "size_bytes": 4539,
+      "sha256": "4dd662867a1b4cc2d5ecadaf1d0c74328dbea7017cd7e4586f46d9a44326503d"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/pca_lr/seed_42/fold_0/model.joblib",
+      "size_bytes": 2558725,
+      "sha256": "526de672ceaefd6c058675af968e83aaf127365dba4743d69c5e2315f1420ba7"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/pca_lr/seed_42/fold_0/predictions.csv",
+      "size_bytes": 23589,
+      "sha256": "d946e75670d041e29d424a61209e8edcb0e3acec52e7936dde019fb084e9acfc"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/pca_lr/seed_42/fold_0/selection.json",
+      "size_bytes": 1152,
+      "sha256": "feff3601866c212187bb4b6513e982cb48b67aa39c3bf231cbbeaa88b2ff0c34"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/pca_lr/seed_42/fold_1/metrics.json",
+      "size_bytes": 4539,
+      "sha256": "9e2e29b3fb2e2c09d35df56af268be4b80ff66d7629499d80395cd8efaadf6d0"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/pca_lr/seed_42/fold_1/model.joblib",
+      "size_bytes": 2558725,
+      "sha256": "b20407dd5d376700cde40cc5f2b9c72b6fa439dc3cdecbc1113c2390224e168a"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/pca_lr/seed_42/fold_1/predictions.csv",
+      "size_bytes": 23150,
+      "sha256": "dad843c9659a67a1f5d983391c67ed66994887e84ec6aa80a572a23d42d9b9c1"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/pca_lr/seed_42/fold_1/selection.json",
+      "size_bytes": 1149,
+      "sha256": "45878f28440d87a41273e43e04023abb1c97c657a417cb98dab5d707af1e06f3"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/pca_lr/seed_42/fold_2/metrics.json",
+      "size_bytes": 4579,
+      "sha256": "71b189899c0c20eef4b377cf5e5b599d8468782f17bb6bb1183790e80dcd2db8"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/pca_lr/seed_42/fold_2/model.joblib",
+      "size_bytes": 1509765,
+      "sha256": "9f7ce1b2354bf66df59396f98de23b24a2db79f03354c980c60a7671c0d9dfef"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/pca_lr/seed_42/fold_2/predictions.csv",
+      "size_bytes": 22826,
+      "sha256": "0ffe4db7c4d46945335a615465ce3b68984a1dc64cc683876984af7eaddf1067"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/pca_lr/seed_42/fold_2/selection.json",
+      "size_bytes": 1150,
+      "sha256": "7592a4f0b99c46a7ced46313a01d6b38898c2095871af9cb2fa081243649200b"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/pca_lr/seed_42/fold_3/metrics.json",
+      "size_bytes": 4563,
+      "sha256": "a49eba58a58d4d32e9c8c6c6aee5b7510ffc8d5f8b6c74fdd57acf961d1dfbb3"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/pca_lr/seed_42/fold_3/model.joblib",
+      "size_bytes": 2558725,
+      "sha256": "590dfb50335439fb121eaab83d817137ebbc5b6f68a6626272690b43a6c2c474"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/pca_lr/seed_42/fold_3/predictions.csv",
+      "size_bytes": 23173,
+      "sha256": "ae07ef6e7d85dccb25fa3e5e4f862f86330b44d71cfc57238bf8b967faddcd0f"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/pca_lr/seed_42/fold_3/selection.json",
+      "size_bytes": 1152,
+      "sha256": "6fabe21c2431afb454eef1ba8d4f7da7f199a338ca6d3d85de94117cb2fc88e5"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/pca_lr/seed_42/fold_4/metrics.json",
+      "size_bytes": 4546,
+      "sha256": "caac44e51d785023560c45274cf486d11f3dabf4052572f3305d1d0182780ba4"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/pca_lr/seed_42/fold_4/model.joblib",
+      "size_bytes": 2558725,
+      "sha256": "38275529f360a2c8d0fa88bad74c95fe2b4ed6590454ff183ab7f0f3de8de61e"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/pca_lr/seed_42/fold_4/predictions.csv",
+      "size_bytes": 23416,
+      "sha256": "befebabef14d0aeb983d01c67a6dd41023418e7c20998e85f9219739e0e1f3a3"
+    },
+    {
+      "path": "results/task1_comparison_v1/runs/pca_lr/seed_42/fold_4/selection.json",
+      "size_bytes": 1148,
+      "sha256": "7ad60589f032e407db4f14d3fe593e558acffef32c43a02c8b19afa9c11dced7"
+    },
+    {
+      "path": "results/task1_comparison_v1/summary.json",
+      "size_bytes": 23704,
+      "sha256": "d61c3389070f75b3cae2b664aa56afbb4fd0b0842400f67601074a39e0097624"
+    },
+    {
+      "path": "data/cache/task1_comparison_v1/WT_37C_rep1.band.npy",
+      "size_bytes": 95433480,
+      "sha256": "9d56122e3873e83e65919adb14164f164f563f01760eb10a054490b13d2070b4"
+    },
+    {
+      "path": "data/cache/task1_comparison_v1/WT_37C_rep2.band.npy",
+      "size_bytes": 95433480,
+      "sha256": "22b3c1316237998090251e031149ff17a7123f553c44211b063b6b3dfd8771cf"
+    },
+    {
+      "path": "data/cache/task1_comparison_v1/folds.json",
+      "size_bytes": 31788,
+      "sha256": "4e4f3d635e54720434906788608072325ed34024ae6b1b6478dd0c83ab85437a"
+    },
+    {
+      "path": "data/cache/task1_comparison_v1/metadata.json",
+      "size_bytes": 204342,
+      "sha256": "49fd239ff85c088d3c94720a8cbb4a96d440db93728ce78045d516db369715e4"
+    },
+    {
+      "path": "reports/task1_chid_annotation_audit.json",
+      "size_bytes": 11860,
+      "sha256": "d548e65acbbad7100555e04e55a68870cd14753aad94137af7ff322104a7c65d"
+    },
+    {
+      "path": "reports/task1_chid_data_diagnosis.json",
+      "size_bytes": 19494,
+      "sha256": "1bb4c4051933a9fc2be86d81479347f90a0f94adf5f54347fa60b48e38387182"
+    },
+    {
+      "path": "reports/task1_chid_data_diagnosis.md",
+      "size_bytes": 8272,
+      "sha256": "baa5f1053306baa347ce28363dec3b6b1e54a1bfeaf1d179b4ffb079eec2c3af"
+    },
+    {
+      "path": "reports/task1_chid_input_ambiguity.png",
+      "size_bytes": 420836,
+      "sha256": "bbd7d84e606e76edf2698007f88dc30eced6a070d54a18b1b71627dbec567cc3"
+    },
+    {
+      "path": "reports/task1_chid_input_audit.json",
+      "size_bytes": 49297,
+      "sha256": "6deececde4fe4ebdb3afcb1c7842bcb72d33b6216a0f1b7c02dc244c4b707962"
+    },
+    {
+      "path": "reports/task1_chid_predictions_audit.json",
+      "size_bytes": 203307,
+      "sha256": "e22052d8c8b2a4f4575c6c4737fa6773e3f81aff924885dc3de6605ee5ee63e9"
+    },
+    {
+      "path": "evidence/task1_failed_v1/source_snapshot/AGENTS.md",
+      "size_bytes": 1271,
+      "sha256": "2b27d3896592cbe342267c0f8578231f424bbdf1e5292a8e45e419eb124a0d6f"
+    },
+    {
+      "path": "evidence/task1_failed_v1/source_snapshot/configs/data.json",
+      "size_bytes": 1002,
+      "sha256": "c09a94ea8ebaf12888f5afab3d548cfcbb651e7074637f485a044afabd8824c0"
+    },
+    {
+      "path": "evidence/task1_failed_v1/source_snapshot/configs/task1_comparison.json",
+      "size_bytes": 1274,
+      "sha256": "4f25c27df7e12eec4478b76e32e866bd8b91d49bb2897070a4494de5395c1554"
+    },
+    {
+      "path": "evidence/task1_failed_v1/source_snapshot/data/processed/structures.csv",
+      "size_bytes": 59167,
+      "sha256": "025b211de37c7babf5eba5a522917eede64785699c3ea576651d1d876e5c919a"
+    },
+    {
+      "path": "evidence/task1_failed_v1/source_snapshot/docs/TASK1_COMPARISON.md",
+      "size_bytes": 11586,
+      "sha256": "ce52522068ec0b10f5692d486041ec1971b362600507d0ca6efdaef48b0cd484"
+    },
+    {
+      "path": "evidence/task1_failed_v1/source_snapshot/environment.lock.yml",
+      "size_bytes": 2106,
+      "sha256": "10899f71922dbb3130bf3a63d5b7fde1b8085feede3b56cf29af8fb103c7756a"
+    },
+    {
+      "path": "evidence/task1_failed_v1/source_snapshot/environment.yml",
+      "size_bytes": 472,
+      "sha256": "9b831aa28c1bdfacd08717c2215d7eef7d44bd39f49060d71a864a623b6ee5be"
+    },
+    {
+      "path": "evidence/task1_failed_v1/source_snapshot/microcture/task1/__init__.py",
+      "size_bytes": 73,
+      "sha256": "fe775586bf08ce96f43bd5ed46946f2f6474705c2713d14c661408ddc0399c6e"
+    },
+    {
+      "path": "evidence/task1_failed_v1/source_snapshot/microcture/task1/data.py",
+      "size_bytes": 30585,
+      "sha256": "d103a9c6152f109674bd399df6f490910c93e8fc60f79c2576db0bcb13c4d8b3"
+    },
+    {
+      "path": "evidence/task1_failed_v1/source_snapshot/microcture/task1/evaluation.py",
+      "size_bytes": 26725,
+      "sha256": "ce086eb7e35800026624a4d96ab0c18f43a48f38bd04d04319436004a899c99b"
+    },
+    {
+      "path": "evidence/task1_failed_v1/source_snapshot/microcture/task1/models.py",
+      "size_bytes": 10987,
+      "sha256": "f3da4fdee5c784d7637bad6a27b5a1cafbf8f1ccf14fb531cb40603fe355b28e"
+    },
+    {
+      "path": "evidence/task1_failed_v1/source_snapshot/microcture/task1/training.py",
+      "size_bytes": 23673,
+      "sha256": "908074f532913cc15ca3535bd25f40e9796d001c8c68c1b91a402b1300ed2146"
+    },
+    {
+      "path": "evidence/task1_failed_v1/source_snapshot/scripts/audit_task1_data.py",
+      "size_bytes": 10606,
+      "sha256": "51df3499fdc8245d842cdef03f210a4661a462838b78cb888a89e635518a984f"
+    },
+    {
+      "path": "evidence/task1_failed_v1/source_snapshot/scripts/run_task1_comparison.py",
+      "size_bytes": 4567,
+      "sha256": "247aae29a7c595c6ae86b35dba9099ab5e02066e2543f0e9cbc03c851840f5eb"
+    }
+  ],
+  "original_inputs": {
+    "configs/data.json": "c09a94ea8ebaf12888f5afab3d548cfcbb651e7074637f485a044afabd8824c0",
+    "data/processed/structures.csv": "025b211de37c7babf5eba5a522917eede64785699c3ea576651d1d876e5c919a",
+    "micro-c数据/标注数据.xlsx": "a1fa9c0d359509a9eb319442c19e300cb5da85546eeb567368a390d22205167a"
+  },
+  "raw_data": "Raw matrices and original annotations remain at their original paths; no raw-data copies or deletions.",
+  "scope": "50 fits and all OOF/report/checkpoint artifacts frozen in place; cache counts hashed; exact source/config/environment snapshot retained",
+  "interpretation": "Complete execution with unresolved target ambiguity and failed training cells; not an achieved recognition milestone."
+}

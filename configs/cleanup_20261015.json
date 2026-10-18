@@ -1,0 +1,125 @@
+{
+  "date": "2026-10-15",
+  "operation": "remove_obsolete_validation_json_and_identical_report_copies",
+  "status": "completed",
+  "protected_freeze_manifests": [
+    {
+      "path": "evidence/task1_failed_v1/freeze_manifest.json",
+      "sha256": "b5e6f3fa3ad5c398578fa1cd36b9eca0e7ebaf677b5d8f6523dfbf75a04beefa"
+    },
+    {
+      "path": "evidence/task1_controlled_v1/freeze_manifest.json",
+      "sha256": "ac60808827143ef568c89419b2af6bbc00c5c9615297538eee9e97150d8600db"
+    },
+    {
+      "path": "evidence/task1_autonomous_v1/freeze_manifest.json",
+      "sha256": "e03c61b229311ca0a5d0f5a81c442fe470beb3d87d2e6ea665b9dd01e5555f2e"
+    }
+  ],
+  "all_candidates_absent_from_protected_file_inventories": true,
+  "files": [
+    {
+      "old_path": "reports/results_delivery_check_20261015.json",
+      "bytes": 2006,
+      "sha256": "e3fea86048cdbfdcd953105db9fb72f45f5342e7e4b842efbfb610ec7346c38c",
+      "reason": "过期的一次性交付检查记录",
+      "retained_copy": null
+    },
+    {
+      "old_path": "reports/submission_delivery_check_20261015.json",
+      "bytes": 2570,
+      "sha256": "fe30689ffdb3bb20ce585341e9102fda699339273d133722644d8735fbc0e6e7",
+      "reason": "已过期的旧压缩包检查记录",
+      "retained_copy": null
+    },
+    {
+      "old_path": "reports/workspace_consolidation_20261015.json",
+      "bytes": 112704,
+      "sha256": "e006306f4ad6b8bdfb116fa3b839f3dff1c5775417b2f4d8f9a976ab53f33150",
+      "reason": "上轮目录整合操作记录",
+      "retained_copy": null
+    },
+    {
+      "old_path": "reports/docs_organization_20261015.json",
+      "bytes": 4415,
+      "sha256": "b52a3f9ec312382638f6e640d6ae3fb275a942cd8a873370e66ed359b860ee6e",
+      "reason": "上轮文档整合操作记录，当前文档不再引用",
+      "retained_copy": null
+    },
+    {
+      "old_path": "reports/task1_controlled_code_check.json",
+      "bytes": 2071,
+      "sha256": "354442b4560c0ca2f48ea605400a361dfb82939752884ec169a4a9cb655c9013",
+      "reason": "训练前旧代码检查，非实验结果",
+      "retained_copy": null
+    },
+    {
+      "old_path": "reports/task1_formal_code_check.json",
+      "bytes": 9037,
+      "sha256": "085c24cd6a01604e721cf76968509ce2e9de86add1e87ad6334f368e9db0fdae",
+      "reason": "训练前旧代码检查，非实验结果",
+      "retained_copy": null
+    },
+    {
+      "old_path": "reports/task1_readout_code_check.json",
+      "bytes": 7126,
+      "sha256": "15f9f7bccb96861210b2e46e2fe2006bd15972f09920d3d129bc4a2108d19a73",
+      "reason": "训练前旧代码检查，非实验结果",
+      "retained_copy": null
+    },
+    {
+      "old_path": "reports/task1_reevaluation_code_check.json",
+      "bytes": 9267,
+      "sha256": "7e0bb25ae58ad9ab8ac5a38c560b62c5ec432bdccb2b0a8461c1d2ea135c3fa6",
+      "reason": "训练前旧代码检查，非实验结果",
+      "retained_copy": null
+    },
+    {
+      "old_path": "reports/task1_roi_code_check.json",
+      "bytes": 3726,
+      "sha256": "9ac74b48aa33de3fd1328a28f01232451840e55255897aaaff99f9d8d9573f18",
+      "reason": "训练前旧代码检查，非实验结果",
+      "retained_copy": null
+    },
+    {
+      "old_path": "reports/local_maintenance_code_check_v1/tests.json",
+      "bytes": 593,
+      "sha256": "34406fc7be22a3161101dc940a5e8483e4a3df8426e3b239952b8805cfb87fde",
+      "reason": "旧维护测试记录",
+      "retained_copy": null
+    },
+    {
+      "old_path": "reports/local_matrices_100bp.json",
+      "bytes": 10177,
+      "sha256": "3033094911e556f23c316a94851ab12a4a5c0ece05622c5a5ec64595b0ac24db",
+      "reason": "与保留科学报告SHA-256完全一致的重复副本",
+      "retained_copy": {
+        "path": "data/legacy_experiments/results/local_matrices/100bp/report.json",
+        "bytes": 10177,
+        "sha256": "3033094911e556f23c316a94851ab12a4a5c0ece05622c5a5ec64595b0ac24db"
+      }
+    },
+    {
+      "old_path": "reports/task2_results.json",
+      "bytes": 3172,
+      "sha256": "1b175ba2ee53c4358e44f38a8ac3872459f27213117472460b8efbb1dcc03d85",
+      "reason": "与保留科学报告SHA-256完全一致的重复副本",
+      "retained_copy": {
+        "path": "data/legacy_experiments/results/task2/report.json",
+        "bytes": 3172,
+        "sha256": "1b175ba2ee53c4358e44f38a8ac3872459f27213117472460b8efbb1dcc03d85"
+      }
+    }
+  ],
+  "planned_deleted_files": 12,
+  "planned_deleted_bytes": 166864,
+  "raw_data_annotations_numeric_results_deleted": false,
+  "deleted_files": 12,
+  "deleted_bytes": 166864,
+  "removed_empty_directories": [
+    "reports/local_maintenance_code_check_v1"
+  ],
+  "modified_documents": [
+    "docs/README.md"
+  ]
+}

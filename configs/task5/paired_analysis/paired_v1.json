@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "input_dir": "results/task5/super_resolution/v1",
+  "output_dir": "results/task5/paired_analysis/v1",
+  "delivery_dir": "submission/task5/paired_analysis/v1",
+  "frozen_delivery": "submission/task56_delivery_summary.json",
+  "distance_bands_bp": [[400, 1600], [1600, 6400], [6400, 25600]],
+  "seeds": [42, 43, 44],
+  "tie_tolerance": 1e-10,
+  "ssim_distance_rule": "Assign the unchanged 7x7 SSIM map by center-pixel genomic distance; require the original full valid neighborhood, not a zeroed distance-band image.",
+  "band_boundary_rule": "Exploratory distance-restricted profile: keep the original flank=8, radius=5 and 200 bp resolution; require at least half of the geometrically possible pairs within that band. No pairs means not_evaluable, never zero. Do not replace the original whole-profile boundary metric.",
+  "example": {"type": "CHIN", "replicate": 1, "seed": 42, "selection": "lower median genomic start within CHIN test positions; same selection rule as the existing delivery"}
+}

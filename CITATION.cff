@@ -1,13 +1,13 @@
 cff-version: 1.2.0
 message: "If you use this code, please cite this repository and also cite the original data study."
-title: "MicroCTure: Reproducible Micro-C Analysis and Morphology Auditing"
+title: "MicroCTure: Deep Learning for Micro-C Contact Matrix Analysis"
 type: software
 authors:
   - family-names: "ppee"
 repository-code: "https://github.com/PPEE523/MicroCTure"
 url: "https://github.com/PPEE523/MicroCTure"
 license: MIT
-abstract: "An educational research pipeline for spatially separated classification, replicate-aware discovery, condition comparisons, and auditing of unannotated Micro-C contact patterns. No new biological structure type is confirmed."
+abstract: "A six-task pipeline for target-aware structure classification, unannotated pattern retrieval, genome-wide multi-condition visualization, contact-change analysis, synthetic super-resolution, and relative 3D contact embedding, with spatial controls and traceable results. No novel biological structure type is confirmed."
 keywords:
   - Micro-C
   - chromatin

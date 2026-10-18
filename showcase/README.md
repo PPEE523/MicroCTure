@@ -1,15 +1,14 @@
-# 精选成果
+# 保存结果与可视化
 
-先看 [交互作品页](../site/index.html)：超分辨拖动对比、七模型三维切换，以及分类、发现和多条件分析入口。
+这些文件是第一版计算输出的字节级快照，[manifest](results/manifest.json)保留来源和SHA。本轮没有重训任务二、五、六或重绘全部轨道。当前任务一的主结果在[新版比较图](../submission/figures/task1_formal_comparison.png)和[新OOF](../submission/task1/formal/oof/)，这里旧任务一表仅作失败历史。
 
-| 内容 | 可视化 | 数值 |
-|---|---|---|
-| 超分辨 | [结构剖面](results/task5/structure_profiles.png) | [对照指标](results/task5/summary.csv) |
-| 三维嵌入 | [交互视图](results/task6/index.html)、[接触图](results/task6/contact_maps.png) | [评价表](results/task6/metrics.csv) |
-| 分类 | [模型与消融](results/task1/comparison.png) | [比较表](results/task1/comparison.csv) |
-| 候选发现 | [跨重复对照](results/task2_v2/replication_comparison.png) | [方法汇总](results/task2_v2/method_summary.csv) |
-| 多条件 | [基因组轨道](results/task3/tracks/0050000_0060000.png) | [变化汇总](results/task4/summary.csv) |
+| 内容 | 图/交互 | 数值 |
+| --- | --- | --- |
+| 新版分类 | [四模型图](../submission/figures/task1_formal_comparison.png) | [新比较表](../submission/task1/formal/comparison.csv) |
+| 候选发现 | [重复对照](results/task2_v2/replication_comparison.png) | [候选](results/task2_v2/unannotated_supported_disjoint.csv) |
+| 多条件 | [代表轨道](results/task3/tracks/0050000_0060000.png)、[差异图](results/task4/effects.png) | [汇总](results/task4/summary.csv) |
+| 超分辨 | [结构剖面](results/task5/structure_profiles.png)、[结果页](results/task5/index.html) | [指标](results/task5/summary.csv) |
+| 三维 | [交互视图](results/task6/index.html)、[接触图](results/task6/contact_maps.png) | [指标](results/task6/metrics.csv) |
+| 第一版分类历史 | [旧图](results/task1/comparison.png) | [旧表](results/task1/comparison.csv) |
 
-23 个精选文件从本地原始结果按字节复制，来源与 SHA256 见 [manifest](results/manifest.json)。权重和完整研究输出留在本地。更新精选运行 `python3 scripts/export_showcase.py`，校验运行 `python3 scripts/export_showcase.py --check`。
-
-展示页使用的热图数值为固定首个 CHID 测试示例，来源签名记录在 `site/assets/matrix_preview.json`；封面也由实际矩阵和保存坐标生成，没有用合成图片代替实验结果。
+校验运行 `python -B scripts/export_showcase.py --check`；导出覆盖功能已停用，避免改写历史快照。固定超分辨示例数值仍保留在 `site/assets/matrix_preview.json`，来源为首个CHID测试位置，未按质量挑图。

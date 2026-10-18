@@ -1,0 +1,18 @@
+{
+  "protocol": "task1_fixed_half_lr_half_m2plus_probability_fusion_v1",
+  "run_dir": "results/task1_fixed_fusion_v1",
+  "roi_run_dir": "results/task1_roi_v1",
+  "lr_run_dir": "results/task1_shape_baseline_v2",
+  "conditions": ["I3", "G0", "V0", "P0"],
+  "folds": [0, 1, 2, 3, 4],
+  "cnn_seeds": [42, 43, 44],
+  "lr_seed": 42,
+  "lr_weight": 0.5,
+  "cnn_weight": 0.5,
+  "pooled": "0.5 LR + 0.5 mean(CNN42,CNN43,CNN44), diagnostic only",
+  "macro_f1_gate": 0.90,
+  "per_class_precision_recall_gate": 0.85,
+  "bootstrap_repeats": 2000,
+  "bootstrap_seed": 20261014,
+  "temperature_or_threshold_search": false
+}

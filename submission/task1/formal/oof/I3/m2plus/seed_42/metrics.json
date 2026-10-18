@@ -1,0 +1,73 @@
+{
+  "n_structures": 344,
+  "class_names": [
+    "OPCID",
+    "CHIN",
+    "CHID"
+  ],
+  "accuracy": 0.9098837209302325,
+  "macro_f1": 0.8240449147184069,
+  "balanced_accuracy": 0.8489260935143289,
+  "balanced_accuracy_definition": "mean recall over fixed three classes; absent-class recall is zero",
+  "per_class": {
+    "OPCID": {
+      "precision": 0.863013698630137,
+      "recall": 0.9264705882352942,
+      "f1": 0.8936170212765958,
+      "support": 68
+    },
+    "CHIN": {
+      "precision": 0.9666666666666667,
+      "recall": 0.928,
+      "f1": 0.9469387755102041,
+      "support": 250
+    },
+    "CHID": {
+      "precision": 0.5806451612903226,
+      "recall": 0.6923076923076923,
+      "f1": 0.631578947368421,
+      "support": 26
+    }
+  },
+  "confusion_matrix": [
+    [
+      63,
+      2,
+      3
+    ],
+    [
+      8,
+      232,
+      10
+    ],
+    [
+      2,
+      6,
+      18
+    ]
+  ],
+  "CHID_counts": {
+    "TP": 18,
+    "FP": 13,
+    "FN": 8,
+    "support": 26
+  },
+  "condition": "I3",
+  "model": "m2plus",
+  "seed": 42,
+  "experiment_signature": "8467176519680652c219a2fd993847048dddaa0344f27c8afb3ada2d0c1c5135",
+  "source_signature": "2de4e177d4557773bf61183c090a1a67db002325cb999a7d24d3cfa410013a8c",
+  "dataset_signature": "d8b73b2bbab3863a8102f3fab4a2701c902219e65ec59c81ada472d7c31f5cd6",
+  "expected_structures": 344,
+  "expected_folds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "protocol": "task1_target_aware_spatial_cv_v1",
+  "status": "complete",
+  "oof_current": true,
+  "score_unit": "unique structures after biological-replicate probability averaging"
+}

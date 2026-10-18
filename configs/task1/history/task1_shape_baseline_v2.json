@@ -1,0 +1,39 @@
+{
+  "protocol": "task1_fixed_shape455_lr_rbf_svc_stable_v2",
+  "run_dir": "results/task1_shape_baseline_v2",
+  "roi_run_dir": "results/task1_roi_v1",
+  "seed": 42,
+  "folds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "conditions": [
+    "I3",
+    "G0",
+    "V0",
+    "P0"
+  ],
+  "features": "roi_shape455_reversal_invariant_stable_v2",
+  "cpu_threads": 2,
+  "checkpoint_selection": "fixed_fit_no_selection",
+  "svc_score_transform": "softmax_temperature1_then_WTmean_uncalibrated",
+  "models": {
+    "lr_shape": {
+      "C": 1.0,
+      "solver": "lbfgs",
+      "tol": 0.0001,
+      "max_iter": 2000
+    },
+    "svc_shape": {
+      "C": 1.0,
+      "kernel": "rbf",
+      "gamma": "scale",
+      "break_ties": true,
+      "decision_function_shape": "ovr",
+      "probability": false
+    }
+  }
+}

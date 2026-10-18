@@ -1,57 +1,25 @@
 <!doctype html>
-<html lang="zh-CN">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="description" content="MicroCTure：从稀疏接触矩阵到深度学习、超分辨重建和交互式三维基因组探索。">
-  <title>MicroCTure — Machine Learning for Genome Contact Maps</title>
-  <link rel="stylesheet" href="styles.css">
-  <script src="portfolio.js" defer></script>
-</head>
-<body>
-  <nav class="nav"><a class="brand" href="#">M<span>↗</span> MicroCTure</a><div><a href="#work">项目能力</a><a href="#reconstruction">交互演示</a><a href="#evidence">实验结果</a><a class="nav-github" href="https://github.com/PPEE523/MicroCTure">GitHub ↗</a></div></nav>
-  <main>
-    <header class="hero">
-      <p class="eyebrow">SCIENTIFIC MACHINE LEARNING / DATA ENGINEERING</p>
-      <h1>从接触矩阵，<br>到机器学习与<span>三维空间。</span></h1>
-      <p class="intro">MicroCTure 把大规模稀疏基因组数据变成可训练的模型输入、可检验的实验结果和可交互的三维视图。一个覆盖数据处理、建模、评估与展示的完整项目。</p>
-      <div class="actions"><a class="button primary" href="#reconstruction">探索可视化 <span>↓</span></a><a class="button" href="../docs/PROJECT.md">阅读技术设计 ↗</a></div>
-      <div class="stats"><div><strong>507M</strong><span>两份 WT 输入的稀疏记录</span></div><div><strong>36</strong><span>模型训练 / 几何拟合运行</span></div><div><strong>4×</strong><span>合成超分辨倍率</span></div><div><strong>929</strong><span>全基因组三维节点</span></div></div>
-    </header>
-    <section id="work">
-      <div class="section-title"><p class="eyebrow">01 / ENGINEERING</p><h2>不止训练一个模型。</h2><p>让数据、实验和结果连接起来。</p></div>
-      <div class="cards">
-        <article><span class="number">01</span><h3>大规模矩阵处理</h3><p>流式读取 HDF5 / Cooler，局部聚合与环形坐标处理。避免构建约 862 GB 的全基因组高分辨率稠密数组。</p><div class="tags"><span>NumPy</span><span>HDF5</span><span>Cooler</span></div></article>
-        <article><span class="number">02</span><h3>可检验的模型实验</h3><p>空间隔离划分、训练集拟合归一化、验证选模。覆盖 CNN、AE / DAE、残差超分辨和神经图解码器。</p><div class="tags"><span>PyTorch</span><span>Ablation</span><span>Baselines</span></div></article>
-        <article><span class="number">03</span><h3>从指标到解释</h3><p>跨重复核查、距离分层评价、扰动分析与坐标反算。用同一套证据比较模型收益和失效场景。</p><div class="tags"><span>Evaluation</span><span>46 tests</span><span>3D visualization</span></div></article>
-      </div>
-    </section>
-    <section id="reconstruction" class="demo-section">
-      <div class="section-title"><p class="eyebrow">02 / SUPER-RESOLUTION</p><h2>在同一窗口里，直接比较重建。</h2><p>800 → 200 bp。左侧双三次插值，右侧残差 CNN；拖动分隔线查看差异。</p></div>
-      <div class="demo-layout">
-        <div class="matrix-demo">
-          <div class="matrix-frame" id="matrix-frame"><canvas id="base" width="512" height="512" aria-label="双三次插值接触矩阵"></canvas><div id="overlay"><canvas id="prediction" width="512" height="512" aria-label="残差 CNN 接触矩阵"></canvas></div><div class="divider" id="divider"></div><span class="image-label left">BICUBIC</span><span class="image-label right">RESIDUAL CNN</span></div>
-          <label class="range-label" for="comparison">移动对比线 <input id="comparison" type="range" min="0" max="100" value="50"></label>
-          <p class="caption" id="matrix-caption">加载固定的测试示例…</p>
-        </div>
-        <div class="demo-copy"><span class="large-metric">+10.09 <small>dB</small></span><h3>测试集平均 PSNR 提升</h3><p>残差 CNN：34.33 ± 0.17 dB<br>双三次插值：24.24 dB</p><div class="mini-chart"><span>Bicubic</span><div><i style="width:69%"></i></div><b>24.24</b><span>Residual CNN</span><div><i class="accent" style="width:98%"></i></div><b>34.33</b></div><p class="note">rep1 空间留出集，3 个 CNN 种子；固定归一化范围的合成退化实验。图像指标提高，但边界定位未同步改善。</p><a class="text-link" href="../showcase/results/task5/summary.csv">查看逐类指标 →</a></div>
-      </div>
-    </section>
-    <section id="spatial">
-      <div class="section-title"><p class="eyebrow">03 / SPATIAL RECONSTRUCTION</p><h2>把全基因组接触图放进三维空间。</h2><p>5 kb 分辨率 · MDS / 距离几何 / 图解码器 · 7 组坐标</p></div>
-      <div class="viewer-shell"><iframe title="可旋转、缩放和切换模型的三维染色体接触嵌入" src="../showcase/results/task6/index.html" loading="lazy"></iframe></div>
-      <div class="viewer-foot"><span>拖动旋转 · 滚轮缩放 · 切换模型</span><a class="text-link" href="../showcase/results/task6/index.html" target="_blank" rel="noopener">独立窗口 ↗</a></div>
-      <p class="note">群体接触数据的相对空间嵌入；宏观域颜色为示意注释。图模型降低留出距离误差，但接触相关低于 MDS，尚未验证真实单细胞构象。</p>
-    </section>
-    <section id="evidence">
-      <div class="section-title"><p class="eyebrow">04 / EXPERIMENTS</p><h2>每个结果，都有可追溯的对照。</h2></div>
-      <div class="result-grid">
-        <a class="result-card" href="../showcase/results/task1/comparison.png"><img src="../showcase/results/task1/comparison.png" loading="lazy" alt="分类模型与消融实验对照"><div><h3>结构分类与消融</h3><p>3 个基线 · 18 次 CNN 训练<br>主模型 macro-F1：0.501 ± 0.099</p></div></a>
-        <a class="result-card" href="../showcase/results/task2_v2/replication_comparison.png"><img src="../showcase/results/task2_v2/replication_comparison.png" loading="lazy" alt="多种候选发现方法的跨重复对照"><div><h3>候选发现与重复验证</h3><p>14 种评分配置 · 168 次聚类<br>21 个独立未注释复现窗口，未确认新类型</p></div></a>
-        <a class="result-card" href="../showcase/results/task3/tracks/0050000_0060000.png"><img src="../showcase/results/task3/tracks/0050000_0060000.png" loading="lazy" alt="基因、结构与三条件信号轨道"><div><h3>多条件信号与差异定位</h3><p>6 个样本 · 465 页全基因组轨道<br>688 次结构比较，使用描述性变化规则</p></div></a>
-      </div>
-    </section>
-    <section class="closing"><p class="eyebrow">BUILT TO BE INSPECTED</p><h2>能展示，也能复现。</h2><p>模型、配置、测试与数值结果一起交付。无需下载原始数据即可运行合成测试、浏览精选结果。</p><div class="actions"><a class="button primary" href="https://github.com/PPEE523/MicroCTure">查看源代码 ↗</a><a class="button" href="../docs/REPRODUCIBILITY.md">复现指南 →</a></div></section>
-  </main>
-  <footer><span>MicroCTure / Python · PyTorch · Scientific ML</span><span>Data: <a href="https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE272159">GSE272159</a> · Independent reanalysis · MIT code</span></footer>
-</body></html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>MicroCTure · 作业结果</title>
+<style>
+:root{color-scheme:light;--ink:#173344;--muted:#526b78;--line:#d6e1e6;--paper:#f2f6f8;--accent:#126f76}*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.65 system-ui,sans-serif}main{max-width:1140px;margin:auto;padding:48px 24px}h1{font-size:clamp(30px,4vw,48px);line-height:1.2;margin:8px 0 18px}h2{font-size:25px;margin:0 0 16px}h3{margin:0 0 8px}p{margin:10px 0}a{color:var(--accent);text-underline-offset:3px}nav{display:flex;gap:20px;flex-wrap:wrap;margin:24px 0}section{background:white;border:1px solid var(--line);border-radius:16px;padding:28px;margin:24px 0}.note{background:#e5f0f1;border-left:4px solid var(--accent);padding:16px}.muted{color:var(--muted)}.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px}.grid article{border:1px solid var(--line);border-radius:12px;padding:20px}img{width:100%;height:auto;border-radius:8px}table{width:100%;border-collapse:collapse}td,th{padding:10px;text-align:left;border-bottom:1px solid var(--line)}.best{background:#e5f0f1}label{display:block;margin:12px 0}input{vertical-align:middle;width:min(450px,70%)}canvas{width:100%;image-rendering:pixelated;border:1px solid var(--line)}iframe{width:100%;height:650px;border:1px solid var(--line);border-radius:10px}code{background:#edf2f4;padding:2px 6px;border-radius:4px}.small{font-size:14px}@media(max-width:720px){main{padding:28px 14px}section{padding:20px}.grid{grid-template-columns:1fr}iframe{height:520px}table{font-size:13px}td,th{padding:7px}}
+</style></head><body><main>
+<header><p class="muted">Micro-C 接触矩阵 · 最终代码交付 · 2026-10-15</p><h1>MicroCTure<br>识别、重建与接触嵌入</h1><p>新版任务一与第一版任务二至六的有效成果统一展示。模型分数、重复支持、信号变化和生物学形态分别评价。</p>
+<nav><a href="../README.md">项目概览</a><a href="../docs/README.md">六任务文档与运行</a><a href="../submission/manifest.json">证据SHA索引</a></nav>
+<p class="note">M2+ 是统一四模型比较的当前基准。CHID 与系统性错误仍未通过可靠性验收；没有独立专家真值和新样本，不能声称三类生物学形态已被可靠识别。</p></header>
+<section id="task1"><h2>01 · 给定目标区间的三分类</h2><p class="muted">344 个作者标注区间，49 个空间组，冻结五折，三个优化 seed。神经模型统一 I3/H3、lr1e-4、40轮末轮。</p>
+<table><thead><tr><th>模型</th><th>macro-F1</th><th>CHID F1</th></tr></thead><tbody><tr><td>PCA + LR</td><td>0.6897</td><td>0.4545</td></tr><tr><td>M2</td><td>0.7464 ± 0.0249</td><td>0.5691 ± 0.0268</td></tr><tr class="best"><td>M2+</td><td>0.8067 ± 0.0153</td><td>0.6118 ± 0.0308</td></tr><tr><td>CNN-Transformer</td><td>0.7941 ± 0.0223</td><td>0.5711 ± 0.0136</td></tr></tbody></table>
+<p class="small">±为优化seed样本SD。两个WT视图不扩充独立标签数；外层空间组已查看，当前为开发性复评。</p><img src="../submission/figures/task1_formal_comparison.png" alt="新I3协议下四模型三类评价与误差线" loading="lazy"><p><a href="../submission/task1/formal/comparison.csv">正式比较表</a> · <a href="../submission/task1/autonomous/stage_scores.csv">后续受控改进</a> · <a href="../submission/demo/task1/expected.json">固定推理示例</a></p></section>
+<section id="task2"><h2>02 · 从重复候选到新结构判据</h2><p>完整核验972个唯一候选、168组聚类和1,205条簇记录：117个窗口获得重复支持，24个未注释支持窗口经空间去重保留21例。11条完全未注释簇最多只有2个支持成员，最高Jaccard为1/3，没有簇通过预设规则。</p><img src="../submission/task2/verification/v2/model_diagnostics.png" alt="14方法同预算检索、评分质量相关及新簇门槛" loading="lazy"><p class="small">AE/DAE重建误差与平均O/E有负相关，不能据此认定独特形态。随机观察范围不是置信区间；已查看WT上的诊断不构成外部确认。</p><div class="grid"><article><h3>固定预算与筛选</h3><img src="../submission/figures/task2_delivery_discovery.png" alt="同预算方法比较和新簇筛选流程" loading="lazy"><p>保存表独立复算通过；历史6份AE/DAE权重仍缺失，尚不能重放原训练与评分。</p></article><article><h3>居中与不可判定状态</h3><img src="../submission/figures/task2_delivery_centering.png" alt="主方案21例NA，补充19例可评估与2例质量不足" loading="lazy"><p>主方案8个校准窗口低于最低10，21例均为NA；补充19例可评估、2例质量不足，完整队列仍不能报0异常。</p></article></div><p><a href="../submission/task2/validation/frozen21_v1/index.html">打开固定21候选的新对照、54变体与已知检索证据页</a> · <a href="../submission/task2/verification/v2/index.html">原发现阶段证据页</a> · <a href="../submission/task2/verification/v2/review.json">完整核验摘要</a> · <a href="../docs/TASK2.md">方法、边界与下一轮命令</a></p><div class="grid"><article><h3>冻结21候选的完整54变体</h3><img src="../submission/task2/validation/frozen21_v1/candidate_support.png" alt="每例20对照与六组中心尺度支持" loading="lazy"><p>新对照下20/21基线继续获得支持；1例低于阈值仍保留，2例全网格有质量NA。支持分数不等于新形态。</p></article><article><h3>已知结构retrieval sanity check</h3><img src="../submission/task2/validation/frozen21_v1/known_retrieval.png" alt="跨WT同位置检索和空间留出类别检索" loading="lazy"><p>同位置找回强，类别检索并非全面领先；查询没有CHID。原主形态校准最多8个，不改规则仍须保持NA。</p></article></div></section>
+<section><h2>03–04 · 轨道与条件信号</h2><div class="grid">
+<article><h3>多条件已知区间</h3><p>六样本、全染色体总览、465张完整轨道与独立HTML浏览、固定1.05–1.10 Mb细节；已补齐RefSeq基因坐标核查与作者注释来源。条件比较仍为描述性证据。</p><img src="../showcase/results/task4/effects.png" alt="作者区间的相对接触变化" loading="lazy"><a href="../submission/task3/atlas/v1/index.html">三级全基因组图集</a> · <a href="../showcase/results/task4/summary.csv">变化汇总</a></article></div></section>
+<section id="task5"><h2>05 · 合成800→200bp超分辨</h2><p>残差CNN的rep1 PSNR为34.332±0.172dB，双三次为24.238dB；边界偏差227.044bp，反而差于双三次177.358bp。图像质量与边界恢复没有同步改善。</p><label>固定示例对照 <select id="method"><option value="cnn">残差CNN</option><option value="bicubic">双三次插值</option></select></label><label>目标图 ← 分割位置 → 重建图 <input id="split" type="range" min="0" max="100" value="50"></label><canvas id="matrix" width="512" height="512" aria-label="左侧目标图与右侧重建图的固定数据比较"></canvas><p id="matrixStatus" class="muted small">正在读取随包矩阵。通过run.py serve浏览可启用拖动对照；下方静态图始终可用。</p><img src="../showcase/results/task5/structure_profiles.png" alt="超分辨结构剖面与边界负结果" loading="lazy"><p><a href="../showcase/results/task5/summary.csv">指标</a> · <a href="../showcase/results/task5/index.html">原结果图页</a> · <a href="../submission/task5/paired_analysis/v1/index.html">逐窗口配对与距离分层</a></p></section>
+<section id="task6"><h2>06 · 接触约束下的三维嵌入</h2><p>图模型留出距离RMSE为0.3073，低于MDS的0.4614；接触log-Pearson为0.8510，低于MDS的0.9195。坐标单位任意，不代表真实单细胞构象；颜色为宏观域示意。</p><iframe src="../showcase/results/task6/index.html" title="七个三维嵌入模型的交互视图" loading="lazy"></iframe><p><a href="../showcase/results/task6/index.html">单独打开三维交互</a> · <a href="../showcase/results/task6/metrics.csv">完整指标</a></p></section>
+<footer class="muted small"><p>旧main数值快照原样保留，新版任务一另立来源与权重索引。完整原始数据及失败轨迹留在原科学工作区；作业包不重复携带大矩阵。</p></footer>
+</main><script>
+'use strict';
+const canvas=document.getElementById('matrix'),ctx=canvas.getContext('2d');
+let example=null;
+function draw(){if(!example)return;const left=example.target,right=example[document.getElementById('method').value],n=left.length,cut=Number(document.getElementById('split').value)/100;const pixels=ctx.createImageData(n,n);for(let r=0;r<n;r++){for(let c=0;c<n;c++){const v=Math.max(0,Math.min(1,(c/n<cut?left:right)[r][c])),i=(r*n+c)*4;const ok=example.mask[r][c];pixels.data[i]=ok?Math.round(255*v):228;pixels.data[i+1]=ok?Math.round(245*Math.pow(v,2.2)):234;pixels.data[i+2]=ok?Math.round(200*Math.pow(v,4)):238;pixels.data[i+3]=255;}}const off=document.createElement('canvas');off.width=off.height=n;off.getContext('2d').putImageData(pixels,0,0);ctx.imageSmoothingEnabled=false;ctx.drawImage(off,0,0,canvas.width,canvas.height);ctx.strokeStyle='#10a3b0';ctx.lineWidth=2;ctx.beginPath();ctx.moveTo(cut*canvas.width,0);ctx.lineTo(cut*canvas.width,canvas.height);ctx.stroke();}
+fetch('assets/matrix_preview.json').then(r=>{if(!r.ok)throw Error('HTTP '+r.status);return r.json();}).then(d=>{example=d;document.getElementById('matrixStatus').textContent=d.structure_id+' / WT rep'+d.replicate+'，首个CHID测试示例，未按重建质量选择。数值为训练拟合尺度的归一化强度。';draw();}).catch(()=>{document.getElementById('matrixStatus').textContent='使用 python -B run.py serve 启动本地服务后可加载交互矩阵；当前可浏览下方静态结果。';});
+document.getElementById('split').addEventListener('input',draw);document.getElementById('method').addEventListener('change',draw);
+</script></body></html>

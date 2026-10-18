@@ -1,0 +1,105 @@
+{
+  "protocol": "task1_paired_inner_ce_checkpoint_spatial_cv_v1",
+  "cache_dir": "data/cache/task1_comparison_v1",
+  "frozen_run_dir": "results/task1_comparison_v1",
+  "failed_evidence_dir": "evidence/task1_failed_v1",
+  "controlled_evidence_dir": "evidence/task1_controlled_v1",
+  "run_dir": "results/task1_reevaluation_v1",
+  "folds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "conditions": [
+    "I3",
+    "I0",
+    "G0"
+  ],
+  "backbones": [
+    "m2",
+    "m2plus",
+    "cnn_transformer"
+  ],
+  "models": {
+    "channels": [
+      16,
+      32,
+      64
+    ],
+    "dropout": 0.2,
+    "spatial_grid": 4,
+    "token_dim": 64,
+    "transformer_layers": 1,
+    "attention_heads": 4,
+    "ffn_dim": 128,
+    "head_dim": 32
+  },
+  "training": {
+    "head": "H3",
+    "batch_size": 32,
+    "epochs": 40,
+    "learning_rate": 0.0001,
+    "weight_decay": 0.0001,
+    "cpu_threads": 4,
+    "deterministic_algorithms": true,
+    "augmentation": "reverse",
+    "optimizer": "AdamW",
+    "loss": "class_weighted_cross_entropy",
+    "dropout": 0.2,
+    "early_stopping": false,
+    "scheduler": false,
+    "gradient_clipping": false,
+    "checkpoint_selection": "paired_final40_inner_ce",
+    "refit": false
+  },
+  "baseline": {
+    "names": [
+      "pca_lr",
+      "length_only",
+      "mask_only",
+      "mask_length"
+    ],
+    "seed": 42,
+    "pca_components": 16,
+    "C": 1.0,
+    "max_iter": 3000,
+    "tol": 1e-05
+  },
+  "acceptance": {
+    "window": 10,
+    "min_relative_loss_drop": 0.01,
+    "logit_variance_threshold": 1e-06,
+    "constant_epsilon": 1e-06,
+    "gradient_norm_epsilon": 1e-10,
+    "activation_epsilon": 1e-06,
+    "majority_warning_fraction": 0.95,
+    "max_terminal_loss_regression": 0.05,
+    "CHID_F1_threshold": null
+  },
+  "formal_run_dir": "results/task1_formal_v1",
+  "readout_run_dir": "results/task1_readout_v1",
+  "readout_audit_path": "reports/task1_readout_review_v1/integrity.json",
+  "selection": {
+    "training_epochs": 40,
+    "policies": [
+      "final40",
+      "inner_ce"
+    ],
+    "inner_ce_epochs": [
+      1,
+      40
+    ],
+    "inner_ce_metric": "weighted_validation_ce",
+    "tie_break": "earliest",
+    "comparison_rule": "strict_less",
+    "early_stopping": false,
+    "refit": false
+  }
+}

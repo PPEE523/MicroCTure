@@ -1,0 +1,19 @@
+{
+  "reason": "Primary fixed cohort has only eight independent calibration windows; minimum ten is unchanged. Supplement uses previously inspected validation and evaluation known windows. It is not independent evaluation.",
+  "reference_windows": 108,
+  "calibration_windows": 17,
+  "candidates": 21,
+  "variants": 54,
+  "candidates_with_any_two_metric_anomaly": null,
+  "candidates_with_recentered_two_metric_anomaly": null,
+  "robust_recentered_anomalies": null,
+  "candidate_metric_comparisons": 2268,
+  "isolated_factor_metric_comparisons": 5670,
+  "assessment_status": "not_evaluable",
+  "assessed_candidates": 19,
+  "not_evaluable_candidates": 2,
+  "legacy_source_report": "/home/pppe/MicroCTure/data/legacy_experiments/results/task2_centering_supplement/report.json",
+  "historical_source_manifest_verified_against_current_code": false,
+  "sensitive_metric_configurations": null,
+  "assessed_factor_comparisons": 5540
+}
