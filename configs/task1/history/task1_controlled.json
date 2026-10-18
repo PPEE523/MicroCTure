@@ -1,0 +1,55 @@
+{
+  "protocol": "target_scope_then_head_learning_controls_v1",
+  "evidence_dir": "evidence/task1_failed_v1",
+  "frozen_run_dir": "results/task1_comparison_v1",
+  "cache_dir": "data/cache/task1_comparison_v1",
+  "run_dir": "results/task1_controlled_v1",
+  "input_stage": {
+    "backbone": "m2",
+    "head": "H0",
+    "fold": 2,
+    "seed": 42,
+    "variants": ["I0", "I1", "I2", "I3"],
+    "geometry_baselines": ["length_only", "mask_only", "mask_length"],
+    "baseline_C": 1.0,
+    "baseline_max_iter": 3000
+  },
+  "head_stage": {
+    "input_variant": "I3",
+    "versions": ["H0", "H1", "H2", "H3"],
+    "H3_learning_rate": 0.0001,
+    "cases": {
+      "m2plus_f2_s42": {"backbone": "m2plus", "fold": 2, "seed": 42},
+      "m2plus_f3_s44": {"backbone": "m2plus", "fold": 3, "seed": 44},
+      "transformer_f0_s42": {"backbone": "cnn_transformer", "fold": 0, "seed": 42},
+      "transformer_f1_s42": {"backbone": "cnn_transformer", "fold": 1, "seed": 42},
+      "transformer_f4_s42": {"backbone": "cnn_transformer", "fold": 4, "seed": 42},
+      "transformer_f2_s43": {"backbone": "cnn_transformer", "fold": 2, "seed": 43}
+    }
+  },
+  "training": {
+    "batch_size": 32,
+    "epochs": 40,
+    "learning_rate": 0.001,
+    "weight_decay": 0.0001,
+    "cpu_threads": 4,
+    "deterministic_algorithms": true,
+    "augmentation": "reverse",
+    "optimizer": "AdamW",
+    "loss": "class_weighted_cross_entropy",
+    "dropout": 0.2,
+    "early_stopping": false,
+    "gradient_clipping": false
+  },
+  "acceptance": {
+    "window": 10,
+    "min_relative_loss_drop": 0.01,
+    "logit_variance_threshold": 0.000001,
+    "constant_epsilon": 0.000001,
+    "gradient_norm_epsilon": 0.0000000001,
+    "activation_epsilon": 0.000001,
+    "majority_warning_fraction": 0.95,
+    "max_terminal_loss_regression": 0.05,
+    "CHID_F1_threshold": null
+  }
+}

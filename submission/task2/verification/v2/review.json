@@ -1,0 +1,385 @@
+{
+  "schema_version": 1,
+  "status": "saved_table_consistency_passed",
+  "discovery": {
+    "scan_windows": 5804,
+    "eligible_windows": 5445,
+    "unique_selected_windows": 972,
+    "unannotated_supported_union": 24,
+    "unannotated_supported_disjoint": 21,
+    "cluster_runs": 168,
+    "primary_candidate_new_clusters": 0,
+    "all_passing_cluster_configurations": 0,
+    "partition_windows": {
+      "train": 3308,
+      "validation": 873,
+      "test": 844
+    },
+    "methods": 14,
+    "candidate_budget_per_method": 189,
+    "candidate_validation_records": 972,
+    "replicate_supported_windows": 117,
+    "not_evaluable_candidates": 0,
+    "nonempty_cluster_records": 1205,
+    "unannotated_cluster_records": 11,
+    "unannotated_with_five_supported_members": 0,
+    "unannotated_with_minimum_supported_members": 0,
+    "max_supported_members_in_unannotated_cluster": 2,
+    "max_jaccard_in_unannotated_cluster": 0.3333333333333333,
+    "stable_cluster_records": 666,
+    "supported_cluster_records": 108,
+    "stable_unannotated_cluster_records": 0,
+    "unique_control_windows": 1840,
+    "candidate_control_pairs": 19440,
+    "candidate_assessment_status": "assessed",
+    "confirmed_passing_cluster_configurations": 0,
+    "not_evaluable_cluster_configurations": 0,
+    "threshold_rules": {
+      "replicate_min_correlation": 0.5,
+      "control_quantile": 0.95,
+      "min_controls": 10,
+      "min_new_cluster_members": 5,
+      "cluster_min_jaccard": 0.6
+    }
+  },
+  "checks": [
+    {
+      "name": "scan_ids_and_quality",
+      "status": "passed",
+      "windows": 5804
+    },
+    {
+      "name": "fixed_budgets_circular_disjointness_and_controls",
+      "status": "passed",
+      "methods": 14,
+      "unique_candidates": 972
+    },
+    {
+      "name": "replicate_control_quantiles_and_support",
+      "status": "passed",
+      "candidates": 972,
+      "not_evaluable": 0
+    },
+    {
+      "name": "all_cluster_members_support_jaccard_and_rules",
+      "status": "passed",
+      "runs": 168,
+      "clusters": 1205
+    },
+    {
+      "name": "pairwise_adjusted_rand_index",
+      "status": "passed"
+    },
+    {
+      "name": "method_summaries",
+      "status": "passed"
+    },
+    {
+      "name": "cross_method_union_and_fixed_greedy_disjoint_subset",
+      "status": "passed",
+      "union": 24,
+      "disjoint": 21
+    },
+    {
+      "name": "training_summary_and_checkpoint_selection_history",
+      "status": "passed",
+      "models": 6
+    },
+    {
+      "name": "report_summary_and_frozen_hash",
+      "status": "passed"
+    }
+  ],
+  "reproducibility": {
+    "saved_table_audit": "passed",
+    "model_checkpoint_status": "unavailable_missing_checkpoints",
+    "missing_checkpoints": [
+      "ae_42.pt",
+      "ae_43.pt",
+      "ae_44.pt",
+      "dae_42.pt",
+      "dae_43.pt",
+      "dae_44.pt"
+    ],
+    "expected_checkpoints": 6,
+    "training_histories": [
+      {
+        "model": "ae_42",
+        "epochs": 40,
+        "best_epoch": 40,
+        "validation_loss": 0.030525274574756622
+      },
+      {
+        "model": "ae_43",
+        "epochs": 40,
+        "best_epoch": 40,
+        "validation_loss": 0.030605586245656013
+      },
+      {
+        "model": "ae_44",
+        "epochs": 40,
+        "best_epoch": 39,
+        "validation_loss": 0.030519893392920494
+      },
+      {
+        "model": "dae_42",
+        "epochs": 40,
+        "best_epoch": 38,
+        "validation_loss": 0.030744953081011772
+      },
+      {
+        "model": "dae_43",
+        "epochs": 38,
+        "best_epoch": 32,
+        "validation_loss": 0.03073517233133316
+      },
+      {
+        "model": "dae_44",
+        "epochs": 40,
+        "best_epoch": 37,
+        "validation_loss": 0.03056831657886505
+      }
+    ],
+    "historical_source_signatures_match_current_source": "not_asserted",
+    "model_weights_loaded": false,
+    "ranking_scores_recomputed": false,
+    "clustering_centers_refit": false,
+    "test_losses_recomputed": false,
+    "raw_contact_pixels_read": false,
+    "training_performed": false,
+    "independent_external_confirmation": false
+  },
+  "supplementary_evidence": {
+    "novelty": {
+      "status": "matched_saved_cohort",
+      "reference_records": 463,
+      "unique_reference_structures": 266
+    },
+    "morphology": {
+      "status": "matched_saved_cohort"
+    },
+    "centering": {
+      "primary": {
+        "status": "matched_saved_cohort",
+        "calibration_windows": 8,
+        "calibration_type_counts": {
+          "OPCID": 2,
+          "CHIN": 6
+        },
+        "aggregate": {
+          "assessment_status": "not_evaluable",
+          "assessed_candidates": 0,
+          "not_evaluable_candidates": 21,
+          "candidates_with_any_two_metric_anomaly": null,
+          "candidates_with_recentered_two_metric_anomaly": null,
+          "robust_recentered_anomalies": null
+        }
+      },
+      "supplement": {
+        "status": "matched_saved_cohort",
+        "calibration_windows": 17,
+        "calibration_type_counts": {
+          "OPCID": 4,
+          "CHIN": 13
+        },
+        "aggregate": {
+          "assessment_status": "not_evaluable",
+          "assessed_candidates": 19,
+          "not_evaluable_candidates": 2,
+          "candidates_with_any_two_metric_anomaly": null,
+          "candidates_with_recentered_two_metric_anomaly": null,
+          "robust_recentered_anomalies": null
+        }
+      }
+    }
+  },
+  "sources": [
+    {
+      "path": "configs/shared/data.json",
+      "sha256": "c09a94ea8ebaf12888f5afab3d548cfcbb651e7074637f485a044afabd8824c0",
+      "bytes": 1002
+    },
+    {
+      "path": "results/task2/centering/primary/candidate_summary.csv",
+      "sha256": "ca7ff9a0b7b3e1287dd2b41196098ddaba7464483fc3384cbb5d2e4fdf2d9095",
+      "bytes": 1608
+    },
+    {
+      "path": "results/task2/centering/primary/entities.csv",
+      "sha256": "67885bc53efb76aefcb089e4edfa7f93cb4917277cae9c3a1274e7f0c8acfba3",
+      "bytes": 28999
+    },
+    {
+      "path": "results/task2/centering/primary/report.json",
+      "sha256": "6f35c4de87387111fe30cedbe002d1ef462d8f4dbe255ca9d9b521f601aa7990",
+      "bytes": 1710
+    },
+    {
+      "path": "results/task2/centering/supplement/candidate_summary.csv",
+      "sha256": "9717979112884c65647c2569263172ff2e8d6d145edf3bb2969d32bc227605c2",
+      "bytes": 1317
+    },
+    {
+      "path": "results/task2/centering/supplement/entities.csv",
+      "sha256": "6799fc90c4791307272e2a7fc039bba5d8fad76795e68ee4b5bca82617897a95",
+      "bytes": 33250
+    },
+    {
+      "path": "results/task2/centering/supplement/report.json",
+      "sha256": "870a6e0ba4e4e5b0b76889341281f34cb2f80b20beda00ae51a5bd67406f80a1",
+      "bytes": 542
+    },
+    {
+      "path": "results/task2/discovery/v2/ae_42_history.json",
+      "sha256": "573f8a6efab58280ae12117685657c6df8377cd97171d44c2b2bbf068cdee91e",
+      "bytes": 4333
+    },
+    {
+      "path": "results/task2/discovery/v2/ae_43_history.json",
+      "sha256": "356a572a50ff811f0bc4501d5f68eb94b8b31f66d41e9a05902dbdf952295f14",
+      "bytes": 4346
+    },
+    {
+      "path": "results/task2/discovery/v2/ae_44_history.json",
+      "sha256": "915d0dc7498d4d5f7d4a8532db8922245facbfe6c0ceffb888897531ca0654bd",
+      "bytes": 4347
+    },
+    {
+      "path": "results/task2/discovery/v2/candidate_validation.csv",
+      "sha256": "5bfa31d26ed0055a196943f2847d4527e586d5cedfed119974165b968e1c17cc",
+      "bytes": 104279
+    },
+    {
+      "path": "results/task2/discovery/v2/cluster_stability.csv",
+      "sha256": "5fa063f93f1908ab7a0e293c291b8ac8562a8b9895cfa239965ecab3c273541f",
+      "bytes": 1728
+    },
+    {
+      "path": "results/task2/discovery/v2/clusters.csv",
+      "sha256": "83ab52d9c15ed64c65b4044108cf60599ab8d06bc8daa018a0e51132c9979465",
+      "bytes": 63426
+    },
+    {
+      "path": "results/task2/discovery/v2/dae_42_history.json",
+      "sha256": "0175af018f81102936a9b6d3d76d32d4580a8efbc69a50c23a0154df81415829",
+      "bytes": 4331
+    },
+    {
+      "path": "results/task2/discovery/v2/dae_43_history.json",
+      "sha256": "4d1a9e39df5cf4b6735fc7da7db258bb707feca75508782042b45bb74466d723",
+      "bytes": 4126
+    },
+    {
+      "path": "results/task2/discovery/v2/dae_44_history.json",
+      "sha256": "f707a22dfd708e2496f6120a9b07b72469be9987279a718d6b7b37866b4593a4",
+      "bytes": 4340
+    },
+    {
+      "path": "results/task2/discovery/v2/frozen_before_rep2_reload.json",
+      "sha256": "7624249176a69e5b7d1a32d8cf4e00870043d4e00d42b078174b3b437744f6e5",
+      "bytes": 1047618
+    },
+    {
+      "path": "results/task2/discovery/v2/known_recall.csv",
+      "sha256": "f86f4cce8eb8a7d4d2a5ba8a0d5a43dccdf22a865c4091dd0682c5b7dca6eb2b",
+      "bytes": 10102
+    },
+    {
+      "path": "results/task2/discovery/v2/method_summary.csv",
+      "sha256": "79d94a50077425b94514a9f747e9ebb5dd35202560dc5add37158ca6bd44237e",
+      "bytes": 592
+    },
+    {
+      "path": "results/task2/discovery/v2/quality_correlations.csv",
+      "sha256": "1e29b1081cdad0836f453278d34f1467597fe0233845caee26518d0fd13407a6",
+      "bytes": 757
+    },
+    {
+      "path": "results/task2/discovery/v2/replicate_correlations.csv",
+      "sha256": "c35f92fcdc1b3339b581ab663234e3a95590b53201dee677d80c03c86c79c016",
+      "bytes": 61159
+    },
+    {
+      "path": "results/task2/discovery/v2/report.json",
+      "sha256": "84f10ba5ac7da17a5f77048440846cbc65d1c72c4aa3f1d7a8ef6f32cd816d01",
+      "bytes": 8463
+    },
+    {
+      "path": "results/task2/discovery/v2/run_manifest.json",
+      "sha256": "1a5d9e5d95afcdd7f66dc45926ae0a357dd778655aec6c043bbe6365c535c79b",
+      "bytes": 3047
+    },
+    {
+      "path": "results/task2/discovery/v2/scan_rep1.csv",
+      "sha256": "f126491cd8de4a47f2d682531814e392f68121682a6af235698d52cd01dc2739",
+      "bytes": 599993
+    },
+    {
+      "path": "results/task2/discovery/v2/training_summary.csv",
+      "sha256": "25212a35c0ce561ff4572bac5ede2650663e21d4b404961a88c271c7d3e97abf",
+      "bytes": 517
+    },
+    {
+      "path": "results/task2/discovery/v2/unannotated_supported_disjoint.csv",
+      "sha256": "b92d11337486890934aa1077df5278f055ad349b973febbfc1873d45bd379a42",
+      "bytes": 2156
+    },
+    {
+      "path": "results/task2/discovery/v2/unannotated_supported_union.csv",
+      "sha256": "b9200d239f2752380cdc4981a3b7a7696d02cd323efc8e2989dc7407a63daeef",
+      "bytes": 2429
+    },
+    {
+      "path": "results/task2/morphology/v1/candidate_review_table.csv",
+      "sha256": "32c71dd230ea5e0da4362ce146b904cd6e1d12881e001c68cc77380eabb1f4a7",
+      "bytes": 7485
+    },
+    {
+      "path": "results/task2/novelty/v1/candidate_review.csv",
+      "sha256": "4c3f609668b09d155b99c219a088dfc6af5c39589361ee250c13235a305d38c5",
+      "bytes": 8255
+    },
+    {
+      "path": "results/task2/novelty/v1/known_references.csv",
+      "sha256": "1f4ac360c995cb00031475ba18b10bef853204d7a9b5541feabc050490995aec",
+      "bytes": 19197
+    }
+  ],
+  "code_sources": [
+    {
+      "path": "microcture/tasks/task2/delivery.py",
+      "sha256": "7194f228f995250f03c9f1ba5f91c7aef44e668dea7f1d14277171248e8881a1",
+      "bytes": 17075
+    },
+    {
+      "path": "microcture/tasks/task2/diagnostics.py",
+      "sha256": "a34cee41390012c92450b519f1d0a3b3d41c3f4daab15ca21395468039849132",
+      "bytes": 17233
+    },
+    {
+      "path": "microcture/tasks/task2/review.py",
+      "sha256": "79a46cb1a60705e8c72e355ace46bf5f54d85fde266f99086fb1895900a469ab",
+      "bytes": 29060
+    },
+    {
+      "path": "scripts/task2/review_task2.py",
+      "sha256": "19029ac704f4ab040c80350b5f46cd199a7399fa28bfbf2f2f8f6c4295501e94",
+      "bytes": 9370
+    }
+  ],
+  "diagnostic_rows": {
+    "retrieval": 42,
+    "score_quality": 18
+  },
+  "training_performed": false,
+  "raw_pixels_read": false,
+  "independent_confirmation": false,
+  "limitations": [
+    "WT data were viewed during development; this is not external confirmation.",
+    "Saved-table consistency does not replay training, scores or raw pixel calculations.",
+    "Unannotated replicate-supported windows are not automatically new biological types.",
+    "Primary calibration is insufficient; NA is never converted to zero.",
+    "Supplementary calibrators contain no CHID; no class-complete calibration is asserted.",
+    "Random reference extrema are descriptive ranges, not biological confidence intervals."
+  ]
+}

@@ -1,0 +1,7 @@
+condition,type,total,quality_pass,increased,decreased,median_log2_fc
+delta_stpA,OPCID,68,68,3,6,0.04163703721637184
+delta_stpA,CHIN,250,237,1,0,0.234356373210829
+delta_stpA,CHID,26,22,0,0,0.23353363266980876
+delta_hns_stpA,OPCID,68,68,0,6,-0.12708091843699515
+delta_hns_stpA,CHIN,250,237,77,0,0.4408946278063489
+delta_hns_stpA,CHID,26,22,11,0,0.6440990553041992

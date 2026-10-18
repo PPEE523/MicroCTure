@@ -1,0 +1,23 @@
+{
+  "condition": "I3",
+  "model": "cnn_transformer",
+  "seed": 42,
+  "experiment_signature": "8467176519680652c219a2fd993847048dddaa0344f27c8afb3ada2d0c1c5135",
+  "source_signature": "2de4e177d4557773bf61183c090a1a67db002325cb999a7d24d3cfa410013a8c",
+  "dataset_signature": "d8b73b2bbab3863a8102f3fab4a2701c902219e65ec59c81ada472d7c31f5cd6",
+  "expected_structures": 344,
+  "expected_folds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "status": "complete",
+  "oof_current": true,
+  "n_structures": 344,
+  "numeric_artifacts": [
+    "metrics.json",
+    "predictions.csv"
+  ]
+}

@@ -1,0 +1,1033 @@
+{
+  "format_version": 1,
+  "title": "MicroCTure compact coursework scientific evidence and executable M2+ reference",
+  "date": "2026-10-15",
+  "timezone": "Asia/Shanghai",
+  "repository_provenance": {
+    "base_main_commit": "3bbd4309dae0f2d2e4efe55f3398b575238975ba",
+    "scientific_workspace_commit": "52be8cdef45d9040f49c96cd29e51fb706d479d2",
+    "scientific_results_all_tracked_by_git": false,
+    "provenance_rule": "Per-file SHA256 binds copied numerical evidence; a Git commit alone does not describe the untracked scientific runs."
+  },
+  "scientific_boundaries": {
+    "task": "given candidate-interval OPCID/CHIN/CHID classification",
+    "independent_blind_test": false,
+    "new_expert_truth_available": false,
+    "independent_new_samples_available": false,
+    "reliable_three_class_morphology_established": false,
+    "coordinate_status": "provisional",
+    "raw_third_party_contact_counts_included": false,
+    "automatic_candidate_discovery_established_by_task1": false,
+    "autonomous_studies_share_one_input_protocol": false,
+    "interpretation": "All spatial outer groups were inspected during development. Seeds and WT views do not add independent annotations. Later autonomous stages are development history, not a unified architecture ranking. Reliability gates were not met."
+  },
+  "default_inference_recipe": {
+    "model": "m2plus",
+    "condition": "I3",
+    "head": "H3",
+    "learning_rate": 0.0001,
+    "dropout": 0.2,
+    "checkpoint": "fixed epoch40",
+    "artifact_directory": "artifacts/task1/m2plus",
+    "seeds": [
+      42,
+      43,
+      44
+    ],
+    "folds": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "cross_validation_members": true,
+    "reliability_certified": false,
+    "selection_note": "Retained unified-protocol development reference; no adoption of later ROI/dropout0.5/fusion as a verified new default."
+  },
+  "provenance_groups": {
+    "copied_scientific_evidence": {
+      "source_workspace_read_only": true,
+      "runtime_source_workspace_required": false,
+      "original_experiment_signature": "8467176519680652c219a2fd993847048dddaa0344f27c8afb3ada2d0c1c5135",
+      "original_source_signature": "2de4e177d4557773bf61183c090a1a67db002325cb999a7d24d3cfa410013a8c",
+      "dataset_signature": "d8b73b2bbab3863a8102f3fab4a2701c902219e65ec59c81ada472d7c31f5cd6",
+      "description": "Exact-byte selected annotations, OOF, transforms, trained checkpoints and compact controlled/developmental decisions."
+    },
+    "derived_delivery_demo": {
+      "expected_file": "demo/task1/expected.json",
+      "selection_rule": "Frozen fold0: lexicographically first structure_id of each class; all two WT views; no correctness filtering.",
+      "reference_device": "cpu",
+      "new_training": false,
+      "performance_evidence": false,
+      "description": "Newly extracted six processed observations and one actual CPU inference reference from the bundled historical checkpoint. Device differences from old GPU probabilities are recorded in expected.json."
+    },
+    "retained_centering_review": {
+      "retained_clone_reports": "reports/task2_centering_retained_review_v1",
+      "historical_threshold_source": "data/legacy_experiments/results/task2_centering{,_supplement}/thresholds.csv",
+      "source_scope_field": "retained_clone or original_workspace; source_path is relative to that scope",
+      "runtime_source_workspace_required": false,
+      "original_source_root_option_applies": false,
+      "new_training": false,
+      "raw_pixels_read": false,
+      "independent_confirmation": false,
+      "description": "Exact-byte saved-table review and historical thresholds. Primary calibration n=8 is insufficient; supplement n=17 reuses inspected regions and retains two unevaluable candidates. Null never means zero."
+    }
+  },
+  "upstream_annotation_sha256": {
+    "configs/data.json": "c09a94ea8ebaf12888f5afab3d548cfcbb651e7074637f485a044afabd8824c0",
+    "data/processed/structures.csv": "025b211de37c7babf5eba5a522917eede64785699c3ea576651d1d876e5c919a",
+    "micro-c数据/标注数据.xlsx": "a1fa9c0d359509a9eb319442c19e300cb5da85546eeb567368a390d22205167a"
+  },
+  "frozen_external_indices": [
+    {
+      "source_path": "evidence/task1_failed_v1/freeze_manifest.json",
+      "index_bytes": 64885,
+      "sha256": "b5e6f3fa3ad5c398578fa1cd36b9eca0e7ebaf677b5d8f6523dfbf75a04beefa",
+      "reference_only": true,
+      "included_full_archive": false
+    },
+    {
+      "source_path": "evidence/task1_controlled_v1/freeze_manifest.json",
+      "index_bytes": 67631,
+      "sha256": "ac60808827143ef568c89419b2af6bbc00c5c9615297538eee9e97150d8600db",
+      "reference_only": true,
+      "included_full_archive": false
+    },
+    {
+      "source_path": "evidence/task1_autonomous_v1/freeze_manifest.json",
+      "index_bytes": 837124,
+      "sha256": "e03c61b229311ca0a5d0f5a81c442fe470beb3d87d2e6ea665b9dd01e5555f2e",
+      "reference_only": true,
+      "included_full_archive": false
+    }
+  ],
+  "retained_legacy_files": [
+    {
+      "path": "showcase/results/task1/comparison.png",
+      "bytes": 48630,
+      "sha256": "3af73d9af8b5ba2bbfd1b621952dfb7950bfcc93de176115795c72d5d773ffd1",
+      "interpretation": "historical task1 evidence, superseded for current comparison"
+    },
+    {
+      "path": "showcase/results/task1/comparison.csv",
+      "bytes": 788,
+      "sha256": "516cc76cc92db3348450c7bfa60b993809cd48cf0b78da5031d79ffba00f4632",
+      "interpretation": "historical task1 evidence, superseded for current comparison"
+    },
+    {
+      "path": "showcase/results/task2_v2/method_summary.csv",
+      "bytes": 592,
+      "sha256": "79d94a50077425b94514a9f747e9ebb5dd35202560dc5add37158ca6bd44237e",
+      "interpretation": "retained task2-task6 result, not newly recomputed in this integration"
+    },
+    {
+      "path": "showcase/results/task2_v2/replication_comparison.png",
+      "bytes": 56015,
+      "sha256": "b28776c8f6b031f42b7e25df7d7ac92e74ac1f8eeb5bc54f5c2c009e0713b01c",
+      "interpretation": "retained task2-task6 result, not newly recomputed in this integration"
+    },
+    {
+      "path": "showcase/results/task2_v2/unannotated_supported_disjoint.csv",
+      "bytes": 2156,
+      "sha256": "b92d11337486890934aa1077df5278f055ad349b973febbfc1873d45bd379a42",
+      "interpretation": "retained task2-task6 result, not newly recomputed in this integration"
+    },
+    {
+      "path": "showcase/results/task2_morphology_audit/comparisons/w64_c43040.png",
+      "bytes": 292246,
+      "sha256": "65b1f705e3c1bee2f8592745d9047dde1bca1e930b70849520917271fe7dbab2",
+      "interpretation": "retained task2-task6 result, not newly recomputed in this integration"
+    },
+    {
+      "path": "showcase/results/task3/tracks/0050000_0060000.png",
+      "bytes": 159191,
+      "sha256": "98145f32c39dbf1e3fb99708cb4a2039f7d031897ddaed951a9dc5eaaf79a8f6",
+      "interpretation": "retained task2-task6 result, not newly recomputed in this integration"
+    },
+    {
+      "path": "showcase/results/task4/summary.csv",
+      "bytes": 369,
+      "sha256": "c45a404bbd6d22d48731dc1694a16518e4e471a6e817604f92fb7d925be63d7b",
+      "interpretation": "retained task2-task6 result, not newly recomputed in this integration"
+    },
+    {
+      "path": "showcase/results/task4/effects.png",
+      "bytes": 72338,
+      "sha256": "80dd993f102dfdd60c6336eeca1782f705e501754de94b70d7a0483e7fbca415",
+      "interpretation": "retained task2-task6 result, not newly recomputed in this integration"
+    },
+    {
+      "path": "showcase/results/task5/summary.csv",
+      "bytes": 7195,
+      "sha256": "a59eb88c9971d78602f954a0ea4093cb9f98b0aeb68d1355ee425633c2ada5ff",
+      "interpretation": "retained task2-task6 result, not newly recomputed in this integration"
+    },
+    {
+      "path": "showcase/results/task5/metrics.csv",
+      "bytes": 157288,
+      "sha256": "09c41b04d654d86d121f7766cb3bd14e8cf0b3ec7ba84d419da0fe1f12a9dc28",
+      "interpretation": "retained task2-task6 result, not newly recomputed in this integration"
+    },
+    {
+      "path": "showcase/results/task5/distance_diagnostics.csv",
+      "bytes": 3619,
+      "sha256": "ab7689b5ad114c8a45323dc450ff3673d6a0dbb3469fd9cf9a7cd76b65e61d8f",
+      "interpretation": "retained task2-task6 result, not newly recomputed in this integration"
+    },
+    {
+      "path": "showcase/results/task5/comparison.png",
+      "bytes": 66850,
+      "sha256": "77070a90e71d461e6c72a671a22db1cda868945b4535500db6a2be32f8fecb57",
+      "interpretation": "retained task2-task6 result, not newly recomputed in this integration"
+    },
+    {
+      "path": "showcase/results/task5/learning_curves.png",
+      "bytes": 96914,
+      "sha256": "0657c3232c6f4cd164c4ed4c1a7d3952d33bc0d4a97f63e4c5ba5576d857c9eb",
+      "interpretation": "retained task2-task6 result, not newly recomputed in this integration"
+    },
+    {
+      "path": "showcase/results/task5/examples.png",
+      "bytes": 692595,
+      "sha256": "dfcb4eb9bb4098ae5062b6752ce15c97f260b140347cb02ee8b658171651ccf1",
+      "interpretation": "retained task2-task6 result, not newly recomputed in this integration"
+    },
+    {
+      "path": "showcase/results/task5/structure_profiles.png",
+      "bytes": 1419686,
+      "sha256": "d1d00e2bd2e1238193e4a60355ed6eb04c4d6001e6bc545974b3c6524ea14ae2",
+      "interpretation": "retained task2-task6 result, not newly recomputed in this integration"
+    },
+    {
+      "path": "showcase/results/task5/index.html",
+      "bytes": 679,
+      "sha256": "e2486fcb746243558f6dc128c3854dacb690a2a04865bf8abb44bb444a0dc12e",
+      "interpretation": "retained task2-task6 result, not newly recomputed in this integration"
+    },
+    {
+      "path": "showcase/results/task6/metrics.csv",
+      "bytes": 5238,
+      "sha256": "63e37d3a296889478efd9d18930a5908fb7739cd5542d18452b2030410e01900",
+      "interpretation": "retained task2-task6 result, not newly recomputed in this integration"
+    },
+    {
+      "path": "showcase/results/task6/domain_geometry.csv",
+      "bytes": 4167,
+      "sha256": "b058894afe39015df62de17a43f71e85d6558fc26b457b8d814c0fbcc42a0d1e",
+      "interpretation": "retained task2-task6 result, not newly recomputed in this integration"
+    },
+    {
+      "path": "showcase/results/task6/graph_42_coordinates.csv",
+      "bytes": 85678,
+      "sha256": "953c283a7d520d028849e954301c6e757ca3c60fd4e33db6b106aeb16fe4453f",
+      "interpretation": "retained task2-task6 result, not newly recomputed in this integration"
+    },
+    {
+      "path": "showcase/results/task6/structures.png",
+      "bytes": 445275,
+      "sha256": "33266cc4e6c032b03584d9d188a3c36dd0b75634b500f0d1bd26bdbca6ce616e",
+      "interpretation": "retained task2-task6 result, not newly recomputed in this integration"
+    },
+    {
+      "path": "showcase/results/task6/contact_maps.png",
+      "bytes": 936887,
+      "sha256": "ef68c066363c10834a0c8a791509e7e2bb2afcca6800c6561a6ef3b49cb3774a",
+      "interpretation": "retained task2-task6 result, not newly recomputed in this integration"
+    },
+    {
+      "path": "showcase/results/task6/index.html",
+      "bytes": 450589,
+      "sha256": "994eaf48d09702d6d0cf79368eb645d1df624a24e1fbfa1b4c427c94b68444d0",
+      "interpretation": "retained task2-task6 result, not newly recomputed in this integration"
+    },
+    {
+      "path": "showcase/results/manifest.json",
+      "bytes": 5019,
+      "sha256": "c7c3ffcb1153bf14f9e297504d2768613f695af675ee2e1dea573ca2edaf58ee",
+      "interpretation": "unchanged legacy selection index from the base main checkout"
+    }
+  ],
+  "scientific_checks": {
+    "formal_directory": "task1/formal",
+    "annotations": "data/structures.csv",
+    "unique_structures": 344,
+    "historical_complete_fits": 155,
+    "biological_views_per_structure": 2,
+    "oof_models": {
+      "m2": [
+        42,
+        43,
+        44
+      ],
+      "m2plus": [
+        42,
+        43,
+        44
+      ],
+      "cnn_transformer": [
+        42,
+        43,
+        44
+      ],
+      "pca_lr": [
+        42
+      ],
+      "length_only": [
+        42
+      ],
+      "mask_only": [
+        42
+      ],
+      "mask_length": [
+        42
+      ]
+    },
+    "controlled_aggregate": "task1/controlled/head_aggregate.csv",
+    "controlled_passes": {
+      "H0": 1,
+      "H1": 2,
+      "H2": 3,
+      "H3": 6
+    },
+    "autonomous_decision": "task1/autonomous/decision.json"
+  },
+  "demo_checks": {
+    "input": "demo/task1/input.npz",
+    "expected": "demo/task1/expected.json"
+  },
+  "files": [
+    {
+      "path": "artifacts/task1/m2plus/seed_42/fold_0/final.pt",
+      "bytes": 454933,
+      "sha256": "9cb53223f7df13f8304a2b1ebc311fcf89cf3a2731f9eadc5d1166453e1119ab",
+      "source_kind": "copied_scientific_evidence",
+      "source_path": "results/task1_formal_v1/runs/I3/m2plus/seed_42/fold_0/final.pt",
+      "role": "historical fixed-final40 M2+ cross-validation checkpoint for executable reference inference"
+    },
+    {
+      "path": "artifacts/task1/m2plus/seed_42/fold_1/final.pt",
+      "bytes": 454933,
+      "sha256": "5417c49e22b0332d25d5eb0742f01c964a672b3c1e9aea2da186ff1c3c5d92d7",
+      "source_kind": "copied_scientific_evidence",
+      "source_path": "results/task1_formal_v1/runs/I3/m2plus/seed_42/fold_1/final.pt",
+      "role": "historical fixed-final40 M2+ cross-validation checkpoint for executable reference inference"
+    },
+    {
+      "path": "artifacts/task1/m2plus/seed_42/fold_2/final.pt",
+      "bytes": 454933,
+      "sha256": "719fe8bd2db9bd5b47f340ef1501117e7da4d65a7214435f994b649c0a2fc700",
+      "source_kind": "copied_scientific_evidence",
+      "source_path": "results/task1_formal_v1/runs/I3/m2plus/seed_42/fold_2/final.pt",
+      "role": "historical fixed-final40 M2+ cross-validation checkpoint for executable reference inference"
+    },
+    {
+      "path": "artifacts/task1/m2plus/seed_42/fold_3/final.pt",
+      "bytes": 454933,
+      "sha256": "d6d93ba9f6571d4c9c94942bf028be9387d028c9170724ce739229ac7f4950e7",
+      "source_kind": "copied_scientific_evidence",
+      "source_path": "results/task1_formal_v1/runs/I3/m2plus/seed_42/fold_3/final.pt",
+      "role": "historical fixed-final40 M2+ cross-validation checkpoint for executable reference inference"
+    },
+    {
+      "path": "artifacts/task1/m2plus/seed_42/fold_4/final.pt",
+      "bytes": 454933,
+      "sha256": "9a661734551c40bc47920df48195aaee901bc67a5b8e1e287d4d08fdead3161e",
+      "source_kind": "copied_scientific_evidence",
+      "source_path": "results/task1_formal_v1/runs/I3/m2plus/seed_42/fold_4/final.pt",
+      "role": "historical fixed-final40 M2+ cross-validation checkpoint for executable reference inference"
+    },
+    {
+      "path": "artifacts/task1/m2plus/seed_43/fold_0/final.pt",
+      "bytes": 454933,
+      "sha256": "d1e39fb8d2b3a37dc69ed9a117d141a184b17d957f398f6fc62b46d4c866c685",
+      "source_kind": "copied_scientific_evidence",
+      "source_path": "results/task1_formal_v1/runs/I3/m2plus/seed_43/fold_0/final.pt",
+      "role": "historical fixed-final40 M2+ cross-validation checkpoint for executable reference inference"
+    },
+    {
+      "path": "artifacts/task1/m2plus/seed_43/fold_1/final.pt",
+      "bytes": 454933,
+      "sha256": "998ca5f74af98b5c10111adb65b07f229d5d809588ba6b645f44cf99545e9b78",
+      "source_kind": "copied_scientific_evidence",
+      "source_path": "results/task1_formal_v1/runs/I3/m2plus/seed_43/fold_1/final.pt",
+      "role": "historical fixed-final40 M2+ cross-validation checkpoint for executable reference inference"
+    },
+    {
+      "path": "artifacts/task1/m2plus/seed_43/fold_2/final.pt",
+      "bytes": 454933,
+      "sha256": "b46fe24a57238022ea4b40ae1724c25424de5001d2f709cc6c50913646a7ffc7",
+      "source_kind": "copied_scientific_evidence",
+      "source_path": "results/task1_formal_v1/runs/I3/m2plus/seed_43/fold_2/final.pt",
+      "role": "historical fixed-final40 M2+ cross-validation checkpoint for executable reference inference"
+    },
+    {
+      "path": "artifacts/task1/m2plus/seed_43/fold_3/final.pt",
+      "bytes": 454933,
+      "sha256": "0e0bb1c5b223c98b677270d29abf62562aac9fa23ac3be8afa44ea5c955801d9",
+      "source_kind": "copied_scientific_evidence",
+      "source_path": "results/task1_formal_v1/runs/I3/m2plus/seed_43/fold_3/final.pt",
+      "role": "historical fixed-final40 M2+ cross-validation checkpoint for executable reference inference"
+    },
+    {
+      "path": "artifacts/task1/m2plus/seed_43/fold_4/final.pt",
+      "bytes": 454933,
+      "sha256": "9dfa5d99372fc1a8141bbe4422b38d8e602983303c5e10e22fded1af981550e9",
+      "source_kind": "copied_scientific_evidence",
+      "source_path": "results/task1_formal_v1/runs/I3/m2plus/seed_43/fold_4/final.pt",
+      "role": "historical fixed-final40 M2+ cross-validation checkpoint for executable reference inference"
+    },
+    {
+      "path": "artifacts/task1/m2plus/seed_44/fold_0/final.pt",
+      "bytes": 454933,
+      "sha256": "f1b0368d80c84ec29f0aa9a2647e58bd015161dd68128b84d79af76245a72b39",
+      "source_kind": "copied_scientific_evidence",
+      "source_path": "results/task1_formal_v1/runs/I3/m2plus/seed_44/fold_0/final.pt",
+      "role": "historical fixed-final40 M2+ cross-validation checkpoint for executable reference inference"
+    },
+    {
+      "path": "artifacts/task1/m2plus/seed_44/fold_1/final.pt",
+      "bytes": 454933,
+      "sha256": "db0efe44b4ac8cf17735fa562db69b4c213e4afd1626560328d9057d116ebbe8",
+      "source_kind": "copied_scientific_evidence",
+      "source_path": "results/task1_formal_v1/runs/I3/m2plus/seed_44/fold_1/final.pt",
+      "role": "historical fixed-final40 M2+ cross-validation checkpoint for executable reference inference"
+    },
+    {
+      "path": "artifacts/task1/m2plus/seed_44/fold_2/final.pt",
+      "bytes": 454933,
+      "sha256": "afa8a7244e4282b7355079fa35f58c722d0724ebb4ed0c533ec88bfd9f8133d6",
+      "source_kind": "copied_scientific_evidence",
+      "source_path": "results/task1_formal_v1/runs/I3/m2plus/seed_44/fold_2/final.pt",
+      "role": "historical fixed-final40 M2+ cross-validation checkpoint for executable reference inference"
+    },
+    {
+      "path": "artifacts/task1/m2plus/seed_44/fold_3/final.pt",
+      "bytes": 454933,
+      "sha256": "0c76743d89845a58821bbfe9a608d453605fa426741bf47ff174a2f318982c37",
+      "source_kind": "copied_scientific_evidence",
+      "source_path": "results/task1_formal_v1/runs/I3/m2plus/seed_44/fold_3/final.pt",
+      "role": "historical fixed-final40 M2+ cross-validation checkpoint for executable reference inference"
+    },
+    {
+      "path": "artifacts/task1/m2plus/seed_44/fold_4/final.pt",
+      "bytes": 454933,
+      "sha256": "b63a36851b23472bfb2f243433366e29d1d97f7cc96da5b6f34a573791e698b2",
+      "source_kind": "copied_scientific_evidence",
+      "source_path": "results/task1_formal_v1/runs/I3/m2plus/seed_44/fold_4/final.pt",
+      "role": "historical fixed-final40 M2+ cross-validation checkpoint for executable reference inference"
+    },
+    {
+      "path": "data/structures.csv",
+      "bytes": 59167,
+      "sha256": "025b211de37c7babf5eba5a522917eede64785699c3ea576651d1d876e5c919a",
+      "source_kind": "copied_scientific_evidence",
+      "source_path": "data/processed/structures.csv",
+      "role": "author-derived provisional structure annotations"
+    },
+    {
+      "path": "demo/task1/expected.json",
+      "bytes": 3638,
+      "sha256": "b7309dccfccd0d5a910584439ee4c5bf3d0e9b63d0730b307a4173449e26b8c0",
+      "source_kind": "derived_delivery_demo",
+      "source_path": "submission/demo/task1/expected.json",
+      "role": "deterministic three-case six-view CPU mechanics demonstration; retains the incorrect CHID case"
+    },
+    {
+      "path": "demo/task1/input.npz",
+      "bytes": 132545,
+      "sha256": "ad55d356ad5296c8d257e32511ba57e151a21ee43be5e6b68d5484d81d74d1f2",
+      "source_kind": "derived_delivery_demo",
+      "source_path": "submission/demo/task1/input.npz",
+      "role": "deterministic three-case six-view CPU mechanics demonstration; retains the incorrect CHID case"
+    },
+    {
+      "path": "figures/task1_formal_comparison.png",
+      "bytes": 246420,
+      "sha256": "a5688b47094efd3b62f2bd51ad99750d24b9e6ca81e10155f8a4440bd3b18782",
+      "source_kind": "copied_scientific_evidence",
+      "source_path": "reports/task1_formal_visuals_v1/figures/main_I3_performance.png",
+      "role": "single current unified four-model I3 comparison figure"
+    },
+    {
+      "path": "task1/autonomous/case_summary.csv",
+      "bytes": 278679,
+      "sha256": "386474a8db6b5ae96a3437574b5d42d6bca4e63e10813e2291e6f10d43fb7ee4",
+      "source_kind": "copied_scientific_evidence",
+      "source_path": "reports/task1_autonomous_review_v1/case_summary.csv",
+      "role": "later developmental studies: final numbers, persistent errors and unmet-gate decision"
+    },
+    {
+      "path": "task1/autonomous/decision.json",
+      "bytes": 1510,
+      "sha256": "92457bb4b1627b34ca80d1e5441263af76b45f83c093751425a6c7aeb6ce0520",
+      "source_kind": "copied_scientific_evidence",
+      "source_path": "reports/task1_autonomous_review_v1/decision.json",
+      "role": "later developmental studies: final numbers, persistent errors and unmet-gate decision"
+    },
+    {
+      "path": "task1/autonomous/execution_record.json",
+      "bytes": 2424,
+      "sha256": "9ecb4b2e5636087c000470544a46fe87415571c389f4db89be5549658acd3f1b",
+      "source_kind": "copied_scientific_evidence",
+      "source_path": "reports/task1_autonomous_review_v1/execution_record.json",
+      "role": "later developmental studies: final numbers, persistent errors and unmet-gate decision"
+    },
+    {
+      "path": "task1/autonomous/stage_scores.csv",
+      "bytes": 2855,
+      "sha256": "e1526248489181c15d01e1f10990e421968f9989056de4bc64eb0e6088edd59a",
+      "source_kind": "copied_scientific_evidence",
+      "source_path": "reports/task1_autonomous_review_v1/stage_scores.csv",
+      "role": "later developmental studies: final numbers, persistent errors and unmet-gate decision"
+    },
+    {
+      "path": "task1/controlled/case_head_review.csv",
+      "bytes": 11902,
+      "sha256": "986fe824bae8fbc6c7ae3ade16a94de5a5471af95a3511303a559f1d4e43ebb2",
+      "source_kind": "copied_scientific_evidence",
+      "source_path": "reports/task1_controlled_review_v1/case_head_review.csv",
+      "role": "fixed-case input/head controls and sustained-learning decision"
+    },
+    {
+      "path": "task1/controlled/head_aggregate.csv",
+      "bytes": 9499,
+      "sha256": "836ebf8e192c41f850e4ce28576d58d61a8f05d24f792c6f0adc5a4f68ac5de9",
+      "source_kind": "copied_scientific_evidence",
+      "source_path": "reports/task1_controlled_review_v1/head_aggregate.csv",
+      "role": "fixed-case input/head controls and sustained-learning decision"
+    },
+    {
+      "path": "task1/controlled/head_decision.json",
+      "bytes": 391,
+      "sha256": "534419d357a5231d1c9c6c20d4fd6a6fdc2aaa2a6d36a45834144d2968aa2810",
+      "source_kind": "copied_scientific_evidence",
+      "source_path": "reports/task1_controlled_review_v1/head_decision.json",
+      "role": "fixed-case input/head controls and sustained-learning decision"
+    },
+    {
+      "path": "task1/controlled/input_review.csv",
+      "bytes": 11663,
+      "sha256": "d5fd5a27ded5e3633b36d24a08a9d51a2f4c822c4d7b57b79586520b0405764e",
+      "source_kind": "copied_scientific_evidence",
+      "source_path": "reports/task1_controlled_review_v1/input_review.csv",
+      "role": "fixed-case input/head controls and sustained-learning decision"
+    },
+    {
+      "path": "task1/formal/cache_folds.json",
+      "bytes": 31788,
+      "sha256": "4e4f3d635e54720434906788608072325ed34024ae6b1b6478dd0c83ab85437a",
+      "source_kind": "copied_scientific_evidence",
+      "source_path": "data/cache/task1_comparison_v1/folds.json",
+      "role": "frozen unified I3 comparison, complete OOF or fold-specific transform provenance"
+    },
+    {
+      "path": "task1/formal/comparison.csv",
+      "bytes": 6879,
+      "sha256": "c9db9ac88b42a0c7e143185d734190d81ad52fb85724c05b384d8e29bf7a28cd",
+      "source_kind": "copied_scientific_evidence",
+      "source_path": "results/task1_formal_v1/comparison.csv",
+      "role": "frozen unified I3 comparison, complete OOF or fold-specific transform provenance"
+    },
+    {
+      "path": "task1/formal/folds/fold_0.json",
+      "bytes": 99548,
+      "sha256": "adbd149eccd9f253625c65ad26aabd41f5edeee7f5d32ddfeabc3771e0f73f16",
+      "source_kind": "copied_scientific_evidence",
+      "source_path": "results/task1_formal_v1/folds/fold_0.json",
+      "role": "frozen unified I3 comparison, complete OOF or fold-specific transform provenance"
+    },
+    {
+      "path": "task1/formal/folds/fold_1.json",
+      "bytes": 99626,
+      "sha256": "d30defa8d3062facde593600e34d07b088583ca2dd1e6dbba76f34790c067e38",
+      "source_kind": "copied_scientific_evidence",
+      "source_path": "results/task1_formal_v1/folds/fold_1.json",
+      "role": "frozen unified I3 comparison, complete OOF or fold-specific transform provenance"
+    },
+    {
+      "path": "task1/formal/folds/fold_2.json",
+      "bytes": 99579,
+      "sha256": "d6282090010918323cdc8cb53755283b515ef8a34110e5e06f62c04eb29af6b7",
+      "source_kind": "copied_scientific_evidence",
+      "source_path": "results/task1_formal_v1/folds/fold_2.json",
+      "role": "frozen unified I3 comparison, complete OOF or fold-specific transform provenance"
+    },
+    {
+      "path": "task1/formal/folds/fold_3.json",
+      "bytes": 99652,
+      "sha256": "5c210588e8a35551080ed27d9580f6f1c347ac8e0c9870543e9ee75df6412540",
+      "source_kind": "copied_scientific_evidence",
+      "source_path": "results/task1_formal_v1/folds/fold_3.json",
+      "role": "frozen unified I3 comparison, complete OOF or fold-specific transform provenance"
+    },
+    {
+      "path": "task1/formal/folds/fold_4.json",
+      "bytes": 99548,
+      "sha256": "988829bd271e90b00c850a1d8c39b19f59082e5a8bf7da280332637a0e538747",
+      "source_kind": "copied_scientific_evidence",
+      "source_path": "results/task1_formal_v1/folds/fold_4.json",
+      "role": "frozen unified I3 comparison, complete OOF or fold-specific transform provenance"
+    },
+    {
+      "path": "task1/formal/manifest.json",
+      "bytes": 39272,
+      "sha256": "2299ef19e04cb4e3892203531641f6eba7ff3d4301172392fd7d795f6e2a57e2",
+      "source_kind": "copied_scientific_evidence",
+      "source_path": "results/task1_formal_v1/manifest.json",
+      "role": "frozen unified I3 comparison, complete OOF or fold-specific transform provenance"
+    },
+    {
+      "path": "task1/formal/metadata.json",
+      "bytes": 204342,
+      "sha256": "49fd239ff85c088d3c94720a8cbb4a96d440db93728ce78045d516db369715e4",
+      "source_kind": "copied_scientific_evidence",
+      "source_path": "data/cache/task1_comparison_v1/metadata.json",
+      "role": "frozen unified I3 comparison, complete OOF or fold-specific transform provenance"
+    },
+    {
+      "path": "task1/formal/oof/I3/cnn_transformer/seed_42/metrics.json",
+      "bytes": 1601,
+      "sha256": "89294748209e99dd6ee4c89abe7be82aa5889cc0ed0eaac566048c7b276b7a44",
+      "source_kind": "copied_scientific_evidence",
+      "source_path": "results/task1_formal_v1/oof/I3/cnn_transformer/seed_42/metrics.json",
+      "role": "frozen unified I3 comparison, complete OOF or fold-specific transform provenance"
+    },
+    {
+      "path": "task1/formal/oof/I3/cnn_transformer/seed_42/predictions.csv",
+      "bytes": 118687,
+      "sha256": "fa38ec1e1351c7d7af994581fa4bc0f271eecfaf0f88e3b81769fd4a282b8a5b",
+      "source_kind": "copied_scientific_evidence",
+      "source_path": "results/task1_formal_v1/oof/I3/cnn_transformer/seed_42/predictions.csv",
+      "role": "frozen unified I3 comparison, complete OOF or fold-specific transform provenance"
+    },
+    {
+      "path": "task1/formal/oof/I3/cnn_transformer/seed_42/status.json",
+      "bytes": 576,
+      "sha256": "9c47ff7217e56afce377e9066e83e76ab0eff804790355678e13b6c7b3b437ae",
+      "source_kind": "copied_scientific_evidence",
+      "source_path": "results/task1_formal_v1/oof/I3/cnn_transformer/seed_42/status.json",
+      "role": "frozen unified I3 comparison, complete OOF or fold-specific transform provenance"
+    },
+    {
+      "path": "task1/formal/oof/I3/cnn_transformer/seed_43/metrics.json",
+      "bytes": 1600,
+      "sha256": "192f7aa8992c0c9a0a6f3db7698094f5dc4629fa49e2a1dae4ca8869b3f4c9bb",
+      "source_kind": "copied_scientific_evidence",
+      "source_path": "results/task1_formal_v1/oof/I3/cnn_transformer/seed_43/metrics.json",
+      "role": "frozen unified I3 comparison, complete OOF or fold-specific transform provenance"
+    },
+    {
+      "path": "task1/formal/oof/I3/cnn_transformer/seed_43/predictions.csv",
+      "bytes": 118595,
+      "sha256": "35cb7c818a3a51da121d83ea2d3fd5f36db31ed2c4cb084248e370b288915d14",
+      "source_kind": "copied_scientific_evidence",
+      "source_path": "results/task1_formal_v1/oof/I3/cnn_transformer/seed_43/predictions.csv",
+      "role": "frozen unified I3 comparison, complete OOF or fold-specific transform provenance"
+    },
+    {
+      "path": "task1/formal/oof/I3/cnn_transformer/seed_43/status.json",
+      "bytes": 576,
+      "sha256": "be5d79e0b8515667e778979762b4b5bc6bd1d526f9f9eb4286feefa5b5d4d7eb",
+      "source_kind": "copied_scientific_evidence",
+      "source_path": "results/task1_formal_v1/oof/I3/cnn_transformer/seed_43/status.json",
+      "role": "frozen unified I3 comparison, complete OOF or fold-specific transform provenance"
+    },
+    {
+      "path": "task1/formal/oof/I3/cnn_transformer/seed_44/metrics.json",
+      "bytes": 1599,
+      "sha256": "8508896927004c7c282a6589db12ba954dab5a1cf1457110807155a3b933c58f",
+      "source_kind": "copied_scientific_evidence",
+      "source_path": "results/task1_formal_v1/oof/I3/cnn_transformer/seed_44/metrics.json",
+      "role": "frozen unified I3 comparison, complete OOF or fold-specific transform provenance"
+    },
+    {
+      "path": "task1/formal/oof/I3/cnn_transformer/seed_44/predictions.csv",
+      "bytes": 118520,
+      "sha256": "dcc043fcefca3bf30383a434b60dafade2332d8d36abddd0c94e1c0495e69d93",
+      "source_kind": "copied_scientific_evidence",
+      "source_path": "results/task1_formal_v1/oof/I3/cnn_transformer/seed_44/predictions.csv",
+      "role": "frozen unified I3 comparison, complete OOF or fold-specific transform provenance"
+    },
+    {
+      "path": "task1/formal/oof/I3/cnn_transformer/seed_44/status.json",
+      "bytes": 576,
+      "sha256": "007a23b1750b99f9521d9652138ba207f044a24deb72eeba89d349ddf863473f",
+      "source_kind": "copied_scientific_evidence",
+      "source_path": "results/task1_formal_v1/oof/I3/cnn_transformer/seed_44/status.json",
+      "role": "frozen unified I3 comparison, complete OOF or fold-specific transform provenance"
+    },
+    {
+      "path": "task1/formal/oof/I3/length_only/seed_42/metrics.json",
+      "bytes": 1602,
+      "sha256": "06baf6aba7d190c96671153fa290672a3c2cc3b50bfddcd147d875321ea0f3e0",
+      "source_kind": "copied_scientific_evidence",
+      "source_path": "results/task1_formal_v1/oof/I3/length_only/seed_42/metrics.json",
+      "role": "frozen unified I3 comparison, complete OOF or fold-specific transform provenance"
+    },
+    {
+      "path": "task1/formal/oof/I3/length_only/seed_42/predictions.csv",
+      "bytes": 114951,
+      "sha256": "02c1a2a15052c6cfceb92518b80cf6196d2069b2c17068e75a0223b495c372b4",
+      "source_kind": "copied_scientific_evidence",
+      "source_path": "results/task1_formal_v1/oof/I3/length_only/seed_42/predictions.csv",
+      "role": "frozen unified I3 comparison, complete OOF or fold-specific transform provenance"
+    },
+    {
+      "path": "task1/formal/oof/I3/length_only/seed_42/status.json",
+      "bytes": 572,
+      "sha256": "2be18f19f323932212970b5719f0423919f0e7150c3a42be0a489b0010a4c928",
+      "source_kind": "copied_scientific_evidence",
+      "source_path": "results/task1_formal_v1/oof/I3/length_only/seed_42/status.json",
+      "role": "frozen unified I3 comparison, complete OOF or fold-specific transform provenance"
+    },
+    {
+      "path": "task1/formal/oof/I3/m2/seed_42/metrics.json",
+      "bytes": 1589,
+      "sha256": "52e1959e5a15197ce9c23ef4bae415b2a18eca9cb33152f12a9774b8cfc768c8",
+      "source_kind": "copied_scientific_evidence",
+      "source_path": "results/task1_formal_v1/oof/I3/m2/seed_42/metrics.json",
+      "role": "frozen unified I3 comparison, complete OOF or fold-specific transform provenance"
+    },
+    {
+      "path": "task1/formal/oof/I3/m2/seed_42/predictions.csv",
+      "bytes": 116724,
+      "sha256": "f88d0f2a27b8ed0f8efa5fe705133f223b195c26778b5a7d2a623a3c177b29af",
+      "source_kind": "copied_scientific_evidence",
+      "source_path": "results/task1_formal_v1/oof/I3/m2/seed_42/predictions.csv",
+      "role": "frozen unified I3 comparison, complete OOF or fold-specific transform provenance"
+    },
+    {
+      "path": "task1/formal/oof/I3/m2/seed_42/status.json",
+      "bytes": 563,
+      "sha256": "ea3b2ce133a46528a72cd3bfe6a9ab81d014a799d16b1b3fccc0e661c6f1ceab",
+      "source_kind": "copied_scientific_evidence",
+      "source_path": "results/task1_formal_v1/oof/I3/m2/seed_42/status.json",
+      "role": "frozen unified I3 comparison, complete OOF or fold-specific transform provenance"
+    },
+    {
+      "path": "task1/formal/oof/I3/m2/seed_43/metrics.json",
+      "bytes": 1589,
+      "sha256": "4c1f12131807b32ebe73faeb527897e1c517dc51f6c396d09380affc658a86b1",
+      "source_kind": "copied_scientific_evidence",
+      "source_path": "results/task1_formal_v1/oof/I3/m2/seed_43/metrics.json",
+      "role": "frozen unified I3 comparison, complete OOF or fold-specific transform provenance"
+    },
+    {
+      "path": "task1/formal/oof/I3/m2/seed_43/predictions.csv",
+      "bytes": 116262,
+      "sha256": "b0aaa15b60c4e31ee6951688cdeaf34cd7a0c39f6000bae00704637c2826c0dc",
+      "source_kind": "copied_scientific_evidence",
+      "source_path": "results/task1_formal_v1/oof/I3/m2/seed_43/predictions.csv",
+      "role": "frozen unified I3 comparison, complete OOF or fold-specific transform provenance"
+    },
+    {
+      "path": "task1/formal/oof/I3/m2/seed_43/status.json",
+      "bytes": 563,
+      "sha256": "99d48d2b2d979048933432721f5891eb1bdc9a4d62c55dbec084a62741a73a55",
+      "source_kind": "copied_scientific_evidence",
+      "source_path": "results/task1_formal_v1/oof/I3/m2/seed_43/status.json",
+      "role": "frozen unified I3 comparison, complete OOF or fold-specific transform provenance"
+    },
+    {
+      "path": "task1/formal/oof/I3/m2/seed_44/metrics.json",
+      "bytes": 1588,
+      "sha256": "e43f57db528c92df1cbdc8db248f583a2deb2ce85337cfce9d5a7dbbe514697f",
+      "source_kind": "copied_scientific_evidence",
+      "source_path": "results/task1_formal_v1/oof/I3/m2/seed_44/metrics.json",
+      "role": "frozen unified I3 comparison, complete OOF or fold-specific transform provenance"
+    },
+    {
+      "path": "task1/formal/oof/I3/m2/seed_44/predictions.csv",
+      "bytes": 116496,
+      "sha256": "4363d33b6b6783dca9d525ee29e3f6f2ae4f259d401fd5a2e662963598f68aa4",
+      "source_kind": "copied_scientific_evidence",
+      "source_path": "results/task1_formal_v1/oof/I3/m2/seed_44/predictions.csv",
+      "role": "frozen unified I3 comparison, complete OOF or fold-specific transform provenance"
+    },
+    {
+      "path": "task1/formal/oof/I3/m2/seed_44/status.json",
+      "bytes": 563,
+      "sha256": "2b8126e8c8a0de20976460ce5d01bbb6924fd3c8aed9432f493e462cf88f663c",
+      "source_kind": "copied_scientific_evidence",
+      "source_path": "results/task1_formal_v1/oof/I3/m2/seed_44/status.json",
+      "role": "frozen unified I3 comparison, complete OOF or fold-specific transform provenance"
+    },
+    {
+      "path": "task1/formal/oof/I3/m2plus/seed_42/metrics.json",
+      "bytes": 1590,
+      "sha256": "f14ec40ce120a9967c5d11664e1fcc012005e1dd638a0e5419fbc6e365bb5ac9",
+      "source_kind": "copied_scientific_evidence",
+      "source_path": "results/task1_formal_v1/oof/I3/m2plus/seed_42/metrics.json",
+      "role": "frozen unified I3 comparison, complete OOF or fold-specific transform provenance"
+    },
+    {
+      "path": "task1/formal/oof/I3/m2plus/seed_42/predictions.csv",
+      "bytes": 118591,
+      "sha256": "8c7fbf70630f0aef8b3477e717877907549a91347e348885f1d06d66e70eb4ec",
+      "source_kind": "copied_scientific_evidence",
+      "source_path": "results/task1_formal_v1/oof/I3/m2plus/seed_42/predictions.csv",
+      "role": "frozen unified I3 comparison, complete OOF or fold-specific transform provenance"
+    },
+    {
+      "path": "task1/formal/oof/I3/m2plus/seed_42/status.json",
+      "bytes": 567,
+      "sha256": "1a2a1b939c34e798c3d83ee67f4b21cff1779e0d797de8f9ee73b580e0c20d4a",
+      "source_kind": "copied_scientific_evidence",
+      "source_path": "results/task1_formal_v1/oof/I3/m2plus/seed_42/status.json",
+      "role": "frozen unified I3 comparison, complete OOF or fold-specific transform provenance"
+    },
+    {
+      "path": "task1/formal/oof/I3/m2plus/seed_43/metrics.json",
+      "bytes": 1590,
+      "sha256": "fad30569645033e9606395765768e22e6a68dfc22422ad7c8de4a17149ae85e9",
+      "source_kind": "copied_scientific_evidence",
+      "source_path": "results/task1_formal_v1/oof/I3/m2plus/seed_43/metrics.json",
+      "role": "frozen unified I3 comparison, complete OOF or fold-specific transform provenance"
+    },
+    {
+      "path": "task1/formal/oof/I3/m2plus/seed_43/predictions.csv",
+      "bytes": 118436,
+      "sha256": "1ee80b118d024d1f6ebaa4ab4b965e825389f4df3b33802205920f601fa70afa",
+      "source_kind": "copied_scientific_evidence",
+      "source_path": "results/task1_formal_v1/oof/I3/m2plus/seed_43/predictions.csv",
+      "role": "frozen unified I3 comparison, complete OOF or fold-specific transform provenance"
+    },
+    {
+      "path": "task1/formal/oof/I3/m2plus/seed_43/status.json",
+      "bytes": 567,
+      "sha256": "11fc68612dc11a62028533181f1adf084dbf2f67bea4125b533df6e014841479",
+      "source_kind": "copied_scientific_evidence",
+      "source_path": "results/task1_formal_v1/oof/I3/m2plus/seed_43/status.json",
+      "role": "frozen unified I3 comparison, complete OOF or fold-specific transform provenance"
+    },
+    {
+      "path": "task1/formal/oof/I3/m2plus/seed_44/metrics.json",
+      "bytes": 1577,
+      "sha256": "30ab4951b370605a925c0efe70a6aaebb175725ecb74c460d6af9ec09a911a60",
+      "source_kind": "copied_scientific_evidence",
+      "source_path": "results/task1_formal_v1/oof/I3/m2plus/seed_44/metrics.json",
+      "role": "frozen unified I3 comparison, complete OOF or fold-specific transform provenance"
+    },
+    {
+      "path": "task1/formal/oof/I3/m2plus/seed_44/predictions.csv",
+      "bytes": 118603,
+      "sha256": "588746ff409bbb9a23860959abeccf8e0e250fe939daad5637b9a688dbaf2226",
+      "source_kind": "copied_scientific_evidence",
+      "source_path": "results/task1_formal_v1/oof/I3/m2plus/seed_44/predictions.csv",
+      "role": "frozen unified I3 comparison, complete OOF or fold-specific transform provenance"
+    },
+    {
+      "path": "task1/formal/oof/I3/m2plus/seed_44/status.json",
+      "bytes": 567,
+      "sha256": "cf996c74b72b56c76ad4731c17f780050109faa2c8d81cb50babf9ca3d7236c0",
+      "source_kind": "copied_scientific_evidence",
+      "source_path": "results/task1_formal_v1/oof/I3/m2plus/seed_44/status.json",
+      "role": "frozen unified I3 comparison, complete OOF or fold-specific transform provenance"
+    },
+    {
+      "path": "task1/formal/oof/I3/mask_length/seed_42/metrics.json",
+      "bytes": 1578,
+      "sha256": "4f77f5143318b3ea6a37c40144afa92c84124cc2745b397d31d316f01de62624",
+      "source_kind": "copied_scientific_evidence",
+      "source_path": "results/task1_formal_v1/oof/I3/mask_length/seed_42/metrics.json",
+      "role": "frozen unified I3 comparison, complete OOF or fold-specific transform provenance"
+    },
+    {
+      "path": "task1/formal/oof/I3/mask_length/seed_42/predictions.csv",
+      "bytes": 117009,
+      "sha256": "fc0ddf83ce128b2774d11879370fcd13df5b27d51c24299fa6785061c92e7912",
+      "source_kind": "copied_scientific_evidence",
+      "source_path": "results/task1_formal_v1/oof/I3/mask_length/seed_42/predictions.csv",
+      "role": "frozen unified I3 comparison, complete OOF or fold-specific transform provenance"
+    },
+    {
+      "path": "task1/formal/oof/I3/mask_length/seed_42/status.json",
+      "bytes": 572,
+      "sha256": "7981ff82aac9adebeaba5cbff6e193e93310f5822924c5bd173e1573d75631a8",
+      "source_kind": "copied_scientific_evidence",
+      "source_path": "results/task1_formal_v1/oof/I3/mask_length/seed_42/status.json",
+      "role": "frozen unified I3 comparison, complete OOF or fold-specific transform provenance"
+    },
+    {
+      "path": "task1/formal/oof/I3/mask_only/seed_42/metrics.json",
+      "bytes": 1588,
+      "sha256": "bc7cfeaf37e42dcbe43d716baf07b0b630499d9d05404a380d2681a84e897307",
+      "source_kind": "copied_scientific_evidence",
+      "source_path": "results/task1_formal_v1/oof/I3/mask_only/seed_42/metrics.json",
+      "role": "frozen unified I3 comparison, complete OOF or fold-specific transform provenance"
+    },
+    {
+      "path": "task1/formal/oof/I3/mask_only/seed_42/predictions.csv",
+      "bytes": 117126,
+      "sha256": "903fb2c538b2b35b4d20a3abcae0031f5b0145739565b3805a7d58ef7444bb15",
+      "source_kind": "copied_scientific_evidence",
+      "source_path": "results/task1_formal_v1/oof/I3/mask_only/seed_42/predictions.csv",
+      "role": "frozen unified I3 comparison, complete OOF or fold-specific transform provenance"
+    },
+    {
+      "path": "task1/formal/oof/I3/mask_only/seed_42/status.json",
+      "bytes": 570,
+      "sha256": "d339f70d82f958fb86206807e3d189c0f9cd121a2cae3b027c6de5bb512117ee",
+      "source_kind": "copied_scientific_evidence",
+      "source_path": "results/task1_formal_v1/oof/I3/mask_only/seed_42/status.json",
+      "role": "frozen unified I3 comparison, complete OOF or fold-specific transform provenance"
+    },
+    {
+      "path": "task1/formal/oof/I3/pca_lr/seed_42/metrics.json",
+      "bytes": 1582,
+      "sha256": "9fe5d0b1297b8ee3c610406be6f3e0a832c03ed49c23136bdc7a8a10074f5280",
+      "source_kind": "copied_scientific_evidence",
+      "source_path": "results/task1_formal_v1/oof/I3/pca_lr/seed_42/metrics.json",
+      "role": "frozen unified I3 comparison, complete OOF or fold-specific transform provenance"
+    },
+    {
+      "path": "task1/formal/oof/I3/pca_lr/seed_42/predictions.csv",
+      "bytes": 116876,
+      "sha256": "17bf520e5c163b5ce326c1d1f059d17b5789db1a56ca87a44533c14d4e3491e9",
+      "source_kind": "copied_scientific_evidence",
+      "source_path": "results/task1_formal_v1/oof/I3/pca_lr/seed_42/predictions.csv",
+      "role": "frozen unified I3 comparison, complete OOF or fold-specific transform provenance"
+    },
+    {
+      "path": "task1/formal/oof/I3/pca_lr/seed_42/status.json",
+      "bytes": 567,
+      "sha256": "5c36402a7cb16368f151e01e6e05721a31ab279a1dd70ada08423cde5d98e41a",
+      "source_kind": "copied_scientific_evidence",
+      "source_path": "results/task1_formal_v1/oof/I3/pca_lr/seed_42/status.json",
+      "role": "frozen unified I3 comparison, complete OOF or fold-specific transform provenance"
+    },
+    {
+      "path": "task1/formal/paired_deltas.csv",
+      "bytes": 11021,
+      "sha256": "b5f1db1f54cfe640386cdc3a57c4a2b432d32630db12a93ff6222c70feaf81c4",
+      "source_kind": "copied_scientific_evidence",
+      "source_path": "results/task1_formal_v1/paired_deltas.csv",
+      "role": "frozen unified I3 comparison, complete OOF or fold-specific transform provenance"
+    },
+    {
+      "path": "task1/formal/summary.json",
+      "bytes": 273478,
+      "sha256": "4b5a7250000979dbfe3ca040524c779ca378a13f5818c5e75a7825864dfb18f2",
+      "source_kind": "copied_scientific_evidence",
+      "source_path": "results/task1_formal_v1/summary.json",
+      "role": "frozen unified I3 comparison, complete OOF or fold-specific transform provenance"
+    },
+    {
+      "path": "task2/centering/primary/candidate_summary.csv",
+      "bytes": 2139,
+      "sha256": "a9c159fa64489cddad82ccd6423faa2eaa39dd7bf498dc653a940381e294adb9",
+      "source_kind": "retained_centering_review",
+      "source_scope": "retained_clone",
+      "source_path": "reports/task2_centering_retained_review_v1/primary/candidate_summary.csv",
+      "role": "saved-distance centering review with explicit missing-evidence semantics; no new fitting, raw scan or independent confirmation"
+    },
+    {
+      "path": "task2/centering/primary/candidate_variants.csv",
+      "bytes": 391981,
+      "sha256": "57b604791ddb410692cf7b4b3929dfa56121cd03bc1fc2e65cc27cdd0c9ae57a",
+      "source_kind": "retained_centering_review",
+      "source_scope": "retained_clone",
+      "source_path": "reports/task2_centering_retained_review_v1/primary/candidate_variants.csv",
+      "role": "saved-distance centering review with explicit missing-evidence semantics; no new fitting, raw scan or independent confirmation"
+    },
+    {
+      "path": "task2/centering/primary/report.json",
+      "bytes": 2126,
+      "sha256": "870d3f8f8c578aceca27324ed246c00851867738f035f9d90e6c22ad428197ae",
+      "source_kind": "retained_centering_review",
+      "source_scope": "retained_clone",
+      "source_path": "reports/task2_centering_retained_review_v1/primary/report.json",
+      "role": "saved-distance centering review with explicit missing-evidence semantics; no new fitting, raw scan or independent confirmation"
+    },
+    {
+      "path": "task2/centering/primary/thresholds.csv",
+      "bytes": 4599,
+      "sha256": "f8457870bfc0b1360b6c43a9b909ffc83844924d16a5270034e423967e4720b9",
+      "source_kind": "retained_centering_review",
+      "source_scope": "original_workspace",
+      "source_path": "data/legacy_experiments/results/task2_centering/thresholds.csv",
+      "role": "saved-distance centering review with explicit missing-evidence semantics; no new fitting, raw scan or independent confirmation"
+    },
+    {
+      "path": "task2/centering/review.json",
+      "bytes": 7847,
+      "sha256": "7c6288be52b6439332385457739dfe618143cd8916a31adc7c8e3b9881a472e2",
+      "source_kind": "retained_centering_review",
+      "source_scope": "retained_clone",
+      "source_path": "reports/task2_centering_retained_review_v1/review.json",
+      "role": "saved-distance centering review with explicit missing-evidence semantics; no new fitting, raw scan or independent confirmation"
+    },
+    {
+      "path": "task2/centering/supplement/candidate_summary.csv",
+      "bytes": 2024,
+      "sha256": "f75ea99f3ff4b4beda737a080b4a3638ca4b4234730a6123fcc3ab203145088d",
+      "source_kind": "retained_centering_review",
+      "source_scope": "retained_clone",
+      "source_path": "reports/task2_centering_retained_review_v1/supplement/candidate_summary.csv",
+      "role": "saved-distance centering review with explicit missing-evidence semantics; no new fitting, raw scan or independent confirmation"
+    },
+    {
+      "path": "task2/centering/supplement/candidate_variants.csv",
+      "bytes": 351016,
+      "sha256": "0e5ee068ac79af2f95cd49ff5c54d617238288d76e75103ae55e6e274a3a6734",
+      "source_kind": "retained_centering_review",
+      "source_scope": "retained_clone",
+      "source_path": "reports/task2_centering_retained_review_v1/supplement/candidate_variants.csv",
+      "role": "saved-distance centering review with explicit missing-evidence semantics; no new fitting, raw scan or independent confirmation"
+    },
+    {
+      "path": "task2/centering/supplement/report.json",
+      "bytes": 926,
+      "sha256": "1422780cff0ce74eb12aabc471074f793b487c15c299487dc261a339c58fbc21",
+      "source_kind": "retained_centering_review",
+      "source_scope": "retained_clone",
+      "source_path": "reports/task2_centering_retained_review_v1/supplement/report.json",
+      "role": "saved-distance centering review with explicit missing-evidence semantics; no new fitting, raw scan or independent confirmation"
+    },
+    {
+      "path": "task2/centering/supplement/thresholds.csv",
+      "bytes": 7923,
+      "sha256": "46a11ea14be3c526cdec987377d963bad21d25ce16b8958e9819283aa870428c",
+      "source_kind": "retained_centering_review",
+      "source_scope": "original_workspace",
+      "source_path": "data/legacy_experiments/results/task2_centering_supplement/thresholds.csv",
+      "role": "saved-distance centering review with explicit missing-evidence semantics; no new fitting, raw scan or independent confirmation"
+    }
+  ],
+  "total_bytes": 10974950,
+  "content_signature": "17e4be10c038c71ad9c6f92c4f85ba3a6c48e44d753f8a9ac2f1233874f2a440",
+  "centering_checks": {
+    "directory": "task2/centering",
+    "candidate_ids": [
+      "w64_c38928",
+      "w256_c44624",
+      "w64_c27392",
+      "w64_c33056",
+      "w64_c12576",
+      "w64_c37104",
+      "w64_c14000",
+      "w64_c20464",
+      "w64_c44176",
+      "w256_c18960",
+      "w64_c38560",
+      "w64_c43040",
+      "w64_c19600",
+      "w64_c28240",
+      "w64_c10288",
+      "w64_c21520",
+      "w64_c14880",
+      "w256_c34976",
+      "w64_c4016",
+      "w64_c3616",
+      "w64_c26688"
+    ],
+    "candidates": 21,
+    "calibration_windows": {
+      "primary": 8,
+      "supplement": 17
+    },
+    "previously_inspected_data": true,
+    "independent_confirmation": false
+  }
+}

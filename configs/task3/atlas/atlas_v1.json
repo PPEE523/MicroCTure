@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "run_dir": "results/task3/condition_tracks/next_v1",
+  "output_dir": "submission/task3/atlas/v1",
+  "report_dir": "reports/task3/atlas/v1",
+  "chrom": "NC_000913.3",
+  "genome_length_bp": 4641652,
+  "resolution_bp": 100,
+  "page_width_bp": 10000,
+  "representative_region_bp": [
+    1050000,
+    1100000
+  ],
+  "region_selection_rule": "The representative region was predefined independently of classification performance and condition-specific effect size.",
+  "reference_gff": "data/shared/annotations/reference/ASM584v2/GCF_000005845.2_ASM584v2_genomic.gff.gz",
+  "reference_gff_sha256": "afdf03dc1d06e423d874ee29d9e0df14f5d32baf893f4da9f93aa721eb5f495e",
+  "assembly_report": "data/shared/annotations/reference/ASM584v2/GCF_000005845.2_ASM584v2_assembly_report.txt",
+  "assembly_report_sha256": "ca161bcfe8d1842b2160ca3fa20b480956d8242895115c53f5f819a11e895362",
+  "reference_url": "https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/005/845/GCF_000005845.2_ASM584v2/GCF_000005845.2_ASM584v2_genomic.gff.gz",
+  "assembly_url": "https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_000005845.2/",
+  "reference_download_date": "2026-10-16",
+  "author_workbook": "data/raw/micro_c/标注数据.xlsx",
+  "author_structures": "data/shared/annotations/structures.csv",
+  "source_gene_table": "data/shared/annotations/genes.csv",
+  "coordinate_system": "0-based-half-open",
+  "conditions": [
+    "WT_37C",
+    "delta_stpA",
+    "delta_hns_stpA"
+  ],
+  "labels": [
+    "WT",
+    "ΔstpA",
+    "ΔhnsΔstpA"
+  ],
+  "author_workbook_sha256": "a1fa9c0d359509a9eb319442c19e300cb5da85546eeb567368a390d22205167a",
+  "author_workbook_public_url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41586-025-09396-y/MediaObjects/41586_2025_9396_MOESM3_ESM.xlsx",
+  "author_workbook_publisher_download_verified": "2026-10-16"
+}

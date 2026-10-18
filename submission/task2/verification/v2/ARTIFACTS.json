@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "files": [
+    {
+      "path": "candidate_evidence.csv",
+      "bytes": 8158,
+      "sha256": "a43046eeed288240c9fd31b9ff2f77014e1c7adfadcb8bd65c767da2e3674a95"
+    },
+    {
+      "path": "index.html",
+      "bytes": 11798,
+      "sha256": "b0cd74ee1d369ca7aeca6868fd611d65a49c7b086473871b9c2262b4892376f7"
+    },
+    {
+      "path": "model_diagnostics.png",
+      "bytes": 386549,
+      "sha256": "a13d6f4d835d6432db2c946d4322021fc814d5aa5300dc576c552b3e286506f5"
+    },
+    {
+      "path": "retrieval_diagnostics.csv",
+      "bytes": 6422,
+      "sha256": "afbba2f4b1a434b23c4896e5cd47388a1a86604f7c0a1830aa16ab9a7eb0bd08"
+    },
+    {
+      "path": "review.json",
+      "bytes": 12288,
+      "sha256": "f8b08a6363b4340652e838c51a51b65e9f2fc06217f385152b293371ba75e848"
+    },
+    {
+      "path": "score_quality.csv",
+      "bytes": 757,
+      "sha256": "1e29b1081cdad0836f453278d34f1467597fe0233845caee26518d0fd13407a6"
+    }
+  ],
+  "scientific_scope": "Descriptive reanalysis of previously viewed data; not independent biological confirmation"
+}

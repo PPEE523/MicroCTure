@@ -1,0 +1,37 @@
+{
+  "date": "2026-10-14",
+  "status": "evidence_limited",
+  "biological_morphology_reliability_established": false,
+  "predeclared_numeric_gate_passed": false,
+  "gate": {
+    "every_seed_macro_f1_min": 0.9,
+    "every_class_every_seed_precision_recall_min": 0.85,
+    "full_I3_continuous_learning_required": true
+  },
+  "full_I3_neural_learning_passes": 75,
+  "full_I3_neural_fits": 75,
+  "all_neural_learning_passes": 223,
+  "all_neural_fits": 225,
+  "outer_constant_probability_fits": 0,
+  "outer_single_argmax_class_fits": 0,
+  "default_change_adopted": false,
+  "dropout_0_5_adopted": false,
+  "fusion_as_reliable_default_adopted": false,
+  "limitations": [
+    "All spatial outer groups repeatedly inspected; developmental reuse cannot be rebranded as independent validation",
+    "No independent expert shape review or new biological sample/region provided",
+    "CHID26 structures in18 spatial groups; two WT views are not independent annotations",
+    "Persistent CHID9/15 misses across every evaluated method including the fixed single-seed classical baselines"
+  ],
+  "does_not_prove": [
+    "Labels are wrong",
+    "No better model can exist",
+    "Input has no class information",
+    "Automatic candidate discovery completed"
+  ],
+  "next_evidence_needed": [
+    "Operational morphological criteria reviewed against independent biological truth",
+    "New spatial regions or independent samples under a frozen protocol"
+  ],
+  "summary_report": "reports/task1_autonomous_review_v1/analysis.md"
+}

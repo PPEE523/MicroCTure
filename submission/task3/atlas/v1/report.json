@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "status": "three_level_atlas_verified",
+  "created_utc": "2026-10-16T12:38:45.280414+00:00",
+  "levels": [
+    "whole_genome_overview",
+    "465_page_complete_browser",
+    "predefined_representative_region"
+  ],
+  "genome_length_bp": 4641652,
+  "samples": 6,
+  "conditions": 3,
+  "bins": 46417,
+  "common_valid_bins": 45499,
+  "pages": 465,
+  "png_images": 465,
+  "page_coordinate_system": "0-based-half-open",
+  "last_page_bp": [
+    4640000,
+    4641652
+  ],
+  "reference_gene_features": 4651,
+  "reference_feature_types": {
+    "gene": 4506,
+    "pseudogene": 145
+  },
+  "supplied_gene_rows": 4516,
+  "unique_supplied_gene_names": 4451,
+  "supplied_gene_coordinate_comparison": {
+    "exact_1_closed": 4296,
+    "name_match_coordinates_differ": 205,
+    "name_not_found": 15
+  },
+  "author_structures_verified_against_workbook": 344,
+  "author_structure_types": {
+    "OPCID": 68,
+    "CHIN": 250,
+    "CHID": 26
+  },
+  "author_workbook_publisher_sha256_verified": true,
+  "author_workbook_public_url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41586-025-09396-y/MediaObjects/41586_2025_9396_MOESM3_ESM.xlsx",
+  "author_workbook_sha256": "a1fa9c0d359509a9eb319442c19e300cb5da85546eeb567368a390d22205167a",
+  "author_coordinate_convention": "provisional; original source values unchanged",
+  "reference_layer": "pinned NCBI RefSeq GFF gene+pseudogene features, converted 1-based closed to 0-based half-open",
+  "legacy_png_layer": "Original 465 PNGs retain supplied author gene coordinates; not retroactively certified. Default browser/static new views use RefSeq.",
+  "reference_url": "https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/005/845/GCF_000005845.2_ASM584v2/GCF_000005845.2_ASM584v2_genomic.gff.gz",
+  "assembly_url": "https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_000005845.2/",
+  "reference_download_date": "2026-10-16",
+  "representative_region_bp": [
+    1050000,
+    1100000
+  ],
+  "region_selection_rule": "The representative region was predefined independently of classification performance and condition-specific effect size.",
+  "original_run_outputs_verified": 496,
+  "training_performed": false,
+  "raw_contact_scan_performed": false,
+  "full_465_pngs_regenerated": false,
+  "limitations": [
+    "Reference annotation is a versioned snapshot, not experimentally verified strain-specific genes.",
+    "Exact coordinate matches apply only to matched rows, not all supplied genes or the separate author structure convention.",
+    "Author labels are not classifier predictions; nested intervals are retained.",
+    "Original PNGs keep historical annotations and may have per-page y-scales; use the new browser for aligned RefSeq comparison.",
+    "Contact tracks are relative summaries; gene proximity is not a causal or new-structure claim."
+  ]
+}

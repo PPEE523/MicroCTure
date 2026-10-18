@@ -1,0 +1,208 @@
+{
+  "action": "review",
+  "status": "saved_inputs_available",
+  "cohorts": {
+    "primary": {
+      "path": "/home/pppe/MicroCTure/data/legacy_experiments/results/task2_centering",
+      "calibration_windows": 8,
+      "candidates": 21,
+      "exploratory": true
+    },
+    "supplement": {
+      "path": "/home/pppe/MicroCTure/data/legacy_experiments/results/task2_centering_supplement",
+      "calibration_windows": 17,
+      "candidates": 21,
+      "exploratory": true
+    }
+  },
+  "input_files": [
+    {
+      "path": "/home/pppe/MicroCTure/data/legacy_experiments/results/task2_centering/report.json",
+      "size_bytes": 1710,
+      "sha256": "6f35c4de87387111fe30cedbe002d1ef462d8f4dbe255ca9d9b521f601aa7990"
+    },
+    {
+      "path": "/home/pppe/MicroCTure/data/legacy_experiments/results/task2_centering/candidate_variants.csv",
+      "size_bytes": 314833,
+      "sha256": "7e85a97a8253fc52a5950a157b721bbc065a84e97cf9cf59a09d7a186ba1763e"
+    },
+    {
+      "path": "/home/pppe/MicroCTure/data/legacy_experiments/results/task2_centering/candidate_summary.csv",
+      "size_bytes": 1608,
+      "sha256": "ca7ff9a0b7b3e1287dd2b41196098ddaba7464483fc3384cbb5d2e4fdf2d9095"
+    },
+    {
+      "path": "/home/pppe/MicroCTure/data/legacy_experiments/results/task2_centering/thresholds.csv",
+      "size_bytes": 4599,
+      "sha256": "f8457870bfc0b1360b6c43a9b909ffc83844924d16a5270034e423967e4720b9"
+    },
+    {
+      "path": "/home/pppe/MicroCTure/data/legacy_experiments/results/task2_centering/variants.csv",
+      "size_bytes": 3197,
+      "sha256": "a4fb165a5a7b4af3c131f09a6c2e4a1567aa649d7e1b2ce6c90128d353d772cc"
+    },
+    {
+      "path": "/home/pppe/MicroCTure/data/legacy_experiments/results/task2_centering_supplement/report.json",
+      "size_bytes": 542,
+      "sha256": "870a6e0ba4e4e5b0b76889341281f34cb2f80b20beda00ae51a5bd67406f80a1"
+    },
+    {
+      "path": "/home/pppe/MicroCTure/data/legacy_experiments/results/task2_centering_supplement/candidate_variants.csv",
+      "size_bytes": 327712,
+      "sha256": "dc025d3d129d58e68db3452e753ce01ad2b740d38387655a4a4afd798d9151ab"
+    },
+    {
+      "path": "/home/pppe/MicroCTure/data/legacy_experiments/results/task2_centering_supplement/candidate_summary.csv",
+      "size_bytes": 1317,
+      "sha256": "9717979112884c65647c2569263172ff2e8d6d145edf3bb2969d32bc227605c2"
+    },
+    {
+      "path": "/home/pppe/MicroCTure/data/legacy_experiments/results/task2_centering_supplement/thresholds.csv",
+      "size_bytes": 7923,
+      "sha256": "46a11ea14be3c526cdec987377d963bad21d25ce16b8958e9819283aa870428c"
+    }
+  ],
+  "training_performed": false,
+  "raw_pixels_read": false,
+  "historical_source_hash_match_claimed": false,
+  "results": {
+    "primary": {
+      "config": {
+        "output_dir": "results/task2_centering",
+        "source_config": "configs/discovery_v2.json",
+        "candidate_source": "results/task2_v2/unannotated_supported_disjoint.csv",
+        "anchor_search_bins": 64,
+        "boundary_flank_bins": 8,
+        "boundary_min_pairs": 20,
+        "boundary_max_shift_bins": 5,
+        "width_bins": [
+          64,
+          128,
+          256
+        ],
+        "shift_bins": [
+          -8,
+          0,
+          8
+        ],
+        "anchors": [
+          "original",
+          "boundary"
+        ],
+        "occlusions": [
+          {
+            "name": "none",
+            "fraction": 0.0,
+            "seed": 17
+          },
+          {
+            "name": "drop10_s17",
+            "fraction": 0.1,
+            "seed": 17
+          },
+          {
+            "name": "drop10_s29",
+            "fraction": 0.1,
+            "seed": 29
+          }
+        ],
+        "min_valid_fraction": 0.8,
+        "max_zero_fraction": 0.8,
+        "min_calibration_windows": 10,
+        "distance_quantile": 0.95,
+        "robust_fraction": 0.8,
+        "interpretation": "Exploratory matched perturbation experiment on previously inspected repeats; all variants reported, no maximum-anomaly selection. Robust anomaly is not a new biological cluster."
+      },
+      "candidates": 21,
+      "variants_per_candidate": 54,
+      "reference_windows": 108,
+      "calibration_windows": 8,
+      "reproducible_candidate_boundaries": 18,
+      "candidates_with_any_two_metric_anomaly": null,
+      "candidates_with_recentered_two_metric_anomaly": null,
+      "robust_recentered_anomalies": null,
+      "candidate_metric_comparisons": 2268,
+      "calibration_metric_comparisons": 864,
+      "interpretation": "Exploratory matched perturbation experiment on previously inspected repeats; all variants reported, no maximum-anomaly selection. Robust anomaly is not a new biological cluster.",
+      "assessment_status": "not_evaluable",
+      "assessed_candidates": 0,
+      "not_evaluable_candidates": 21,
+      "legacy_source_report": "/home/pppe/MicroCTure/data/legacy_experiments/results/task2_centering/report.json",
+      "historical_source_manifest_verified_against_current_code": false,
+      "isolated_factor_metric_comparisons": 5670,
+      "sensitive_metric_configurations": null,
+      "assessed_factor_comparisons": 0
+    },
+    "supplement": {
+      "reason": "Primary fixed cohort has only eight independent calibration windows; minimum ten is unchanged. Supplement uses previously inspected validation and evaluation known windows. It is not independent evaluation.",
+      "reference_windows": 108,
+      "calibration_windows": 17,
+      "candidates": 21,
+      "variants": 54,
+      "candidates_with_any_two_metric_anomaly": null,
+      "candidates_with_recentered_two_metric_anomaly": null,
+      "robust_recentered_anomalies": null,
+      "candidate_metric_comparisons": 2268,
+      "isolated_factor_metric_comparisons": 5670,
+      "assessment_status": "not_evaluable",
+      "assessed_candidates": 19,
+      "not_evaluable_candidates": 2,
+      "legacy_source_report": "/home/pppe/MicroCTure/data/legacy_experiments/results/task2_centering_supplement/report.json",
+      "historical_source_manifest_verified_against_current_code": false,
+      "sensitive_metric_configurations": null,
+      "assessed_factor_comparisons": 5540
+    }
+  },
+  "source_files": {
+    "/home/pppe/MicroCTure-main/scripts/review_saved_centering.py": "78885999c833edc6c77f1bb5495a8cf34857ebb1818b09ccbc155a9cd8a524c4",
+    "/home/pppe/MicroCTure-main/scripts/centering_status.py": "19970fd3d5629a85d32f223bdabe6e2d805127f74ac1f14f91701a14cbadb2e0",
+    "/home/pppe/MicroCTure-main/scripts/report_centering.py": "41e8403b90a8e2d1549cea70576b498825c657463cd970f82c931220d75985a6"
+  },
+  "config": {
+    "output_dir": "results/task2_centering",
+    "source_config": "configs/discovery_v2.json",
+    "candidate_source": "results/task2_v2/unannotated_supported_disjoint.csv",
+    "anchor_search_bins": 64,
+    "boundary_flank_bins": 8,
+    "boundary_min_pairs": 20,
+    "boundary_max_shift_bins": 5,
+    "width_bins": [
+      64,
+      128,
+      256
+    ],
+    "shift_bins": [
+      -8,
+      0,
+      8
+    ],
+    "anchors": [
+      "original",
+      "boundary"
+    ],
+    "occlusions": [
+      {
+        "name": "none",
+        "fraction": 0.0,
+        "seed": 17
+      },
+      {
+        "name": "drop10_s17",
+        "fraction": 0.1,
+        "seed": 17
+      },
+      {
+        "name": "drop10_s29",
+        "fraction": 0.1,
+        "seed": 29
+      }
+    ],
+    "min_valid_fraction": 0.8,
+    "max_zero_fraction": 0.8,
+    "min_calibration_windows": 10,
+    "distance_quantile": 0.95,
+    "robust_fraction": 0.8,
+    "interpretation": "Exploratory matched perturbation experiment on previously inspected repeats; all variants reported, no maximum-anomaly selection. Robust anomaly is not a new biological cluster."
+  },
+  "interpretation": "NA is missing evidence, never a negative result. Supplement reuses viewed regions; no independent biological confirmation."
+}

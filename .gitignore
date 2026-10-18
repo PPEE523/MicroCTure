@@ -19,15 +19,22 @@ htmlcov/
 .env.*
 !.env.example
 .pypirc
+.netrc
+id_rsa
+id_ed25519
+*.pem
+*.key
 .idea/
 .vscode/
 .DS_Store
 *.log
 *.tmp
 *.partial
+*.zip
+/*.zip.sha256
 
 # Original research inputs (download separately)
-/micro-c数据/
+/data/raw/
 *.cool
 *.mcool
 *.hic
@@ -36,42 +43,77 @@ htmlcov/
 *.bai
 *.xlsx
 *.pdf
+*.docx
+*.pptx
 
 # Generated runtime artifacts; publish only explicit examples/results snapshots
-/data/cache/
-/results/
+/data/shared/cache/
+/data/task1/cache/
+/data/task1/ablation/
+/data/task6/cache/
+# Retained experiment payloads stay local; future curated results remain visible.
+/results/shared/local_matrices/
+/results/task1/ablation/
+/results/task1/diagnostics/
+/results/task1/history/
+/results/task1/model_comparison/
+/results/task2/centering/
+/results/task2/diagnostics/
+/results/task2/discovery/
+/results/task2/history/
+/results/task2/morphology/
+/results/task2/novelty/
+/results/task2/validation/
+/results/task3/condition_tracks/
+/results/task3/verification/
+/results/task4/condition_comparison/
+/results/task5/paired_analysis/
+/results/task5/super_resolution/
+/results/task6/reconstruction/
 /checkpoints/
 *.pt
 *.pth
 *.pkl
 *.npz
 *.npy
+!/submission/artifacts/task1/**/final.pt
+!/submission/demo/task1/*.npz
 
 # Local assistant state and private settings
 /.agents/
 /.codex/
+/AGENTS.md
+*:Zone.Identifier
+/MicroCTure_学术交互展示.html
 
 # Non-destructive backups and separate release output
 /local_archive/
 /coursework/
+/report_materials/
+/evidence/*/*
+!/evidence/*/freeze_manifest.json
 
 # Coursework and full experiment history stay available locally
 /docs/*.md
 !/docs/README.md
-!/docs/PROJECT.md
-!/docs/RESULTS.md
-!/docs/REPRODUCIBILITY.md
-!/docs/ENVIRONMENT.md
-!/docs/TASK1_COMPARISON.md
+!/docs/TASK1.md
+!/docs/TASK2.md
+!/docs/TASK3.md
+!/docs/TASK4.md
+!/docs/TASK5.md
+!/docs/TASK6.md
 /examples/
-/reports/*
-!/reports/README.md
-!/reports/data_audit.json
-!/reports/task1_results.json
-!/reports/task34_verification.json
-!/reports/task56_results.json
-!/reports/task56_verification.json
 
-# Retained local data and historical report draft after the task-one reset
-/data/legacy_experiments/
-/report_materials/历史报告/*.docx
+# Audit history stays local; publish only the selected overview records
+/reports/**
+!/reports/README.md
+!/reports/shared/
+!/reports/shared/data_audit.json
+!/reports/shared/conditions/
+!/reports/shared/conditions/task34_verification.json
+!/reports/shared/tasks56/
+!/reports/shared/tasks56/task56_results.json
+!/reports/shared/tasks56/task56_verification.json
+!/reports/task1/
+!/reports/task1/diagnostics/
+!/reports/task1/diagnostics/task1_results.json

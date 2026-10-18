@@ -1,0 +1,1106 @@
+{
+  "schema_version": 1,
+  "description": "Original evidence paths map to task/experiment locations. Historical manifest bytes and signatures are unchanged.",
+  "moves": [
+    {
+      "old": "micro-c数据",
+      "new": "data/raw/micro_c",
+      "kind": "raw"
+    },
+    {
+      "old": "data/metadata",
+      "new": "data/shared/metadata",
+      "kind": "metadata"
+    },
+    {
+      "old": "data/processed/classification_examples.csv",
+      "new": "data/task5/splits/classification_examples.csv",
+      "kind": "annotation"
+    },
+    {
+      "old": "data/processed/classification_split.csv",
+      "new": "data/task5/splits/classification_split.csv",
+      "kind": "annotation"
+    },
+    {
+      "old": "data/processed/condition_samples.csv",
+      "new": "data/shared/metadata/condition_samples.csv",
+      "kind": "annotation"
+    },
+    {
+      "old": "data/processed/genes.csv",
+      "new": "data/shared/annotations/genes.csv",
+      "kind": "annotation"
+    },
+    {
+      "old": "data/processed/samples.csv",
+      "new": "data/shared/metadata/samples.csv",
+      "kind": "annotation"
+    },
+    {
+      "old": "data/processed/structure_overlaps.csv",
+      "new": "data/shared/annotations/structure_overlaps.csv",
+      "kind": "annotation"
+    },
+    {
+      "old": "data/processed/structures.csv",
+      "new": "data/shared/annotations/structures.csv",
+      "kind": "annotation"
+    },
+    {
+      "old": "data/cache/task1_comparison_v1",
+      "new": "data/task1/cache/target_aware_v1",
+      "kind": "cache"
+    },
+    {
+      "old": "data/cache/classification_v1",
+      "new": "data/task1/cache/legacy_classification_v1",
+      "kind": "cache"
+    },
+    {
+      "old": "data/cache/discovery",
+      "new": "data/shared/cache/contact_bands_100bp",
+      "kind": "cache"
+    },
+    {
+      "old": "data/cache/local_matrices",
+      "new": "data/shared/cache/local_matrices_100bp",
+      "kind": "cache"
+    },
+    {
+      "old": "data/cache/task6",
+      "new": "data/task6/cache/contact_5kb",
+      "kind": "cache"
+    },
+    {
+      "old": "data/task1_native_roi_v1",
+      "new": "data/task1/ablation/native_resolution/v1",
+      "kind": "cache"
+    },
+    {
+      "old": "data/task1_native_roi_v2",
+      "new": "data/task1/ablation/native_resolution/v2",
+      "kind": "cache"
+    },
+    {
+      "old": "data/legacy_experiments/results/local_matrices",
+      "new": "results/shared/local_matrices",
+      "kind": "result"
+    },
+    {
+      "old": "data/legacy_experiments/results/task1",
+      "new": "results/task1/history/classification_v1",
+      "kind": "result"
+    },
+    {
+      "old": "data/legacy_experiments/results/task2",
+      "new": "results/task2/discovery/v1",
+      "kind": "result"
+    },
+    {
+      "old": "data/legacy_experiments/results/task2_centering",
+      "new": "results/task2/centering/primary",
+      "kind": "result"
+    },
+    {
+      "old": "data/legacy_experiments/results/task2_centering_supplement",
+      "new": "results/task2/centering/supplement",
+      "kind": "result"
+    },
+    {
+      "old": "data/legacy_experiments/results/task2_morphology_audit",
+      "new": "results/task2/morphology/v1",
+      "kind": "result"
+    },
+    {
+      "old": "data/legacy_experiments/results/task2_novelty_review",
+      "new": "results/task2/novelty/v1",
+      "kind": "result"
+    },
+    {
+      "old": "data/legacy_experiments/results/task2_novelty_review_superseded_overlapping_context",
+      "new": "results/task2/history/novelty_overlapping_context",
+      "kind": "result"
+    },
+    {
+      "old": "data/legacy_experiments/results/task2_v2",
+      "new": "results/task2/discovery/v2",
+      "kind": "result"
+    },
+    {
+      "old": "data/legacy_experiments/results/task2_v2_diagnostic",
+      "new": "results/task2/diagnostics/v2",
+      "kind": "result"
+    },
+    {
+      "old": "data/legacy_experiments/results/task2_v2_diagnostic_failed_serialization",
+      "new": "results/task2/history/diagnostic_failed_serialization",
+      "kind": "result"
+    },
+    {
+      "old": "data/legacy_experiments/results/task2_v2_superseded_qc",
+      "new": "results/task2/history/discovery_v2_superseded_qc",
+      "kind": "result"
+    },
+    {
+      "old": "data/legacy_experiments/results/task3",
+      "new": "results/task3/condition_tracks/v1",
+      "kind": "result"
+    },
+    {
+      "old": "data/legacy_experiments/results/task4",
+      "new": "results/task4/condition_comparison/v1",
+      "kind": "result"
+    },
+    {
+      "old": "data/legacy_experiments/results/task5",
+      "new": "results/task5/super_resolution/v1",
+      "kind": "result"
+    },
+    {
+      "old": "data/legacy_experiments/results/task6",
+      "new": "results/task6/reconstruction/v1",
+      "kind": "result"
+    },
+    {
+      "old": "data/legacy_experiments/site",
+      "new": "report_materials/history_site",
+      "kind": "history"
+    },
+    {
+      "old": "results/task1_comparison_v1",
+      "new": "results/task1/model_comparison/failed_v1",
+      "kind": "result"
+    },
+    {
+      "old": "results/task1_controlled_v1",
+      "new": "results/task1/ablation/input_and_heads/v1",
+      "kind": "result"
+    },
+    {
+      "old": "results/task1_formal_v1",
+      "new": "results/task1/model_comparison/formal_v1",
+      "kind": "result"
+    },
+    {
+      "old": "results/task1_readout_v1",
+      "new": "results/task1/ablation/spatial_readout/v1",
+      "kind": "result"
+    },
+    {
+      "old": "results/task1_reevaluation_v1",
+      "new": "results/task1/ablation/checkpoint_selection/v1",
+      "kind": "result"
+    },
+    {
+      "old": "results/task1_roi_v1",
+      "new": "results/task1/ablation/target_roi/v1",
+      "kind": "result"
+    },
+    {
+      "old": "results/task1_native_roi_v2",
+      "new": "results/task1/ablation/native_resolution/v2",
+      "kind": "result"
+    },
+    {
+      "old": "results/task1_shape_baseline_v2",
+      "new": "results/task1/ablation/morphology_baselines/v2",
+      "kind": "result"
+    },
+    {
+      "old": "results/task1_fixed_fusion_v1",
+      "new": "results/task1/ablation/fixed_fusion/v1",
+      "kind": "result"
+    },
+    {
+      "old": "results/task1_dropout_v1",
+      "new": "results/task1/ablation/dropout/v1",
+      "kind": "result"
+    },
+    {
+      "old": "results/task1_morphology_probe_v1",
+      "new": "results/task1/diagnostics/morphology_dependence/v1",
+      "kind": "result"
+    },
+    {
+      "old": "results/task34_retained_review_v1",
+      "new": "results/task3/verification/retained_v1",
+      "kind": "result"
+    },
+    {
+      "old": "results/task34_input_check_v1",
+      "new": "results/task3/verification/input_v1",
+      "kind": "result"
+    },
+    {
+      "old": "reports/centering_verification.json",
+      "new": "reports/task2/verification/centering_verification.json",
+      "kind": "report"
+    },
+    {
+      "old": "reports/classification_dataset.json",
+      "new": "reports/shared/classification_dataset.json",
+      "kind": "report"
+    },
+    {
+      "old": "reports/conditions_audit.json",
+      "new": "reports/shared/conditions_audit.json",
+      "kind": "report"
+    },
+    {
+      "old": "reports/data_audit.json",
+      "new": "reports/shared/data_audit.json",
+      "kind": "report"
+    },
+    {
+      "old": "reports/environment_check.json",
+      "new": "reports/shared/environment_check.json",
+      "kind": "report"
+    },
+    {
+      "old": "reports/legacy_retention_review_v1",
+      "new": "reports/shared/inventory/v1",
+      "kind": "report"
+    },
+    {
+      "old": "reports/morphology_audit_verification.json",
+      "new": "reports/task2/verification/morphology_audit_verification.json",
+      "kind": "report"
+    },
+    {
+      "old": "reports/novelty_review_verification.json",
+      "new": "reports/task2/verification/novelty_review_verification.json",
+      "kind": "report"
+    },
+    {
+      "old": "reports/task1_autonomous_review_v1",
+      "new": "reports/task1/ablation/summary/v1",
+      "kind": "report"
+    },
+    {
+      "old": "reports/task1_autonomous_v1",
+      "new": "reports/task1/ablation/protocols/v1",
+      "kind": "report"
+    },
+    {
+      "old": "reports/task1_chid_annotation_audit.json",
+      "new": "reports/task1/diagnostics/task1_chid_annotation_audit.json",
+      "kind": "report"
+    },
+    {
+      "old": "reports/task1_chid_data_diagnosis.json",
+      "new": "reports/task1/diagnostics/task1_chid_data_diagnosis.json",
+      "kind": "report"
+    },
+    {
+      "old": "reports/task1_chid_data_diagnosis.md",
+      "new": "reports/task1/diagnostics/task1_chid_data_diagnosis.md",
+      "kind": "report"
+    },
+    {
+      "old": "reports/task1_chid_input_ambiguity.png",
+      "new": "reports/task1/diagnostics/task1_chid_input_ambiguity.png",
+      "kind": "report"
+    },
+    {
+      "old": "reports/task1_chid_input_audit.json",
+      "new": "reports/task1/diagnostics/task1_chid_input_audit.json",
+      "kind": "report"
+    },
+    {
+      "old": "reports/task1_chid_predictions_audit.json",
+      "new": "reports/task1/diagnostics/task1_chid_predictions_audit.json",
+      "kind": "report"
+    },
+    {
+      "old": "reports/task1_comparison_code_check.json",
+      "new": "reports/task1/diagnostics/task1_comparison_code_check.json",
+      "kind": "report"
+    },
+    {
+      "old": "reports/task1_controlled_decision_v1.json",
+      "new": "reports/task1/ablation/input_and_heads/metadata/task1_controlled_decision_v1.json",
+      "kind": "report"
+    },
+    {
+      "old": "reports/task1_controlled_head_review.json",
+      "new": "reports/task1/ablation/input_and_heads/metadata/task1_controlled_head_review.json",
+      "kind": "report"
+    },
+    {
+      "old": "reports/task1_controlled_input_review.json",
+      "new": "reports/task1/ablation/input_and_heads/metadata/task1_controlled_input_review.json",
+      "kind": "report"
+    },
+    {
+      "old": "reports/task1_controlled_protocol_review.json",
+      "new": "reports/task1/ablation/input_and_heads/metadata/task1_controlled_protocol_review.json",
+      "kind": "report"
+    },
+    {
+      "old": "reports/task1_controlled_review_v1",
+      "new": "reports/task1/ablation/input_and_heads/v1",
+      "kind": "report"
+    },
+    {
+      "old": "reports/task1_dropout_review_v1",
+      "new": "reports/task1/ablation/dropout/v1",
+      "kind": "report"
+    },
+    {
+      "old": "reports/task1_fixed_fusion_review_v1",
+      "new": "reports/task1/ablation/fixed_fusion/v1",
+      "kind": "report"
+    },
+    {
+      "old": "reports/task1_formal_visuals_v1",
+      "new": "reports/task1/model_comparison/formal_v1",
+      "kind": "report"
+    },
+    {
+      "old": "reports/task1_morphology_annotation_source.json",
+      "new": "reports/task1/diagnostics/task1_morphology_annotation_source.json",
+      "kind": "report"
+    },
+    {
+      "old": "reports/task1_morphology_evidence_v1",
+      "new": "reports/task1/diagnostics/morphology_evidence/v1",
+      "kind": "report"
+    },
+    {
+      "old": "reports/task1_morphology_review_v1",
+      "new": "reports/task1/diagnostics/morphology_review/v1",
+      "kind": "report"
+    },
+    {
+      "old": "reports/task1_native_roi_review_v1",
+      "new": "reports/task1/ablation/native_resolution/v2",
+      "kind": "report"
+    },
+    {
+      "old": "reports/task1_readout_review_v1",
+      "new": "reports/task1/ablation/spatial_readout/v1",
+      "kind": "report"
+    },
+    {
+      "old": "reports/task1_reevaluation_review_v1",
+      "new": "reports/task1/ablation/checkpoint_selection/v1",
+      "kind": "report"
+    },
+    {
+      "old": "reports/task1_results.json",
+      "new": "reports/task1/diagnostics/task1_results.json",
+      "kind": "report"
+    },
+    {
+      "old": "reports/task1_roi_review_v1",
+      "new": "reports/task1/ablation/target_roi/v1",
+      "kind": "report"
+    },
+    {
+      "old": "reports/task1_shape_baseline_review_v1",
+      "new": "reports/task1/ablation/morphology_baselines/rejected_v1",
+      "kind": "report"
+    },
+    {
+      "old": "reports/task1_shape_baseline_review_v2",
+      "new": "reports/task1/ablation/morphology_baselines/v2",
+      "kind": "report"
+    },
+    {
+      "old": "reports/task1_verification.json",
+      "new": "reports/task1/diagnostics/task1_verification.json",
+      "kind": "report"
+    },
+    {
+      "old": "reports/task2_centering_retained_review_v1",
+      "new": "reports/task2/centering/v1",
+      "kind": "report"
+    },
+    {
+      "old": "reports/task2_v2_diagnostic_verification.json",
+      "new": "reports/task2/verification/task2_v2_diagnostic_verification.json",
+      "kind": "report"
+    },
+    {
+      "old": "reports/task2_v2_verification.json",
+      "new": "reports/task2/verification/task2_v2_verification.json",
+      "kind": "report"
+    },
+    {
+      "old": "reports/task2_verification.json",
+      "new": "reports/task2/verification/task2_verification.json",
+      "kind": "report"
+    },
+    {
+      "old": "reports/task34_results.json",
+      "new": "reports/shared/conditions/task34_results.json",
+      "kind": "report"
+    },
+    {
+      "old": "reports/task34_verification.json",
+      "new": "reports/shared/conditions/task34_verification.json",
+      "kind": "report"
+    },
+    {
+      "old": "reports/task56_results.json",
+      "new": "reports/shared/tasks56/task56_results.json",
+      "kind": "report"
+    },
+    {
+      "old": "reports/task56_retained_review_v1",
+      "new": "reports/shared/tasks56/review_v1",
+      "kind": "report"
+    },
+    {
+      "old": "reports/task56_retained_review_v2",
+      "new": "reports/shared/tasks56/review_v2",
+      "kind": "report"
+    },
+    {
+      "old": "reports/task56_verification.json",
+      "new": "reports/shared/tasks56/task56_verification.json",
+      "kind": "report"
+    },
+    {
+      "old": "reports/task6_data_audit.json",
+      "new": "reports/task6/verification/task6_data_audit.json",
+      "kind": "report"
+    },
+    {
+      "old": "microcture/task1",
+      "new": "microcture/history/task1/comparison_v1",
+      "kind": "source"
+    },
+    {
+      "old": "microcture/task1_controlled",
+      "new": "microcture/history/task1/controlled",
+      "kind": "source"
+    },
+    {
+      "old": "microcture/task1_dropout_v1",
+      "new": "microcture/history/task1/dropout_v1",
+      "kind": "source"
+    },
+    {
+      "old": "microcture/task1_formal",
+      "new": "microcture/history/task1/formal",
+      "kind": "source"
+    },
+    {
+      "old": "microcture/task1_native_roi",
+      "new": "microcture/history/task1/native_roi",
+      "kind": "source"
+    },
+    {
+      "old": "microcture/task1_native_roi_v2",
+      "new": "microcture/history/task1/native_roi_v2",
+      "kind": "source"
+    },
+    {
+      "old": "microcture/task1_readout",
+      "new": "microcture/history/task1/readout",
+      "kind": "source"
+    },
+    {
+      "old": "microcture/task1_reevaluation",
+      "new": "microcture/history/task1/reevaluation",
+      "kind": "source"
+    },
+    {
+      "old": "microcture/task1_roi",
+      "new": "microcture/history/task1/roi",
+      "kind": "source"
+    },
+    {
+      "old": "microcture/task1_shape_baseline",
+      "new": "microcture/history/task1/shape_baseline",
+      "kind": "source"
+    },
+    {
+      "old": "microcture/task1_shape_baseline_v2",
+      "new": "microcture/history/task1/shape_baseline_v2",
+      "kind": "source"
+    },
+    {
+      "old": "configs/centering_sensitivity.json",
+      "new": "configs/task2/centering/centering_sensitivity.json",
+      "kind": "config"
+    },
+    {
+      "old": "configs/centering_supplement.json",
+      "new": "configs/task2/centering/centering_supplement.json",
+      "kind": "config"
+    },
+    {
+      "old": "configs/conditions.json",
+      "new": "configs/shared/conditions/conditions.json",
+      "kind": "config"
+    },
+    {
+      "old": "configs/data.json",
+      "new": "configs/shared/data.json",
+      "kind": "config"
+    },
+    {
+      "old": "configs/dataset.json",
+      "new": "configs/shared/dataset.json",
+      "kind": "config"
+    },
+    {
+      "old": "configs/discovery.json",
+      "new": "configs/task2/discovery/discovery.json",
+      "kind": "config"
+    },
+    {
+      "old": "configs/discovery_v2.json",
+      "new": "configs/task2/discovery/discovery_v2.json",
+      "kind": "config"
+    },
+    {
+      "old": "configs/macrodomain_schematic.json",
+      "new": "configs/shared/macrodomain_schematic.json",
+      "kind": "config"
+    },
+    {
+      "old": "configs/morphology_audit.json",
+      "new": "configs/task2/morphology/morphology_audit.json",
+      "kind": "config"
+    },
+    {
+      "old": "configs/morphology_observations.json",
+      "new": "configs/task2/morphology/morphology_observations.json",
+      "kind": "config"
+    },
+    {
+      "old": "configs/novelty_review.json",
+      "new": "configs/task2/morphology/novelty_review.json",
+      "kind": "config"
+    },
+    {
+      "old": "configs/optional_tasks.json",
+      "new": "configs/shared/optional_tasks.json",
+      "kind": "config"
+    },
+    {
+      "old": "configs/showcase.json",
+      "new": "configs/shared/showcase.json",
+      "kind": "config"
+    },
+    {
+      "old": "configs/task1_comparison.json",
+      "new": "configs/task1/history/task1_comparison.json",
+      "kind": "config"
+    },
+    {
+      "old": "configs/task1_controlled.json",
+      "new": "configs/task1/history/task1_controlled.json",
+      "kind": "config"
+    },
+    {
+      "old": "configs/task1_dropout.json",
+      "new": "configs/task1/history/task1_dropout.json",
+      "kind": "config"
+    },
+    {
+      "old": "configs/task1_fixed_fusion.json",
+      "new": "configs/task1/history/task1_fixed_fusion.json",
+      "kind": "config"
+    },
+    {
+      "old": "configs/task1_formal.json",
+      "new": "configs/task1/history/task1_formal.json",
+      "kind": "config"
+    },
+    {
+      "old": "configs/task1_local.json",
+      "new": "configs/task1/current/task1_local.json",
+      "kind": "config"
+    },
+    {
+      "old": "configs/task1_native_roi.json",
+      "new": "configs/task1/history/task1_native_roi.json",
+      "kind": "config"
+    },
+    {
+      "old": "configs/task1_native_roi_v2.json",
+      "new": "configs/task1/history/task1_native_roi_v2.json",
+      "kind": "config"
+    },
+    {
+      "old": "configs/task1_readout.json",
+      "new": "configs/task1/history/task1_readout.json",
+      "kind": "config"
+    },
+    {
+      "old": "configs/task1_reevaluation.json",
+      "new": "configs/task1/history/task1_reevaluation.json",
+      "kind": "config"
+    },
+    {
+      "old": "configs/task1_roi.json",
+      "new": "configs/task1/history/task1_roi.json",
+      "kind": "config"
+    },
+    {
+      "old": "configs/task1_shape_baseline.json",
+      "new": "configs/task1/history/task1_shape_baseline.json",
+      "kind": "config"
+    },
+    {
+      "old": "configs/task1_shape_baseline_v2.json",
+      "new": "configs/task1/history/task1_shape_baseline_v2.json",
+      "kind": "config"
+    },
+    {
+      "old": "scripts/analyze_conditions.py",
+      "new": "scripts/task3/analyze_conditions.py",
+      "kind": "source"
+    },
+    {
+      "old": "scripts/audit_legacy_retention.py",
+      "new": "scripts/project/audit_legacy_retention.py",
+      "kind": "source"
+    },
+    {
+      "old": "scripts/audit_morphology.py",
+      "new": "scripts/task2/audit_morphology.py",
+      "kind": "source"
+    },
+    {
+      "old": "scripts/audit_task1_data.py",
+      "new": "scripts/task1/history/analysis/audit_task1_data.py",
+      "kind": "source"
+    },
+    {
+      "old": "scripts/audit_task1_dropout.py",
+      "new": "scripts/task1/history/ablation/audit_task1_dropout.py",
+      "kind": "source"
+    },
+    {
+      "old": "scripts/audit_task1_morphology_errors.py",
+      "new": "scripts/task1/history/analysis/audit_task1_morphology_errors.py",
+      "kind": "source"
+    },
+    {
+      "old": "scripts/audit_task1_native_roi.py",
+      "new": "scripts/task1/history/ablation/audit_task1_native_roi.py",
+      "kind": "source"
+    },
+    {
+      "old": "scripts/audit_task1_readout_results.py",
+      "new": "scripts/task1/history/analysis/audit_task1_readout_results.py",
+      "kind": "source"
+    },
+    {
+      "old": "scripts/audit_task1_reevaluation_results.py",
+      "new": "scripts/task1/history/analysis/audit_task1_reevaluation_results.py",
+      "kind": "source"
+    },
+    {
+      "old": "scripts/audit_task1_roi_review.py",
+      "new": "scripts/task1/history/ablation/audit_task1_roi_review.py",
+      "kind": "source"
+    },
+    {
+      "old": "scripts/build_results_delivery.py",
+      "new": "scripts/project/build_results_delivery.py",
+      "kind": "source"
+    },
+    {
+      "old": "scripts/build_submission.py",
+      "new": "scripts/project/build_submission.py",
+      "kind": "source"
+    },
+    {
+      "old": "scripts/build_task1_delivery.py",
+      "new": "scripts/task1/visualization/build_task1_delivery.py",
+      "kind": "source"
+    },
+    {
+      "old": "scripts/build_task1_morphology_evidence.py",
+      "new": "scripts/task1/history/analysis/build_task1_morphology_evidence.py",
+      "kind": "source"
+    },
+    {
+      "old": "scripts/build_task2_delivery.py",
+      "new": "scripts/task2/build_task2_delivery.py",
+      "kind": "source"
+    },
+    {
+      "old": "scripts/build_task34_delivery.py",
+      "new": "scripts/task3/build_task34_delivery.py",
+      "kind": "source"
+    },
+    {
+      "old": "scripts/build_task56_delivery.py",
+      "new": "scripts/shared/tasks56/build_task56_delivery.py",
+      "kind": "source"
+    },
+    {
+      "old": "scripts/centering_sensitivity.py",
+      "new": "scripts/task2/centering_sensitivity.py",
+      "kind": "source"
+    },
+    {
+      "old": "scripts/centering_status.py",
+      "new": "scripts/task2/centering_status.py",
+      "kind": "source"
+    },
+    {
+      "old": "scripts/check_environment.py",
+      "new": "scripts/shared/data/check_environment.py",
+      "kind": "source"
+    },
+    {
+      "old": "scripts/check_repository.py",
+      "new": "scripts/project/check_repository.py",
+      "kind": "source"
+    },
+    {
+      "old": "scripts/check_submission_evidence.py",
+      "new": "scripts/project/check_submission_evidence.py",
+      "kind": "source"
+    },
+    {
+      "old": "scripts/check_task1_final.py",
+      "new": "scripts/task1/check_task1_final.py",
+      "kind": "source"
+    },
+    {
+      "old": "scripts/clustering_metrics.py",
+      "new": "scripts/shared/clustering_metrics.py",
+      "kind": "source"
+    },
+    {
+      "old": "scripts/contact_band.py",
+      "new": "scripts/shared/contact_band.py",
+      "kind": "source"
+    },
+    {
+      "old": "scripts/discover_task2.py",
+      "new": "scripts/task2/discover_task2.py",
+      "kind": "source"
+    },
+    {
+      "old": "scripts/discover_task2_v2.py",
+      "new": "scripts/task2/discover_task2_v2.py",
+      "kind": "source"
+    },
+    {
+      "old": "scripts/discovery_v2_core.py",
+      "new": "scripts/task2/discovery_v2_core.py",
+      "kind": "source"
+    },
+    {
+      "old": "scripts/download_conditions.py",
+      "new": "scripts/shared/data/download_conditions.py",
+      "kind": "source"
+    },
+    {
+      "old": "scripts/evaluate_task1_fixed_fusion.py",
+      "new": "scripts/task1/history/ablation/evaluate_task1_fixed_fusion.py",
+      "kind": "source"
+    },
+    {
+      "old": "scripts/export_showcase.py",
+      "new": "scripts/project/export_showcase.py",
+      "kind": "source"
+    },
+    {
+      "old": "scripts/freeze_task1_controlled_evidence.py",
+      "new": "scripts/task1/history/analysis/freeze_task1_controlled_evidence.py",
+      "kind": "source"
+    },
+    {
+      "old": "scripts/freeze_task1_evidence.py",
+      "new": "scripts/task1/history/analysis/freeze_task1_evidence.py",
+      "kind": "source"
+    },
+    {
+      "old": "scripts/ml_baselines.py",
+      "new": "scripts/shared/ml_baselines.py",
+      "kind": "source"
+    },
+    {
+      "old": "scripts/optional_common.py",
+      "new": "scripts/shared/optional_common.py",
+      "kind": "source"
+    },
+    {
+      "old": "scripts/plot_examples.py",
+      "new": "scripts/shared/data/plot_examples.py",
+      "kind": "source"
+    },
+    {
+      "old": "scripts/plot_task1_dropout.py",
+      "new": "scripts/task1/history/ablation/plot_task1_dropout.py",
+      "kind": "source"
+    },
+    {
+      "old": "scripts/plot_task1_formal.py",
+      "new": "scripts/task1/history/analysis/plot_task1_formal.py",
+      "kind": "source"
+    },
+    {
+      "old": "scripts/plot_task1_morphology_probe.py",
+      "new": "scripts/task1/history/analysis/plot_task1_morphology_probe.py",
+      "kind": "source"
+    },
+    {
+      "old": "scripts/plot_task1_native_examples.py",
+      "new": "scripts/task1/history/ablation/plot_task1_native_examples.py",
+      "kind": "source"
+    },
+    {
+      "old": "scripts/plot_task1_native_roi.py",
+      "new": "scripts/task1/history/ablation/plot_task1_native_roi.py",
+      "kind": "source"
+    },
+    {
+      "old": "scripts/plot_task1_readout.py",
+      "new": "scripts/task1/history/analysis/plot_task1_readout.py",
+      "kind": "source"
+    },
+    {
+      "old": "scripts/plot_task1_reevaluation.py",
+      "new": "scripts/task1/history/analysis/plot_task1_reevaluation.py",
+      "kind": "source"
+    },
+    {
+      "old": "scripts/plot_task1_roi_review.py",
+      "new": "scripts/task1/history/ablation/plot_task1_roi_review.py",
+      "kind": "source"
+    },
+    {
+      "old": "scripts/predict_task1_final.py",
+      "new": "scripts/task1/predict_task1_final.py",
+      "kind": "source"
+    },
+    {
+      "old": "scripts/prepare_band_cache.py",
+      "new": "scripts/shared/data/prepare_band_cache.py",
+      "kind": "source"
+    },
+    {
+      "old": "scripts/prepare_conditions.py",
+      "new": "scripts/shared/data/prepare_conditions.py",
+      "kind": "source"
+    },
+    {
+      "old": "scripts/prepare_data.py",
+      "new": "scripts/shared/data/prepare_data.py",
+      "kind": "source"
+    },
+    {
+      "old": "scripts/prepare_dataset.py",
+      "new": "scripts/shared/data/prepare_dataset.py",
+      "kind": "source"
+    },
+    {
+      "old": "scripts/prepare_task1.py",
+      "new": "scripts/task1/prepare_task1.py",
+      "kind": "source"
+    },
+    {
+      "old": "scripts/prepare_task6.py",
+      "new": "scripts/task6/prepare_task6.py",
+      "kind": "source"
+    },
+    {
+      "old": "scripts/probe_native_roi_feasibility.py",
+      "new": "scripts/task1/history/ablation/probe_native_roi_feasibility.py",
+      "kind": "source"
+    },
+    {
+      "old": "scripts/probe_task1_local_coverage.py",
+      "new": "scripts/task1/history/diagnostics/probe_task1_local_coverage.py",
+      "kind": "source"
+    },
+    {
+      "old": "scripts/probe_task1_morphology_dependence.py",
+      "new": "scripts/task1/history/analysis/probe_task1_morphology_dependence.py",
+      "kind": "source"
+    },
+    {
+      "old": "scripts/report_centering.py",
+      "new": "scripts/task2/report_centering.py",
+      "kind": "source"
+    },
+    {
+      "old": "scripts/report_centering_combined.py",
+      "new": "scripts/task2/report_centering_combined.py",
+      "kind": "source"
+    },
+    {
+      "old": "scripts/report_task1_controlled.py",
+      "new": "scripts/task1/history/analysis/report_task1_controlled.py",
+      "kind": "source"
+    },
+    {
+      "old": "scripts/report_task1_fixed_fusion.py",
+      "new": "scripts/task1/history/ablation/report_task1_fixed_fusion.py",
+      "kind": "source"
+    },
+    {
+      "old": "scripts/report_task1_morphology_review.py",
+      "new": "scripts/task1/history/analysis/report_task1_morphology_review.py",
+      "kind": "source"
+    },
+    {
+      "old": "scripts/report_task1_readout.py",
+      "new": "scripts/task1/history/analysis/report_task1_readout.py",
+      "kind": "source"
+    },
+    {
+      "old": "scripts/report_task1_shape_baseline.py",
+      "new": "scripts/task1/history/ablation/report_task1_shape_baseline.py",
+      "kind": "source"
+    },
+    {
+      "old": "scripts/review_novelty.py",
+      "new": "scripts/task2/review_novelty.py",
+      "kind": "source"
+    },
+    {
+      "old": "scripts/review_saved_centering.py",
+      "new": "scripts/task2/review_saved_centering.py",
+      "kind": "source"
+    },
+    {
+      "old": "scripts/review_saved_task56.py",
+      "new": "scripts/shared/tasks56/review_saved_task56.py",
+      "kind": "source"
+    },
+    {
+      "old": "scripts/run_conditions_local.py",
+      "new": "scripts/task3/run_conditions_local.py",
+      "kind": "source"
+    },
+    {
+      "old": "scripts/run_task1_comparison.py",
+      "new": "scripts/task1/history/model_comparison/run_task1_comparison.py",
+      "kind": "source"
+    },
+    {
+      "old": "scripts/run_task1_controlled.py",
+      "new": "scripts/task1/history/ablation/run_task1_controlled.py",
+      "kind": "source"
+    },
+    {
+      "old": "scripts/run_task1_dropout.py",
+      "new": "scripts/task1/history/ablation/run_task1_dropout.py",
+      "kind": "source"
+    },
+    {
+      "old": "scripts/run_task1_formal.py",
+      "new": "scripts/task1/history/model_comparison/run_task1_formal.py",
+      "kind": "source"
+    },
+    {
+      "old": "scripts/run_task1_local.py",
+      "new": "scripts/task1/run_task1_local.py",
+      "kind": "source"
+    },
+    {
+      "old": "scripts/run_task1_native_roi.py",
+      "new": "scripts/task1/history/ablation/run_task1_native_roi.py",
+      "kind": "source"
+    },
+    {
+      "old": "scripts/run_task1_native_roi_v2.py",
+      "new": "scripts/task1/history/ablation/run_task1_native_roi_v2.py",
+      "kind": "source"
+    },
+    {
+      "old": "scripts/run_task1_readout.py",
+      "new": "scripts/task1/history/model_comparison/run_task1_readout.py",
+      "kind": "source"
+    },
+    {
+      "old": "scripts/run_task1_reevaluation.py",
+      "new": "scripts/task1/history/model_comparison/run_task1_reevaluation.py",
+      "kind": "source"
+    },
+    {
+      "old": "scripts/run_task1_roi.py",
+      "new": "scripts/task1/history/ablation/run_task1_roi.py",
+      "kind": "source"
+    },
+    {
+      "old": "scripts/run_task1_shape_baseline.py",
+      "new": "scripts/task1/history/ablation/run_task1_shape_baseline.py",
+      "kind": "source"
+    },
+    {
+      "old": "scripts/run_task1_shape_baseline_v2.py",
+      "new": "scripts/task1/history/ablation/run_task1_shape_baseline_v2.py",
+      "kind": "source"
+    },
+    {
+      "old": "scripts/seal_task1_autonomous.py",
+      "new": "scripts/task1/history/diagnostics/seal_task1_autonomous.py",
+      "kind": "source"
+    },
+    {
+      "old": "scripts/spatial_tools.py",
+      "new": "scripts/shared/spatial_tools.py",
+      "kind": "source"
+    },
+    {
+      "old": "scripts/summarize_task1_autonomous.py",
+      "new": "scripts/task1/history/diagnostics/summarize_task1_autonomous.py",
+      "kind": "source"
+    },
+    {
+      "old": "scripts/summarize_task1_case_persistence.py",
+      "new": "scripts/task1/history/diagnostics/summarize_task1_case_persistence.py",
+      "kind": "source"
+    },
+    {
+      "old": "scripts/supplement_centering.py",
+      "new": "scripts/task2/supplement_centering.py",
+      "kind": "source"
+    },
+    {
+      "old": "scripts/task1_controlled_reporting.py",
+      "new": "scripts/task1/history/analysis/task1_controlled_reporting.py",
+      "kind": "source"
+    },
+    {
+      "old": "scripts/task1_formal_analysis_report.py",
+      "new": "scripts/task1/history/analysis/task1_formal_analysis_report.py",
+      "kind": "source"
+    },
+    {
+      "old": "scripts/task1_formal_performance_plots.py",
+      "new": "scripts/task1/history/analysis/task1_formal_performance_plots.py",
+      "kind": "source"
+    },
+    {
+      "old": "scripts/task1_formal_stability_plots.py",
+      "new": "scripts/task1/history/analysis/task1_formal_stability_plots.py",
+      "kind": "source"
+    },
+    {
+      "old": "scripts/train_task5.py",
+      "new": "scripts/task5/train_task5.py",
+      "kind": "source"
+    },
+    {
+      "old": "scripts/train_task6.py",
+      "new": "scripts/task6/train_task6.py",
+      "kind": "source"
+    },
+    {
+      "old": "docs/TASK1_AUTONOMOUS_PROTOCOL.md",
+      "new": "microcture/history/task1/protocols/autonomous_v1.md",
+      "kind": "protocol"
+    },
+    {
+      "old": "docs/TASK1_MORPHOLOGY_CRITERIA.md",
+      "new": "microcture/history/task1/protocols/morphology_criteria.md",
+      "kind": "protocol"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "config": {
+    "output_dir": "results/task2_centering",
+    "source_config": "configs/discovery_v2.json",
+    "candidate_source": "results/task2_v2/unannotated_supported_disjoint.csv",
+    "anchor_search_bins": 64,
+    "boundary_flank_bins": 8,
+    "boundary_min_pairs": 20,
+    "boundary_max_shift_bins": 5,
+    "width_bins": [
+      64,
+      128,
+      256
+    ],
+    "shift_bins": [
+      -8,
+      0,
+      8
+    ],
+    "anchors": [
+      "original",
+      "boundary"
+    ],
+    "occlusions": [
+      {
+        "name": "none",
+        "fraction": 0.0,
+        "seed": 17
+      },
+      {
+        "name": "drop10_s17",
+        "fraction": 0.1,
+        "seed": 17
+      },
+      {
+        "name": "drop10_s29",
+        "fraction": 0.1,
+        "seed": 29
+      }
+    ],
+    "min_valid_fraction": 0.8,
+    "max_zero_fraction": 0.8,
+    "min_calibration_windows": 10,
+    "distance_quantile": 0.95,
+    "robust_fraction": 0.8,
+    "interpretation": "Exploratory matched perturbation experiment on previously inspected repeats; all variants reported, no maximum-anomaly selection. Robust anomaly is not a new biological cluster."
+  },
+  "candidates": 21,
+  "variants_per_candidate": 54,
+  "reference_windows": 108,
+  "calibration_windows": 8,
+  "reproducible_candidate_boundaries": 18,
+  "candidates_with_any_two_metric_anomaly": null,
+  "candidates_with_recentered_two_metric_anomaly": null,
+  "robust_recentered_anomalies": null,
+  "candidate_metric_comparisons": 2268,
+  "calibration_metric_comparisons": 864,
+  "interpretation": "Exploratory matched perturbation experiment on previously inspected repeats; all variants reported, no maximum-anomaly selection. Robust anomaly is not a new biological cluster.",
+  "assessment_status": "not_evaluable",
+  "assessed_candidates": 0,
+  "not_evaluable_candidates": 21,
+  "legacy_source_report": "/home/pppe/MicroCTure/data/legacy_experiments/results/task2_centering/report.json",
+  "historical_source_manifest_verified_against_current_code": false,
+  "isolated_factor_metric_comparisons": 5670,
+  "sensitive_metric_configurations": null,
+  "assessed_factor_comparisons": 0
+}

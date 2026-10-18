@@ -1,0 +1,71 @@
+{
+  "cache_dir": "data/cache/task1_comparison_v1",
+  "frozen_run_dir": "results/task1_comparison_v1",
+  "folds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "models": {
+    "channels": [
+      16,
+      32,
+      64
+    ],
+    "dropout": 0.2,
+    "spatial_grid": 4,
+    "token_dim": 64,
+    "transformer_layers": 1,
+    "attention_heads": 4,
+    "ffn_dim": 128,
+    "head_dim": 32
+  },
+  "training": {
+    "head": "H3",
+    "batch_size": 32,
+    "epochs": 40,
+    "learning_rate": 0.0001,
+    "weight_decay": 0.0001,
+    "cpu_threads": 4,
+    "deterministic_algorithms": true,
+    "augmentation": "reverse",
+    "optimizer": "AdamW",
+    "loss": "class_weighted_cross_entropy",
+    "dropout": 0.2,
+    "early_stopping": false,
+    "scheduler": false,
+    "gradient_clipping": false,
+    "checkpoint_selection": "final_epoch",
+    "refit": false
+  },
+  "acceptance": {
+    "window": 10,
+    "min_relative_loss_drop": 0.01,
+    "logit_variance_threshold": 1e-06,
+    "constant_epsilon": 1e-06,
+    "gradient_norm_epsilon": 1e-10,
+    "activation_epsilon": 1e-06,
+    "majority_warning_fraction": 0.95,
+    "max_terminal_loss_regression": 0.05,
+    "CHID_F1_threshold": null
+  },
+  "protocol": "task1_m2plus_target_spatial_readout_v1",
+  "formal_run_dir": "results/task1_formal_v1",
+  "run_dir": "results/task1_readout_v1",
+  "variants": [
+    "O0",
+    "O1"
+  ],
+  "conditions": [
+    "I3",
+    "G0"
+  ],
+  "gate_beta": 0.5
+}
